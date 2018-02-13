@@ -1,4 +1,5 @@
 import copy
+import pytest
 import unittest
 from collections import namedtuple
 from datetime import datetime, timedelta
@@ -70,7 +71,7 @@ class netcdftimeTestCase(unittest.TestCase):
         self.cdftime_jul = utime(
             'hours since 1000-01-01 00:00:00', calendar='julian')
         self.cdftime_iso = utime("seconds since 1970-01-01T00:00:00Z")
-        self.cdftime_leading_space = utime("days since  850-01-01 00:00:00")
+        self.cdftime_leading_space = utime("days since 850-01-01 00:00:00")
         self.cdftime_mixed_capcal = utime('hours since 0001-01-01 00:00:00',
                                           calendar='Standard')
         self.cdftime_noleap_capcal = utime(
@@ -82,7 +83,7 @@ class netcdftimeTestCase(unittest.TestCase):
         # check attributes.
         self.assertTrue(self.cdftime_mixed.units == 'hours')
         self.assertTrue(
-            str(self.cdftime_mixed.origin) == '   1-01-01 00:00:00')
+            str(self.cdftime_mixed.origin) == '0001-01-01 00:00:00')
         self.assertTrue(
             self.cdftime_mixed.unit_string == 'hours since 0001-01-01 00:00:00')
         self.assertTrue(self.cdftime_mixed.calendar == 'standard')
@@ -121,7 +122,7 @@ class netcdftimeTestCase(unittest.TestCase):
         self.assertTrue(d_check == ''.join(d2))
         # test proleptic gregorian calendar.
         self.assertTrue(self.cdftime_pg.units == 'seconds')
-        self.assertTrue(str(self.cdftime_pg.origin) == '   1-01-01 00:00:00')
+        self.assertTrue(str(self.cdftime_pg.origin) == '0001-01-01 00:00:00')
         self.assertTrue(
             self.cdftime_pg.unit_string == 'seconds since 0001-01-01 00:00:00')
         self.assertTrue(self.cdftime_pg.calendar == 'proleptic_gregorian')
@@ -316,7 +317,7 @@ class netcdftimeTestCase(unittest.TestCase):
 
         # Check leading white space
         self.assertEqual(
-            str(self.cdftime_leading_space.origin), ' 850-01-01 00:00:00')
+            str(self.cdftime_leading_space.origin), '0850-01-01 00:00:00')
 
         #issue 330
         units = "seconds since 1970-01-01T00:00:00Z"
@@ -991,6 +992,152 @@ class issue17TestCase(unittest.TestCase):
         for datestr in ("2017-05-01 00:00+1",):
             d = _parse_date(datestr)
             assert_equal(d, expected_parsed_date)
+
+
+_DATE_TYPES = [DatetimeNoLeap, DatetimeAllLeap, DatetimeJulian, Datetime360Day,
+               DatetimeGregorian, DatetimeProlepticGregorian]
+
+
+@pytest.fixture(params=_DATE_TYPES)
+def date_type(request):
+    return request.param
+
+
+@pytest.fixture(params=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+def month(request):
+    return request.param
+
+
+@pytest.fixture
+def days_per_month_non_leap_year(date_type, month):
+    if date_type is Datetime360Day:
+        return [-1, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30][month]
+    if date_type is DatetimeAllLeap:
+        return [-1, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month]
+    else:
+        return [-1, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month]
+
+
+@pytest.fixture
+def days_per_month_leap_year(date_type, month):
+    if date_type is Datetime360Day:
+        return [-1, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30][month]
+    if date_type in [DatetimeGregorian, DatetimeProlepticGregorian,
+                     DatetimeJulian, DatetimeAllLeap]:
+        return [-1, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month]
+    else:
+        return [-1, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month]
+
+
+def test_zero_year(date_type):
+    # Year 0 is valid in the 360 day calendar
+    if date_type is Datetime360Day:
+        date_type(0, 1, 1)
+    else:
+        with pytest.raises(ValueError):
+            date_type(0, 1, 1)
+
+
+def test_invalid_month(date_type):
+    with pytest.raises(ValueError):
+        date_type(1, 0, 1)
+
+    with pytest.raises(ValueError):
+        date_type(1, 13, 1)
+
+
+def test_invalid_day_non_leap_year(
+        date_type, month, days_per_month_non_leap_year):
+    with pytest.raises(ValueError):
+        date_type(1, month, days_per_month_non_leap_year + 1)
+
+
+def test_invalid_day_leap_year(date_type, month, days_per_month_leap_year):
+    with pytest.raises(ValueError):
+        date_type(2000, month, days_per_month_leap_year + 1)
+
+
+def test_invalid_day_lower_bound(date_type, month):
+    with pytest.raises(ValueError):
+        date_type(1, month, 0)
+
+
+def test_valid_day_non_leap_year(
+        date_type, month, days_per_month_non_leap_year):
+    date_type(1, month, 1)
+    date_type(1, month, days_per_month_non_leap_year)
+
+
+def test_valid_day_leap_year(
+        date_type, month, days_per_month_leap_year):
+    date_type(2000, month, 1)
+    date_type(2000, month, days_per_month_leap_year)
+
+
+_INVALID_SUB_DAY_TESTS = {
+    'lower-bound-hour': (1, 1, 1, -1),
+    'upper-bound-hour': (1, 1, 1, 24),
+    'lower-bound-minute': (1, 1, 1, 1, -1),
+    'upper-bound-minute': (1, 1, 1, 1, 60),
+    'lower-bound-second': (1, 1, 1, 1, 1, -1),
+    'upper-bound-second': (1, 1, 1, 1, 1, 60),
+    'lower-bound-microsecond': (1, 1, 1, 1, 1, 1, -1),
+    'upper-bound-microsecond': (1, 1, 1, 1, 1, 1, 1000000)
+}
+
+
+@pytest.mark.parametrize('date_args', list(_INVALID_SUB_DAY_TESTS.values()),
+                         ids=list(_INVALID_SUB_DAY_TESTS.keys()))
+def test_invalid_sub_day_reso_dates(date_type, date_args):
+    with pytest.raises(ValueError):
+        date_type(*date_args)
+
+
+_VALID_SUB_DAY_TESTS = {
+    'lower-bound-hour': (1, 1, 1, 0),
+    'upper-bound-hour': (1, 1, 1, 23),
+    'lower-bound-minute': (1, 1, 1, 1, 0),
+    'upper-bound-minute': (1, 1, 1, 1, 59),
+    'lower-bound-second': (1, 1, 1, 1, 1, 0),
+    'upper-bound-second': (1, 1, 1, 1, 1, 59),
+    'lower-bound-microsecond': (1, 1, 1, 1, 1, 1, 0),
+    'upper-bound-microsecond': (1, 1, 1, 1, 1, 1, 999999)
+}
+
+
+@pytest.mark.parametrize('date_args', list(_VALID_SUB_DAY_TESTS.values()),
+                         ids=list(_VALID_SUB_DAY_TESTS.keys()))
+def test_valid_sub_day_reso_dates(date_type, date_args):
+    date_type(*date_args)
+
+
+@pytest.mark.parametrize(
+    'date_args',
+    [(1582, 10, 5), (1582, 10, 14)], ids=['lower-bound', 'upper-bound'])
+def test_invalid_julian_gregorian_mixed_dates(date_type, date_args):
+    if date_type is DatetimeGregorian:
+        with pytest.raises(ValueError):
+            date_type(*date_args)
+    else:
+        date_type(*date_args)
+
+
+@pytest.mark.parametrize(
+    'date_args',
+    [(1582, 10, 4), (1582, 10, 15)], ids=['lower-bound', 'upper-bound'])
+def test_valid_julian_gregorian_mixed_dates(date_type, date_args):
+    date_type(*date_args)
+
+
+# Test that the __str__ method returns the same result for netcdftime.datetime
+# objects as datetime.datetime objects for all orders of magnitudes of years
+@pytest.mark.parametrize(
+    'date_args',
+    [(1, 1, 1), (10, 1, 1), (100, 1, 1), (1000, 1, 1)],
+    ids=['1', '10', '100', '1000'])
+def test_str_format(date_type, date_args):
+    assert str(date_type(*date_args)) == str(datetime(*date_args))
+
 
 if __name__ == '__main__':
     unittest.main()
