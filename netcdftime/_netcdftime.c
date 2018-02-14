@@ -649,7 +649,7 @@ struct __pyx_obj_10netcdftime_11_netcdftime_DatetimeGregorian;
 struct __pyx_obj_10netcdftime_11_netcdftime_DatetimeProlepticGregorian;
 struct __pyx_opt_args_10netcdftime_11_netcdftime_assert_valid_date;
 
-/* "netcdftime/_netcdftime.pyx":1838
+/* "netcdftime/_netcdftime.pyx":1839
  *         return month_lengths_365_day
  * 
  * cdef void assert_valid_date(datetime dt, bint (*is_leap)(int),             # <<<<<<<<<<<<<<
@@ -685,7 +685,7 @@ struct __pyx_obj_10netcdftime_11_netcdftime_datetime {
 };
 
 
-/* "netcdftime/_netcdftime.pyx":1634
+/* "netcdftime/_netcdftime.pyx":1635
  *                 return NotImplemented
  * 
  * cdef class DatetimeNoLeap(datetime):             # <<<<<<<<<<<<<<
@@ -697,7 +697,7 @@ struct __pyx_obj_10netcdftime_11_netcdftime_DatetimeNoLeap {
 };
 
 
-/* "netcdftime/_netcdftime.pyx":1648
+/* "netcdftime/_netcdftime.pyx":1649
  *         return DatetimeNoLeap(*add_timedelta(self, delta, no_leap, False))
  * 
  * cdef class DatetimeAllLeap(datetime):             # <<<<<<<<<<<<<<
@@ -709,7 +709,7 @@ struct __pyx_obj_10netcdftime_11_netcdftime_DatetimeAllLeap {
 };
 
 
-/* "netcdftime/_netcdftime.pyx":1662
+/* "netcdftime/_netcdftime.pyx":1663
  *         return DatetimeAllLeap(*add_timedelta(self, delta, all_leap, False))
  * 
  * cdef class Datetime360Day(datetime):             # <<<<<<<<<<<<<<
@@ -721,7 +721,7 @@ struct __pyx_obj_10netcdftime_11_netcdftime_Datetime360Day {
 };
 
 
-/* "netcdftime/_netcdftime.pyx":1676
+/* "netcdftime/_netcdftime.pyx":1677
  *         return Datetime360Day(*add_timedelta_360_day(self, delta))
  * 
  * cdef class DatetimeJulian(datetime):             # <<<<<<<<<<<<<<
@@ -733,7 +733,7 @@ struct __pyx_obj_10netcdftime_11_netcdftime_DatetimeJulian {
 };
 
 
-/* "netcdftime/_netcdftime.pyx":1690
+/* "netcdftime/_netcdftime.pyx":1691
  *         return DatetimeJulian(*add_timedelta(self, delta, is_leap_julian, False))
  * 
  * cdef class DatetimeGregorian(datetime):             # <<<<<<<<<<<<<<
@@ -745,7 +745,7 @@ struct __pyx_obj_10netcdftime_11_netcdftime_DatetimeGregorian {
 };
 
 
-/* "netcdftime/_netcdftime.pyx":1718
+/* "netcdftime/_netcdftime.pyx":1719
  *         return DatetimeGregorian(*add_timedelta(self, delta, is_leap_gregorian, True))
  * 
  * cdef class DatetimeProlepticGregorian(datetime):             # <<<<<<<<<<<<<<
@@ -775,7 +775,7 @@ struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime {
 static struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *__pyx_vtabptr_10netcdftime_11_netcdftime_datetime;
 
 
-/* "netcdftime/_netcdftime.pyx":1634
+/* "netcdftime/_netcdftime.pyx":1635
  *                 return NotImplemented
  * 
  * cdef class DatetimeNoLeap(datetime):             # <<<<<<<<<<<<<<
@@ -789,7 +789,7 @@ struct __pyx_vtabstruct_10netcdftime_11_netcdftime_DatetimeNoLeap {
 static struct __pyx_vtabstruct_10netcdftime_11_netcdftime_DatetimeNoLeap *__pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeNoLeap;
 
 
-/* "netcdftime/_netcdftime.pyx":1648
+/* "netcdftime/_netcdftime.pyx":1649
  *         return DatetimeNoLeap(*add_timedelta(self, delta, no_leap, False))
  * 
  * cdef class DatetimeAllLeap(datetime):             # <<<<<<<<<<<<<<
@@ -803,7 +803,7 @@ struct __pyx_vtabstruct_10netcdftime_11_netcdftime_DatetimeAllLeap {
 static struct __pyx_vtabstruct_10netcdftime_11_netcdftime_DatetimeAllLeap *__pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeAllLeap;
 
 
-/* "netcdftime/_netcdftime.pyx":1662
+/* "netcdftime/_netcdftime.pyx":1663
  *         return DatetimeAllLeap(*add_timedelta(self, delta, all_leap, False))
  * 
  * cdef class Datetime360Day(datetime):             # <<<<<<<<<<<<<<
@@ -817,7 +817,7 @@ struct __pyx_vtabstruct_10netcdftime_11_netcdftime_Datetime360Day {
 static struct __pyx_vtabstruct_10netcdftime_11_netcdftime_Datetime360Day *__pyx_vtabptr_10netcdftime_11_netcdftime_Datetime360Day;
 
 
-/* "netcdftime/_netcdftime.pyx":1676
+/* "netcdftime/_netcdftime.pyx":1677
  *         return Datetime360Day(*add_timedelta_360_day(self, delta))
  * 
  * cdef class DatetimeJulian(datetime):             # <<<<<<<<<<<<<<
@@ -831,7 +831,7 @@ struct __pyx_vtabstruct_10netcdftime_11_netcdftime_DatetimeJulian {
 static struct __pyx_vtabstruct_10netcdftime_11_netcdftime_DatetimeJulian *__pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeJulian;
 
 
-/* "netcdftime/_netcdftime.pyx":1690
+/* "netcdftime/_netcdftime.pyx":1691
  *         return DatetimeJulian(*add_timedelta(self, delta, is_leap_julian, False))
  * 
  * cdef class DatetimeGregorian(datetime):             # <<<<<<<<<<<<<<
@@ -845,7 +845,7 @@ struct __pyx_vtabstruct_10netcdftime_11_netcdftime_DatetimeGregorian {
 static struct __pyx_vtabstruct_10netcdftime_11_netcdftime_DatetimeGregorian *__pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeGregorian;
 
 
-/* "netcdftime/_netcdftime.pyx":1718
+/* "netcdftime/_netcdftime.pyx":1719
  *         return DatetimeGregorian(*add_timedelta(self, delta, is_leap_gregorian, True))
  * 
  * cdef class DatetimeProlepticGregorian(datetime):             # <<<<<<<<<<<<<<
@@ -1543,6 +1543,7 @@ static const char __pyx_k_j[] = "j";
 static const char __pyx_k_m[] = "m";
 static const char __pyx_k_n[] = "n";
 static const char __pyx_k_s[] = "s";
+static const char __pyx_k_4d[] = "%4d";
 static const char __pyx_k_JD[] = "JD";
 static const char __pyx_k_dt[] = "dt";
 static const char __pyx_k_hr[] = "hr";
@@ -1553,7 +1554,6 @@ static const char __pyx_k_re[] = "re";
 static const char __pyx_k_t0[] = "t0";
 static const char __pyx_k_t1[] = "t1";
 static const char __pyx_k_td[] = "td";
-static const char __pyx_k_04d[] = "%04d";
 static const char __pyx_k__20[] = "-";
 static const char __pyx_k__29[] = "";
 static const char __pyx_k_abs[] = "abs";
@@ -1749,6 +1749,7 @@ static const char __pyx_k_Expecting_a_string_r[] = "Expecting a string %r";
 static const char __pyx_k_netcdftime__netcdftime[] = "netcdftime._netcdftime";
 static const char __pyx_k_unsupported_calendar_0[] = "unsupported calendar: {0}";
 static const char __pyx_k_unsupported_time_units[] = "unsupported time units";
+static const char __pyx_k_04d_02d_02d_02d_02d_02d[] = "{:04d}-{:02d}-{:02d} {:02d}:{:02d}:{:02d}";
 static const char __pyx_k_no_since_in_unit_string[] = "no 'since' in unit_string";
 static const char __pyx_k_cannot_compare_0_r_and_1_r[] = "cannot compare {0!r} and {1!r}";
 static const char __pyx_k_Julian_Day_must_be_positive[] = "Julian Day must be positive";
@@ -1785,13 +1786,14 @@ static const char __pyx_k_invalid_day_number_provided_in_0[] = "invalid day numb
 static const char __pyx_k_there_is_no_leap_day_in_the_nole[] = "there is no leap day in the noleap calendar";
 static const char __pyx_k_units_must_be_one_of_seconds_min[] = "units must be one of 'seconds', 'minutes', 'hours' or 'days' (or singular version of these), got '%s'";
 static const char __pyx_k_cannot_compute_the_time_differen_2[] = "cannot compute the time difference between dates that are not calendar-aware";
-static PyObject *__pyx_kp_s_04d;
+static PyObject *__pyx_kp_s_04d_02d_02d_02d_02d_02d;
 static PyObject *__pyx_kp_s_0_1_2;
 static PyObject *__pyx_kp_s_0_r_is_not_present_in_the_mixed;
 static PyObject *__pyx_kp_s_1_4_1;
 static PyObject *__pyx_kp_s_360_day;
 static PyObject *__pyx_kp_s_365_day;
 static PyObject *__pyx_kp_s_366_day;
+static PyObject *__pyx_kp_s_4d;
 static PyObject *__pyx_n_s_A;
 static PyObject *__pyx_n_s_AttributeError;
 static PyObject *__pyx_n_s_B;
@@ -26955,8 +26957,8 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_10__repr__(struct
  *                                    self._getstate())
  * 
  *     def __str__(self):             # <<<<<<<<<<<<<<
- *         return self.strftime(self.format)
- * 
+ *         return "{:04d}-{:02d}-{:02d} {:02d}:{:02d}:{:02d}".format(
+ *             self.year, self.month, self.day, self.hour, self.minute, self.second)
  */
 
 /* Python wrapper */
@@ -26980,64 +26982,111 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_12__str__(struct 
   PyObject *__pyx_t_3 = NULL;
   PyObject *__pyx_t_4 = NULL;
   PyObject *__pyx_t_5 = NULL;
+  PyObject *__pyx_t_6 = NULL;
+  PyObject *__pyx_t_7 = NULL;
+  PyObject *__pyx_t_8 = NULL;
+  PyObject *__pyx_t_9 = NULL;
+  int __pyx_t_10;
+  PyObject *__pyx_t_11 = NULL;
   __Pyx_RefNannySetupContext("__str__", 0);
 
   /* "netcdftime/_netcdftime.pyx":1544
  * 
  *     def __str__(self):
- *         return self.strftime(self.format)             # <<<<<<<<<<<<<<
+ *         return "{:04d}-{:02d}-{:02d} {:02d}:{:02d}:{:02d}".format(             # <<<<<<<<<<<<<<
+ *             self.year, self.month, self.day, self.hour, self.minute, self.second)
+ * 
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_04d_02d_02d_02d_02d_02d, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1544, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+
+  /* "netcdftime/_netcdftime.pyx":1545
+ *     def __str__(self):
+ *         return "{:04d}-{:02d}-{:02d} {:02d}:{:02d}:{:02d}".format(
+ *             self.year, self.month, self.day, self.hour, self.minute, self.second)             # <<<<<<<<<<<<<<
  * 
  *     def __hash__(self):
  */
-  __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_strftime); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1544, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1544, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_self->year); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1545, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = NULL;
+  __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_self->month); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1545, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->day); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1545, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_self->hour); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1545, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
+  __pyx_t_7 = __Pyx_PyInt_From_int(__pyx_v_self->minute); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1545, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_self->second); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1545, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __pyx_t_9 = NULL;
+  __pyx_t_10 = 0;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
-    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
-    if (likely(__pyx_t_4)) {
+    __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_2);
+    if (likely(__pyx_t_9)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-      __Pyx_INCREF(__pyx_t_4);
+      __Pyx_INCREF(__pyx_t_9);
       __Pyx_INCREF(function);
       __Pyx_DECREF_SET(__pyx_t_2, function);
+      __pyx_t_10 = 1;
     }
   }
-  if (!__pyx_t_4) {
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1544, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  #if CYTHON_FAST_PYCALL
+  if (PyFunction_Check(__pyx_t_2)) {
+    PyObject *__pyx_temp[7] = {__pyx_t_9, __pyx_t_3, __pyx_t_4, __pyx_t_5, __pyx_t_6, __pyx_t_7, __pyx_t_8};
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_10, 6+__pyx_t_10); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1544, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
     __Pyx_GOTREF(__pyx_t_1);
-  } else {
-    #if CYTHON_FAST_PYCALL
-    if (PyFunction_Check(__pyx_t_2)) {
-      PyObject *__pyx_temp[2] = {__pyx_t_4, __pyx_t_3};
-      __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1544, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __Pyx_GOTREF(__pyx_t_1);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    } else
-    #endif
-    #if CYTHON_FAST_PYCCALL
-    if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
-      PyObject *__pyx_temp[2] = {__pyx_t_4, __pyx_t_3};
-      __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1544, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __Pyx_GOTREF(__pyx_t_1);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    } else
-    #endif
-    {
-      __pyx_t_5 = PyTuple_New(1+1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1544, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4); __pyx_t_4 = NULL;
-      __Pyx_GIVEREF(__pyx_t_3);
-      PyTuple_SET_ITEM(__pyx_t_5, 0+1, __pyx_t_3);
-      __pyx_t_3 = 0;
-      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1544, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  } else
+  #endif
+  #if CYTHON_FAST_PYCCALL
+  if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
+    PyObject *__pyx_temp[7] = {__pyx_t_9, __pyx_t_3, __pyx_t_4, __pyx_t_5, __pyx_t_6, __pyx_t_7, __pyx_t_8};
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_10, 6+__pyx_t_10); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1544, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  } else
+  #endif
+  {
+    __pyx_t_11 = PyTuple_New(6+__pyx_t_10); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1544, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_11);
+    if (__pyx_t_9) {
+      __Pyx_GIVEREF(__pyx_t_9); PyTuple_SET_ITEM(__pyx_t_11, 0, __pyx_t_9); __pyx_t_9 = NULL;
     }
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_11, 0+__pyx_t_10, __pyx_t_3);
+    __Pyx_GIVEREF(__pyx_t_4);
+    PyTuple_SET_ITEM(__pyx_t_11, 1+__pyx_t_10, __pyx_t_4);
+    __Pyx_GIVEREF(__pyx_t_5);
+    PyTuple_SET_ITEM(__pyx_t_11, 2+__pyx_t_10, __pyx_t_5);
+    __Pyx_GIVEREF(__pyx_t_6);
+    PyTuple_SET_ITEM(__pyx_t_11, 3+__pyx_t_10, __pyx_t_6);
+    __Pyx_GIVEREF(__pyx_t_7);
+    PyTuple_SET_ITEM(__pyx_t_11, 4+__pyx_t_10, __pyx_t_7);
+    __Pyx_GIVEREF(__pyx_t_8);
+    PyTuple_SET_ITEM(__pyx_t_11, 5+__pyx_t_10, __pyx_t_8);
+    __pyx_t_3 = 0;
+    __pyx_t_4 = 0;
+    __pyx_t_5 = 0;
+    __pyx_t_6 = 0;
+    __pyx_t_7 = 0;
+    __pyx_t_8 = 0;
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_11, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1544, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_r = __pyx_t_1;
@@ -27048,8 +27097,8 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_12__str__(struct 
  *                                    self._getstate())
  * 
  *     def __str__(self):             # <<<<<<<<<<<<<<
- *         return self.strftime(self.format)
- * 
+ *         return "{:04d}-{:02d}-{:02d} {:02d}:{:02d}:{:02d}".format(
+ *             self.year, self.month, self.day, self.hour, self.minute, self.second)
  */
 
   /* function exit code */
@@ -27059,6 +27108,11 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_12__str__(struct 
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
+  __Pyx_XDECREF(__pyx_t_6);
+  __Pyx_XDECREF(__pyx_t_7);
+  __Pyx_XDECREF(__pyx_t_8);
+  __Pyx_XDECREF(__pyx_t_9);
+  __Pyx_XDECREF(__pyx_t_11);
   __Pyx_AddTraceback("netcdftime._netcdftime.datetime.__str__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
@@ -27067,8 +27121,8 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_12__str__(struct 
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1546
- *         return self.strftime(self.format)
+/* "netcdftime/_netcdftime.pyx":1547
+ *             self.year, self.month, self.day, self.hour, self.minute, self.second)
  * 
  *     def __hash__(self):             # <<<<<<<<<<<<<<
  *         try:
@@ -27105,7 +27159,7 @@ static Py_hash_t __pyx_pf_10netcdftime_11_netcdftime_8datetime_14__hash__(struct
   Py_hash_t __pyx_t_11;
   __Pyx_RefNannySetupContext("__hash__", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1547
+  /* "netcdftime/_netcdftime.pyx":1548
  * 
  *     def __hash__(self):
  *         try:             # <<<<<<<<<<<<<<
@@ -27121,19 +27175,19 @@ static Py_hash_t __pyx_pf_10netcdftime_11_netcdftime_8datetime_14__hash__(struct
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "netcdftime/_netcdftime.pyx":1548
+      /* "netcdftime/_netcdftime.pyx":1549
  *     def __hash__(self):
  *         try:
  *             d = self._to_real_datetime()             # <<<<<<<<<<<<<<
  *         except ValueError:
  *             return hash(self.timetuple())
  */
-      __pyx_t_4 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_self->__pyx_vtab)->_to_real_datetime(__pyx_v_self, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1548, __pyx_L3_error)
+      __pyx_t_4 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_self->__pyx_vtab)->_to_real_datetime(__pyx_v_self, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1549, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_v_d = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "netcdftime/_netcdftime.pyx":1547
+      /* "netcdftime/_netcdftime.pyx":1548
  * 
  *     def __hash__(self):
  *         try:             # <<<<<<<<<<<<<<
@@ -27149,7 +27203,7 @@ static Py_hash_t __pyx_pf_10netcdftime_11_netcdftime_8datetime_14__hash__(struct
     __Pyx_PyThreadState_assign
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "netcdftime/_netcdftime.pyx":1549
+    /* "netcdftime/_netcdftime.pyx":1550
  *         try:
  *             d = self._to_real_datetime()
  *         except ValueError:             # <<<<<<<<<<<<<<
@@ -27159,19 +27213,19 @@ static Py_hash_t __pyx_pf_10netcdftime_11_netcdftime_8datetime_14__hash__(struct
     __pyx_t_5 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_ValueError);
     if (__pyx_t_5) {
       __Pyx_AddTraceback("netcdftime._netcdftime.datetime.__hash__", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(0, 1549, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(0, 1550, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "netcdftime/_netcdftime.pyx":1550
+      /* "netcdftime/_netcdftime.pyx":1551
  *             d = self._to_real_datetime()
  *         except ValueError:
  *             return hash(self.timetuple())             # <<<<<<<<<<<<<<
  *         return hash(d)
  * 
  */
-      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_timetuple); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1550, __pyx_L5_except_error)
+      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_timetuple); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1551, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_9);
       __pyx_t_10 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_9))) {
@@ -27184,14 +27238,14 @@ static Py_hash_t __pyx_pf_10netcdftime_11_netcdftime_8datetime_14__hash__(struct
         }
       }
       if (__pyx_t_10) {
-        __pyx_t_8 = __Pyx_PyObject_CallOneArg(__pyx_t_9, __pyx_t_10); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1550, __pyx_L5_except_error)
+        __pyx_t_8 = __Pyx_PyObject_CallOneArg(__pyx_t_9, __pyx_t_10); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1551, __pyx_L5_except_error)
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       } else {
-        __pyx_t_8 = __Pyx_PyObject_CallNoArg(__pyx_t_9); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1550, __pyx_L5_except_error)
+        __pyx_t_8 = __Pyx_PyObject_CallNoArg(__pyx_t_9); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1551, __pyx_L5_except_error)
       }
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-      __pyx_t_11 = PyObject_Hash(__pyx_t_8); if (unlikely(__pyx_t_11 == -1)) __PYX_ERR(0, 1550, __pyx_L5_except_error)
+      __pyx_t_11 = PyObject_Hash(__pyx_t_8); if (unlikely(__pyx_t_11 == -1)) __PYX_ERR(0, 1551, __pyx_L5_except_error)
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __pyx_r = __pyx_t_11;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -27202,7 +27256,7 @@ static Py_hash_t __pyx_pf_10netcdftime_11_netcdftime_8datetime_14__hash__(struct
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "netcdftime/_netcdftime.pyx":1547
+    /* "netcdftime/_netcdftime.pyx":1548
  * 
  *     def __hash__(self):
  *         try:             # <<<<<<<<<<<<<<
@@ -27225,19 +27279,19 @@ static Py_hash_t __pyx_pf_10netcdftime_11_netcdftime_8datetime_14__hash__(struct
     __pyx_L10_try_end:;
   }
 
-  /* "netcdftime/_netcdftime.pyx":1551
+  /* "netcdftime/_netcdftime.pyx":1552
  *         except ValueError:
  *             return hash(self.timetuple())
  *         return hash(d)             # <<<<<<<<<<<<<<
  * 
  *     cdef to_tuple(self):
  */
-  __pyx_t_11 = PyObject_Hash(__pyx_v_d); if (unlikely(__pyx_t_11 == -1)) __PYX_ERR(0, 1551, __pyx_L1_error)
+  __pyx_t_11 = PyObject_Hash(__pyx_v_d); if (unlikely(__pyx_t_11 == -1)) __PYX_ERR(0, 1552, __pyx_L1_error)
   __pyx_r = __pyx_t_11;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1546
- *         return self.strftime(self.format)
+  /* "netcdftime/_netcdftime.pyx":1547
+ *             self.year, self.month, self.day, self.hour, self.minute, self.second)
  * 
  *     def __hash__(self):             # <<<<<<<<<<<<<<
  *         try:
@@ -27261,7 +27315,7 @@ static Py_hash_t __pyx_pf_10netcdftime_11_netcdftime_8datetime_14__hash__(struct
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1553
+/* "netcdftime/_netcdftime.pyx":1554
  *         return hash(d)
  * 
  *     cdef to_tuple(self):             # <<<<<<<<<<<<<<
@@ -27282,7 +27336,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_8datetime_to_tuple(struct __
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("to_tuple", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1554
+  /* "netcdftime/_netcdftime.pyx":1555
  * 
  *     cdef to_tuple(self):
  *         return (self.year, self.month, self.day, self.hour, self.minute,             # <<<<<<<<<<<<<<
@@ -27290,37 +27344,37 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_8datetime_to_tuple(struct __
  * 
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->year); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1554, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->year); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1555, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->month); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1554, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->month); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1555, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_self->day); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1554, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_self->day); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1555, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_self->hour); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1554, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_self->hour); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1555, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->minute); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1554, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->minute); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1555, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
 
-  /* "netcdftime/_netcdftime.pyx":1555
+  /* "netcdftime/_netcdftime.pyx":1556
  *     cdef to_tuple(self):
  *         return (self.year, self.month, self.day, self.hour, self.minute,
  *                 self.second, self.microsecond)             # <<<<<<<<<<<<<<
  * 
  *     def __richcmp__(self, other, int op):
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_self->second); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1555, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_self->second); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1556, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_7 = __Pyx_PyInt_From_int(__pyx_v_self->microsecond); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1555, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyInt_From_int(__pyx_v_self->microsecond); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1556, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
 
-  /* "netcdftime/_netcdftime.pyx":1554
+  /* "netcdftime/_netcdftime.pyx":1555
  * 
  *     cdef to_tuple(self):
  *         return (self.year, self.month, self.day, self.hour, self.minute,             # <<<<<<<<<<<<<<
  *                 self.second, self.microsecond)
  * 
  */
-  __pyx_t_8 = PyTuple_New(7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1554, __pyx_L1_error)
+  __pyx_t_8 = PyTuple_New(7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1555, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_1);
@@ -27347,7 +27401,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_8datetime_to_tuple(struct __
   __pyx_t_8 = 0;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1553
+  /* "netcdftime/_netcdftime.pyx":1554
  *         return hash(d)
  * 
  *     cdef to_tuple(self):             # <<<<<<<<<<<<<<
@@ -27373,7 +27427,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_8datetime_to_tuple(struct __
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1557
+/* "netcdftime/_netcdftime.pyx":1558
  *                 self.second, self.microsecond)
  * 
  *     def __richcmp__(self, other, int op):             # <<<<<<<<<<<<<<
@@ -27408,20 +27462,20 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
   PyObject *__pyx_t_7 = NULL;
   __Pyx_RefNannySetupContext("__richcmp__", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1559
+  /* "netcdftime/_netcdftime.pyx":1560
  *     def __richcmp__(self, other, int op):
  *         cdef datetime dt, dt_other
  *         dt = self             # <<<<<<<<<<<<<<
  *         if isinstance(other, datetime):
  *             dt_other = other
  */
-  if (!(likely(((__pyx_v_self) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_self, __pyx_ptype_10netcdftime_11_netcdftime_datetime))))) __PYX_ERR(0, 1559, __pyx_L1_error)
+  if (!(likely(((__pyx_v_self) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_self, __pyx_ptype_10netcdftime_11_netcdftime_datetime))))) __PYX_ERR(0, 1560, __pyx_L1_error)
   __pyx_t_1 = __pyx_v_self;
   __Pyx_INCREF(__pyx_t_1);
   __pyx_v_dt = ((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1560
+  /* "netcdftime/_netcdftime.pyx":1561
  *         cdef datetime dt, dt_other
  *         dt = self
  *         if isinstance(other, datetime):             # <<<<<<<<<<<<<<
@@ -27432,31 +27486,31 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
   __pyx_t_3 = (__pyx_t_2 != 0);
   if (__pyx_t_3) {
 
-    /* "netcdftime/_netcdftime.pyx":1561
+    /* "netcdftime/_netcdftime.pyx":1562
  *         dt = self
  *         if isinstance(other, datetime):
  *             dt_other = other             # <<<<<<<<<<<<<<
  *             # comparing two datetime instances
  *             if dt.calendar == dt_other.calendar:
  */
-    if (!(likely(((__pyx_v_other) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_other, __pyx_ptype_10netcdftime_11_netcdftime_datetime))))) __PYX_ERR(0, 1561, __pyx_L1_error)
+    if (!(likely(((__pyx_v_other) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_other, __pyx_ptype_10netcdftime_11_netcdftime_datetime))))) __PYX_ERR(0, 1562, __pyx_L1_error)
     __pyx_t_1 = __pyx_v_other;
     __Pyx_INCREF(__pyx_t_1);
     __pyx_v_dt_other = ((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "netcdftime/_netcdftime.pyx":1563
+    /* "netcdftime/_netcdftime.pyx":1564
  *             dt_other = other
  *             # comparing two datetime instances
  *             if dt.calendar == dt_other.calendar:             # <<<<<<<<<<<<<<
  *                 return PyObject_RichCompare(dt.to_tuple(), dt_other.to_tuple(), op)
  *             else:
  */
-    __pyx_t_3 = (__Pyx_PyString_Equals(__pyx_v_dt->calendar, __pyx_v_dt_other->calendar, Py_EQ)); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1563, __pyx_L1_error)
+    __pyx_t_3 = (__Pyx_PyString_Equals(__pyx_v_dt->calendar, __pyx_v_dt_other->calendar, Py_EQ)); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1564, __pyx_L1_error)
     __pyx_t_2 = (__pyx_t_3 != 0);
     if (__pyx_t_2) {
 
-      /* "netcdftime/_netcdftime.pyx":1564
+      /* "netcdftime/_netcdftime.pyx":1565
  *             # comparing two datetime instances
  *             if dt.calendar == dt_other.calendar:
  *                 return PyObject_RichCompare(dt.to_tuple(), dt_other.to_tuple(), op)             # <<<<<<<<<<<<<<
@@ -27464,11 +27518,11 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
  *                 # Note: it *is* possible to compare datetime
  */
       __Pyx_XDECREF(__pyx_r);
-      __pyx_t_1 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_dt->__pyx_vtab)->to_tuple(__pyx_v_dt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1564, __pyx_L1_error)
+      __pyx_t_1 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_dt->__pyx_vtab)->to_tuple(__pyx_v_dt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1565, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_4 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_dt_other->__pyx_vtab)->to_tuple(__pyx_v_dt_other); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1564, __pyx_L1_error)
+      __pyx_t_4 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_dt_other->__pyx_vtab)->to_tuple(__pyx_v_dt_other); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1565, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_5 = PyObject_RichCompare(__pyx_t_1, __pyx_t_4, __pyx_v_op); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1564, __pyx_L1_error)
+      __pyx_t_5 = PyObject_RichCompare(__pyx_t_1, __pyx_t_4, __pyx_v_op); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1565, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -27476,7 +27530,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
       __pyx_t_5 = 0;
       goto __pyx_L0;
 
-      /* "netcdftime/_netcdftime.pyx":1563
+      /* "netcdftime/_netcdftime.pyx":1564
  *             dt_other = other
  *             # comparing two datetime instances
  *             if dt.calendar == dt_other.calendar:             # <<<<<<<<<<<<<<
@@ -27485,7 +27539,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
  */
     }
 
-    /* "netcdftime/_netcdftime.pyx":1570
+    /* "netcdftime/_netcdftime.pyx":1571
  *                 # utime.date2num(), but this implementation does
  *                 # not attempt it.
  *                 raise TypeError("cannot compare {0!r} and {1!r} (different calendars)".format(dt, dt_other))             # <<<<<<<<<<<<<<
@@ -27493,7 +27547,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
  *             # comparing datetime and real_datetime
  */
     /*else*/ {
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_cannot_compare_0_r_and_1_r_diffe, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1570, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_cannot_compare_0_r_and_1_r_diffe, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1571, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_1 = NULL;
       __pyx_t_6 = 0;
@@ -27510,7 +27564,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
       #if CYTHON_FAST_PYCALL
       if (PyFunction_Check(__pyx_t_4)) {
         PyObject *__pyx_temp[3] = {__pyx_t_1, ((PyObject *)__pyx_v_dt), ((PyObject *)__pyx_v_dt_other)};
-        __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1570, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1571, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_GOTREF(__pyx_t_5);
       } else
@@ -27518,13 +27572,13 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
       #if CYTHON_FAST_PYCCALL
       if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
         PyObject *__pyx_temp[3] = {__pyx_t_1, ((PyObject *)__pyx_v_dt), ((PyObject *)__pyx_v_dt_other)};
-        __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1570, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1571, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_GOTREF(__pyx_t_5);
       } else
       #endif
       {
-        __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1570, __pyx_L1_error)
+        __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1571, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
         if (__pyx_t_1) {
           __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_1); __pyx_t_1 = NULL;
@@ -27535,25 +27589,25 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
         __Pyx_INCREF(((PyObject *)__pyx_v_dt_other));
         __Pyx_GIVEREF(((PyObject *)__pyx_v_dt_other));
         PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, ((PyObject *)__pyx_v_dt_other));
-        __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1570, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1571, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1570, __pyx_L1_error)
+      __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1571, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_GIVEREF(__pyx_t_5);
       PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_5);
       __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_t_4, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1570, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_t_4, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1571, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_Raise(__pyx_t_5, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __PYX_ERR(0, 1570, __pyx_L1_error)
+      __PYX_ERR(0, 1571, __pyx_L1_error)
     }
 
-    /* "netcdftime/_netcdftime.pyx":1560
+    /* "netcdftime/_netcdftime.pyx":1561
  *         cdef datetime dt, dt_other
  *         dt = self
  *         if isinstance(other, datetime):             # <<<<<<<<<<<<<<
@@ -27562,21 +27616,21 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
  */
   }
 
-  /* "netcdftime/_netcdftime.pyx":1571
+  /* "netcdftime/_netcdftime.pyx":1572
  *                 # not attempt it.
  *                 raise TypeError("cannot compare {0!r} and {1!r} (different calendars)".format(dt, dt_other))
  *         elif isinstance(other, real_datetime):             # <<<<<<<<<<<<<<
  *             # comparing datetime and real_datetime
  *             if not dt.datetime_compatible:
  */
-  __pyx_t_5 = __Pyx_GetModuleGlobalName(__pyx_n_s_real_datetime); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1571, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetModuleGlobalName(__pyx_n_s_real_datetime); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1572, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyObject_IsInstance(__pyx_v_other, __pyx_t_5); if (unlikely(__pyx_t_2 == -1)) __PYX_ERR(0, 1571, __pyx_L1_error)
+  __pyx_t_2 = PyObject_IsInstance(__pyx_v_other, __pyx_t_5); if (unlikely(__pyx_t_2 == -1)) __PYX_ERR(0, 1572, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_t_3 = (__pyx_t_2 != 0);
   if (__pyx_t_3) {
 
-    /* "netcdftime/_netcdftime.pyx":1573
+    /* "netcdftime/_netcdftime.pyx":1574
  *         elif isinstance(other, real_datetime):
  *             # comparing datetime and real_datetime
  *             if not dt.datetime_compatible:             # <<<<<<<<<<<<<<
@@ -27586,14 +27640,14 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
     __pyx_t_3 = ((!(__pyx_v_dt->datetime_compatible != 0)) != 0);
     if (__pyx_t_3) {
 
-      /* "netcdftime/_netcdftime.pyx":1574
+      /* "netcdftime/_netcdftime.pyx":1575
  *             # comparing datetime and real_datetime
  *             if not dt.datetime_compatible:
  *                 raise TypeError("cannot compare {0!r} and {1!r} (different calendars)".format(self, other))             # <<<<<<<<<<<<<<
  *             return PyObject_RichCompare(dt.to_tuple(), to_tuple(other), op)
  *         else:
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_cannot_compare_0_r_and_1_r_diffe, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1574, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_cannot_compare_0_r_and_1_r_diffe, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1575, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_7 = NULL;
       __pyx_t_6 = 0;
@@ -27610,7 +27664,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
       #if CYTHON_FAST_PYCALL
       if (PyFunction_Check(__pyx_t_4)) {
         PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_v_self, __pyx_v_other};
-        __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1574, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1575, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_GOTREF(__pyx_t_5);
       } else
@@ -27618,13 +27672,13 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
       #if CYTHON_FAST_PYCCALL
       if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
         PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_v_self, __pyx_v_other};
-        __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1574, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1575, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_GOTREF(__pyx_t_5);
       } else
       #endif
       {
-        __pyx_t_1 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1574, __pyx_L1_error)
+        __pyx_t_1 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1575, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         if (__pyx_t_7) {
           __Pyx_GIVEREF(__pyx_t_7); PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_7); __pyx_t_7 = NULL;
@@ -27635,24 +27689,24 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
         __Pyx_INCREF(__pyx_v_other);
         __Pyx_GIVEREF(__pyx_v_other);
         PyTuple_SET_ITEM(__pyx_t_1, 1+__pyx_t_6, __pyx_v_other);
-        __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_1, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1574, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_1, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1575, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1574, __pyx_L1_error)
+      __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1575, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_GIVEREF(__pyx_t_5);
       PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_5);
       __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_t_4, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1574, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_t_4, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1575, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_Raise(__pyx_t_5, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __PYX_ERR(0, 1574, __pyx_L1_error)
+      __PYX_ERR(0, 1575, __pyx_L1_error)
 
-      /* "netcdftime/_netcdftime.pyx":1573
+      /* "netcdftime/_netcdftime.pyx":1574
  *         elif isinstance(other, real_datetime):
  *             # comparing datetime and real_datetime
  *             if not dt.datetime_compatible:             # <<<<<<<<<<<<<<
@@ -27661,7 +27715,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
  */
     }
 
-    /* "netcdftime/_netcdftime.pyx":1575
+    /* "netcdftime/_netcdftime.pyx":1576
  *             if not dt.datetime_compatible:
  *                 raise TypeError("cannot compare {0!r} and {1!r} (different calendars)".format(self, other))
  *             return PyObject_RichCompare(dt.to_tuple(), to_tuple(other), op)             # <<<<<<<<<<<<<<
@@ -27669,11 +27723,11 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
  *             raise TypeError("cannot compare {0!r} and {1!r}".format(self, other))
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_5 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_dt->__pyx_vtab)->to_tuple(__pyx_v_dt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1575, __pyx_L1_error)
+    __pyx_t_5 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_dt->__pyx_vtab)->to_tuple(__pyx_v_dt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1576, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = __pyx_f_10netcdftime_11_netcdftime_to_tuple(__pyx_v_other); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1575, __pyx_L1_error)
+    __pyx_t_4 = __pyx_f_10netcdftime_11_netcdftime_to_tuple(__pyx_v_other); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1576, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_1 = PyObject_RichCompare(__pyx_t_5, __pyx_t_4, __pyx_v_op); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1575, __pyx_L1_error)
+    __pyx_t_1 = PyObject_RichCompare(__pyx_t_5, __pyx_t_4, __pyx_v_op); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1576, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -27681,7 +27735,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
     __pyx_t_1 = 0;
     goto __pyx_L0;
 
-    /* "netcdftime/_netcdftime.pyx":1571
+    /* "netcdftime/_netcdftime.pyx":1572
  *                 # not attempt it.
  *                 raise TypeError("cannot compare {0!r} and {1!r} (different calendars)".format(dt, dt_other))
  *         elif isinstance(other, real_datetime):             # <<<<<<<<<<<<<<
@@ -27690,7 +27744,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
  */
   }
 
-  /* "netcdftime/_netcdftime.pyx":1577
+  /* "netcdftime/_netcdftime.pyx":1578
  *             return PyObject_RichCompare(dt.to_tuple(), to_tuple(other), op)
  *         else:
  *             raise TypeError("cannot compare {0!r} and {1!r}".format(self, other))             # <<<<<<<<<<<<<<
@@ -27698,7 +27752,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
  *     cdef _getstate(self):
  */
   /*else*/ {
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_cannot_compare_0_r_and_1_r, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1577, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_cannot_compare_0_r_and_1_r, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1578, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_5 = NULL;
     __pyx_t_6 = 0;
@@ -27715,7 +27769,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_4)) {
       PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_self, __pyx_v_other};
-      __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1577, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1578, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_GOTREF(__pyx_t_1);
     } else
@@ -27723,13 +27777,13 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
       PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_self, __pyx_v_other};
-      __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1577, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1578, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_GOTREF(__pyx_t_1);
     } else
     #endif
     {
-      __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1577, __pyx_L1_error)
+      __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1578, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       if (__pyx_t_5) {
         __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -27740,25 +27794,25 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
       __Pyx_INCREF(__pyx_v_other);
       __Pyx_GIVEREF(__pyx_v_other);
       PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, __pyx_v_other);
-      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1577, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1578, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1577, __pyx_L1_error)
+    __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1578, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_GIVEREF(__pyx_t_1);
     PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_1);
     __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_t_4, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1577, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_t_4, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1578, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 1577, __pyx_L1_error)
+    __PYX_ERR(0, 1578, __pyx_L1_error)
   }
 
-  /* "netcdftime/_netcdftime.pyx":1557
+  /* "netcdftime/_netcdftime.pyx":1558
  *                 self.second, self.microsecond)
  * 
  *     def __richcmp__(self, other, int op):             # <<<<<<<<<<<<<<
@@ -27782,7 +27836,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_16__richcmp__(PyO
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1579
+/* "netcdftime/_netcdftime.pyx":1580
  *             raise TypeError("cannot compare {0!r} and {1!r}".format(self, other))
  * 
  *     cdef _getstate(self):             # <<<<<<<<<<<<<<
@@ -27805,7 +27859,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_8datetime__getstate(struct _
   PyObject *__pyx_t_10 = NULL;
   __Pyx_RefNannySetupContext("_getstate", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1580
+  /* "netcdftime/_netcdftime.pyx":1581
  * 
  *     cdef _getstate(self):
  *         return (self.year, self.month, self.day, self.hour,             # <<<<<<<<<<<<<<
@@ -27813,49 +27867,49 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_8datetime__getstate(struct _
  *                 self.dayofwk, self.dayofyr)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->year); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1580, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->year); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1581, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->month); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1580, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->month); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1581, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_self->day); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1580, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_self->day); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1581, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_self->hour); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1580, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_self->hour); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1581, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
 
-  /* "netcdftime/_netcdftime.pyx":1581
+  /* "netcdftime/_netcdftime.pyx":1582
  *     cdef _getstate(self):
  *         return (self.year, self.month, self.day, self.hour,
  *                 self.minute, self.second, self.microsecond,             # <<<<<<<<<<<<<<
  *                 self.dayofwk, self.dayofyr)
  * 
  */
-  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->minute); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1581, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->minute); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1582, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_self->second); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1581, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_self->second); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1582, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_7 = __Pyx_PyInt_From_int(__pyx_v_self->microsecond); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1581, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyInt_From_int(__pyx_v_self->microsecond); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1582, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
 
-  /* "netcdftime/_netcdftime.pyx":1582
+  /* "netcdftime/_netcdftime.pyx":1583
  *         return (self.year, self.month, self.day, self.hour,
  *                 self.minute, self.second, self.microsecond,
  *                 self.dayofwk, self.dayofyr)             # <<<<<<<<<<<<<<
  * 
  *     def __reduce__(self):
  */
-  __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_self->dayofwk); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1582, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_self->dayofwk); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1583, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
-  __pyx_t_9 = __Pyx_PyInt_From_int(__pyx_v_self->dayofyr); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1582, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_PyInt_From_int(__pyx_v_self->dayofyr); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1583, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
 
-  /* "netcdftime/_netcdftime.pyx":1580
+  /* "netcdftime/_netcdftime.pyx":1581
  * 
  *     cdef _getstate(self):
  *         return (self.year, self.month, self.day, self.hour,             # <<<<<<<<<<<<<<
  *                 self.minute, self.second, self.microsecond,
  *                 self.dayofwk, self.dayofyr)
  */
-  __pyx_t_10 = PyTuple_New(9); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1580, __pyx_L1_error)
+  __pyx_t_10 = PyTuple_New(9); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1581, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_1);
@@ -27888,7 +27942,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_8datetime__getstate(struct _
   __pyx_t_10 = 0;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1579
+  /* "netcdftime/_netcdftime.pyx":1580
  *             raise TypeError("cannot compare {0!r} and {1!r}".format(self, other))
  * 
  *     cdef _getstate(self):             # <<<<<<<<<<<<<<
@@ -27916,7 +27970,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_8datetime__getstate(struct _
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1584
+/* "netcdftime/_netcdftime.pyx":1585
  *                 self.dayofwk, self.dayofyr)
  * 
  *     def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -27946,7 +28000,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_18__reduce__(stru
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1586
+  /* "netcdftime/_netcdftime.pyx":1587
  *     def __reduce__(self):
  *         """special method that allows instance to be pickled"""
  *         return (self.__class__, self._getstate())             # <<<<<<<<<<<<<<
@@ -27954,11 +28008,11 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_18__reduce__(stru
  *     cdef _add_timedelta(self, other):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_class); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1586, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_class); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1587, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_self->__pyx_vtab)->_getstate(__pyx_v_self); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1586, __pyx_L1_error)
+  __pyx_t_2 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_self->__pyx_vtab)->_getstate(__pyx_v_self); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1587, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1586, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1587, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -27970,7 +28024,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_18__reduce__(stru
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1584
+  /* "netcdftime/_netcdftime.pyx":1585
  *                 self.dayofwk, self.dayofyr)
  * 
  *     def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -27991,7 +28045,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_18__reduce__(stru
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1588
+/* "netcdftime/_netcdftime.pyx":1589
  *         return (self.__class__, self._getstate())
  * 
  *     cdef _add_timedelta(self, other):             # <<<<<<<<<<<<<<
@@ -28004,7 +28058,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_8datetime__add_timedelta(CYT
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_add_timedelta", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1589
+  /* "netcdftime/_netcdftime.pyx":1590
  * 
  *     cdef _add_timedelta(self, other):
  *         return NotImplemented             # <<<<<<<<<<<<<<
@@ -28016,7 +28070,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_8datetime__add_timedelta(CYT
   __pyx_r = __pyx_builtin_NotImplemented;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1588
+  /* "netcdftime/_netcdftime.pyx":1589
  *         return (self.__class__, self._getstate())
  * 
  *     cdef _add_timedelta(self, other):             # <<<<<<<<<<<<<<
@@ -28031,7 +28085,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_8datetime__add_timedelta(CYT
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1591
+/* "netcdftime/_netcdftime.pyx":1592
  *         return NotImplemented
  * 
  *     def __add__(self, other):             # <<<<<<<<<<<<<<
@@ -28063,7 +28117,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_20__add__(PyObjec
   PyObject *__pyx_t_4 = NULL;
   __Pyx_RefNannySetupContext("__add__", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1593
+  /* "netcdftime/_netcdftime.pyx":1594
  *     def __add__(self, other):
  *         cdef datetime dt
  *         if isinstance(self, datetime) and isinstance(other, timedelta):             # <<<<<<<<<<<<<<
@@ -28077,29 +28131,29 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_20__add__(PyObjec
     __pyx_t_1 = __pyx_t_3;
     goto __pyx_L4_bool_binop_done;
   }
-  __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_timedelta); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1593, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_timedelta); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1594, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_3 = PyObject_IsInstance(__pyx_v_other, __pyx_t_4); if (unlikely(__pyx_t_3 == -1)) __PYX_ERR(0, 1593, __pyx_L1_error)
+  __pyx_t_3 = PyObject_IsInstance(__pyx_v_other, __pyx_t_4); if (unlikely(__pyx_t_3 == -1)) __PYX_ERR(0, 1594, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_2 = (__pyx_t_3 != 0);
   __pyx_t_1 = __pyx_t_2;
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "netcdftime/_netcdftime.pyx":1594
+    /* "netcdftime/_netcdftime.pyx":1595
  *         cdef datetime dt
  *         if isinstance(self, datetime) and isinstance(other, timedelta):
  *             dt = self             # <<<<<<<<<<<<<<
  *             delta = other
  *         elif isinstance(self, timedelta) and isinstance(other, datetime):
  */
-    if (!(likely(((__pyx_v_self) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_self, __pyx_ptype_10netcdftime_11_netcdftime_datetime))))) __PYX_ERR(0, 1594, __pyx_L1_error)
+    if (!(likely(((__pyx_v_self) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_self, __pyx_ptype_10netcdftime_11_netcdftime_datetime))))) __PYX_ERR(0, 1595, __pyx_L1_error)
     __pyx_t_4 = __pyx_v_self;
     __Pyx_INCREF(__pyx_t_4);
     __pyx_v_dt = ((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "netcdftime/_netcdftime.pyx":1595
+    /* "netcdftime/_netcdftime.pyx":1596
  *         if isinstance(self, datetime) and isinstance(other, timedelta):
  *             dt = self
  *             delta = other             # <<<<<<<<<<<<<<
@@ -28109,7 +28163,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_20__add__(PyObjec
     __Pyx_INCREF(__pyx_v_other);
     __pyx_v_delta = __pyx_v_other;
 
-    /* "netcdftime/_netcdftime.pyx":1593
+    /* "netcdftime/_netcdftime.pyx":1594
  *     def __add__(self, other):
  *         cdef datetime dt
  *         if isinstance(self, datetime) and isinstance(other, timedelta):             # <<<<<<<<<<<<<<
@@ -28119,16 +28173,16 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_20__add__(PyObjec
     goto __pyx_L3;
   }
 
-  /* "netcdftime/_netcdftime.pyx":1596
+  /* "netcdftime/_netcdftime.pyx":1597
  *             dt = self
  *             delta = other
  *         elif isinstance(self, timedelta) and isinstance(other, datetime):             # <<<<<<<<<<<<<<
  *             dt = other
  *             delta = self
  */
-  __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_timedelta); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1596, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_timedelta); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1597, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_2 = PyObject_IsInstance(__pyx_v_self, __pyx_t_4); if (unlikely(__pyx_t_2 == -1)) __PYX_ERR(0, 1596, __pyx_L1_error)
+  __pyx_t_2 = PyObject_IsInstance(__pyx_v_self, __pyx_t_4); if (unlikely(__pyx_t_2 == -1)) __PYX_ERR(0, 1597, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_3 = (__pyx_t_2 != 0);
   if (__pyx_t_3) {
@@ -28142,20 +28196,20 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_20__add__(PyObjec
   __pyx_L6_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "netcdftime/_netcdftime.pyx":1597
+    /* "netcdftime/_netcdftime.pyx":1598
  *             delta = other
  *         elif isinstance(self, timedelta) and isinstance(other, datetime):
  *             dt = other             # <<<<<<<<<<<<<<
  *             delta = self
  *         else:
  */
-    if (!(likely(((__pyx_v_other) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_other, __pyx_ptype_10netcdftime_11_netcdftime_datetime))))) __PYX_ERR(0, 1597, __pyx_L1_error)
+    if (!(likely(((__pyx_v_other) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_other, __pyx_ptype_10netcdftime_11_netcdftime_datetime))))) __PYX_ERR(0, 1598, __pyx_L1_error)
     __pyx_t_4 = __pyx_v_other;
     __Pyx_INCREF(__pyx_t_4);
     __pyx_v_dt = ((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "netcdftime/_netcdftime.pyx":1598
+    /* "netcdftime/_netcdftime.pyx":1599
  *         elif isinstance(self, timedelta) and isinstance(other, datetime):
  *             dt = other
  *             delta = self             # <<<<<<<<<<<<<<
@@ -28165,7 +28219,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_20__add__(PyObjec
     __Pyx_INCREF(__pyx_v_self);
     __pyx_v_delta = __pyx_v_self;
 
-    /* "netcdftime/_netcdftime.pyx":1596
+    /* "netcdftime/_netcdftime.pyx":1597
  *             dt = self
  *             delta = other
  *         elif isinstance(self, timedelta) and isinstance(other, datetime):             # <<<<<<<<<<<<<<
@@ -28175,7 +28229,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_20__add__(PyObjec
     goto __pyx_L3;
   }
 
-  /* "netcdftime/_netcdftime.pyx":1600
+  /* "netcdftime/_netcdftime.pyx":1601
  *             delta = self
  *         else:
  *             return NotImplemented             # <<<<<<<<<<<<<<
@@ -28190,7 +28244,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_20__add__(PyObjec
   }
   __pyx_L3:;
 
-  /* "netcdftime/_netcdftime.pyx":1601
+  /* "netcdftime/_netcdftime.pyx":1602
  *         else:
  *             return NotImplemented
  *         return dt._add_timedelta(delta)             # <<<<<<<<<<<<<<
@@ -28198,13 +28252,13 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_20__add__(PyObjec
  *     def __sub__(self, other):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_4 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_dt->__pyx_vtab)->_add_timedelta(__pyx_v_dt, __pyx_v_delta); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1601, __pyx_L1_error)
+  __pyx_t_4 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_dt->__pyx_vtab)->_add_timedelta(__pyx_v_dt, __pyx_v_delta); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1602, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_r = __pyx_t_4;
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1591
+  /* "netcdftime/_netcdftime.pyx":1592
  *         return NotImplemented
  * 
  *     def __add__(self, other):             # <<<<<<<<<<<<<<
@@ -28225,7 +28279,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_20__add__(PyObjec
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1603
+/* "netcdftime/_netcdftime.pyx":1604
  *         return dt._add_timedelta(delta)
  * 
  *     def __sub__(self, other):             # <<<<<<<<<<<<<<
@@ -28262,7 +28316,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
   PyObject *__pyx_t_9 = NULL;
   __Pyx_RefNannySetupContext("__sub__", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1605
+  /* "netcdftime/_netcdftime.pyx":1606
  *     def __sub__(self, other):
  *         cdef datetime dt
  *         if isinstance(self, datetime): # left arg is a datetime instance             # <<<<<<<<<<<<<<
@@ -28273,20 +28327,20 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "netcdftime/_netcdftime.pyx":1606
+    /* "netcdftime/_netcdftime.pyx":1607
  *         cdef datetime dt
  *         if isinstance(self, datetime): # left arg is a datetime instance
  *             dt = self             # <<<<<<<<<<<<<<
  *             if isinstance(other, datetime):
  *                 # datetime - datetime
  */
-    if (!(likely(((__pyx_v_self) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_self, __pyx_ptype_10netcdftime_11_netcdftime_datetime))))) __PYX_ERR(0, 1606, __pyx_L1_error)
+    if (!(likely(((__pyx_v_self) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_self, __pyx_ptype_10netcdftime_11_netcdftime_datetime))))) __PYX_ERR(0, 1607, __pyx_L1_error)
     __pyx_t_3 = __pyx_v_self;
     __Pyx_INCREF(__pyx_t_3);
     __pyx_v_dt = ((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "netcdftime/_netcdftime.pyx":1607
+    /* "netcdftime/_netcdftime.pyx":1608
  *         if isinstance(self, datetime): # left arg is a datetime instance
  *             dt = self
  *             if isinstance(other, datetime):             # <<<<<<<<<<<<<<
@@ -28297,33 +28351,33 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
     __pyx_t_1 = (__pyx_t_2 != 0);
     if (__pyx_t_1) {
 
-      /* "netcdftime/_netcdftime.pyx":1609
+      /* "netcdftime/_netcdftime.pyx":1610
  *             if isinstance(other, datetime):
  *                 # datetime - datetime
  *                 if dt.calendar != other.calendar:             # <<<<<<<<<<<<<<
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")
  *                 if dt.calendar == "":
  */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_other, __pyx_n_s_calendar); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1609, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_other, __pyx_n_s_calendar); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1610, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_dt->calendar, __pyx_t_3, Py_NE)); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 1609, __pyx_L1_error)
+      __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_dt->calendar, __pyx_t_3, Py_NE)); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 1610, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       if (__pyx_t_1) {
 
-        /* "netcdftime/_netcdftime.pyx":1610
+        /* "netcdftime/_netcdftime.pyx":1611
  *                 # datetime - datetime
  *                 if dt.calendar != other.calendar:
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")             # <<<<<<<<<<<<<<
  *                 if dt.calendar == "":
  *                     raise ValueError("cannot compute the time difference between dates that are not calendar-aware")
  */
-        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__30, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1610, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__30, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1611, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_Raise(__pyx_t_3, 0, 0, 0);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __PYX_ERR(0, 1610, __pyx_L1_error)
+        __PYX_ERR(0, 1611, __pyx_L1_error)
 
-        /* "netcdftime/_netcdftime.pyx":1609
+        /* "netcdftime/_netcdftime.pyx":1610
  *             if isinstance(other, datetime):
  *                 # datetime - datetime
  *                 if dt.calendar != other.calendar:             # <<<<<<<<<<<<<<
@@ -28332,31 +28386,31 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  */
       }
 
-      /* "netcdftime/_netcdftime.pyx":1611
+      /* "netcdftime/_netcdftime.pyx":1612
  *                 if dt.calendar != other.calendar:
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")
  *                 if dt.calendar == "":             # <<<<<<<<<<<<<<
  *                     raise ValueError("cannot compute the time difference between dates that are not calendar-aware")
  *                 converter = _converters[dt.calendar]
  */
-      __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_dt->calendar, __pyx_kp_s__29, Py_EQ)); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 1611, __pyx_L1_error)
+      __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_dt->calendar, __pyx_kp_s__29, Py_EQ)); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 1612, __pyx_L1_error)
       __pyx_t_2 = (__pyx_t_1 != 0);
       if (__pyx_t_2) {
 
-        /* "netcdftime/_netcdftime.pyx":1612
+        /* "netcdftime/_netcdftime.pyx":1613
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")
  *                 if dt.calendar == "":
  *                     raise ValueError("cannot compute the time difference between dates that are not calendar-aware")             # <<<<<<<<<<<<<<
  *                 converter = _converters[dt.calendar]
  *                 return timedelta(seconds=converter.date2num(dt) - converter.date2num(other))
  */
-        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__31, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1612, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__31, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1613, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_Raise(__pyx_t_3, 0, 0, 0);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __PYX_ERR(0, 1612, __pyx_L1_error)
+        __PYX_ERR(0, 1613, __pyx_L1_error)
 
-        /* "netcdftime/_netcdftime.pyx":1611
+        /* "netcdftime/_netcdftime.pyx":1612
  *                 if dt.calendar != other.calendar:
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")
  *                 if dt.calendar == "":             # <<<<<<<<<<<<<<
@@ -28365,7 +28419,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  */
       }
 
-      /* "netcdftime/_netcdftime.pyx":1613
+      /* "netcdftime/_netcdftime.pyx":1614
  *                 if dt.calendar == "":
  *                     raise ValueError("cannot compute the time difference between dates that are not calendar-aware")
  *                 converter = _converters[dt.calendar]             # <<<<<<<<<<<<<<
@@ -28374,14 +28428,14 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  */
       if (unlikely(__pyx_v_10netcdftime_11_netcdftime__converters == Py_None)) {
         PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-        __PYX_ERR(0, 1613, __pyx_L1_error)
+        __PYX_ERR(0, 1614, __pyx_L1_error)
       }
-      __pyx_t_3 = __Pyx_PyDict_GetItem(__pyx_v_10netcdftime_11_netcdftime__converters, __pyx_v_dt->calendar); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1613, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyDict_GetItem(__pyx_v_10netcdftime_11_netcdftime__converters, __pyx_v_dt->calendar); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1614, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_v_converter = __pyx_t_3;
       __pyx_t_3 = 0;
 
-      /* "netcdftime/_netcdftime.pyx":1614
+      /* "netcdftime/_netcdftime.pyx":1615
  *                     raise ValueError("cannot compute the time difference between dates that are not calendar-aware")
  *                 converter = _converters[dt.calendar]
  *                 return timedelta(seconds=converter.date2num(dt) - converter.date2num(other))             # <<<<<<<<<<<<<<
@@ -28389,11 +28443,11 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  *                 # datetime - real_datetime
  */
       __Pyx_XDECREF(__pyx_r);
-      __pyx_t_3 = __Pyx_GetModuleGlobalName(__pyx_n_s_timedelta); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1614, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_GetModuleGlobalName(__pyx_n_s_timedelta); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1615, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = PyDict_New(); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1614, __pyx_L1_error)
+      __pyx_t_4 = PyDict_New(); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1615, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_converter, __pyx_n_s_date2num); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1614, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_converter, __pyx_n_s_date2num); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1615, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_7 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
@@ -28406,13 +28460,13 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
         }
       }
       if (!__pyx_t_7) {
-        __pyx_t_5 = __Pyx_PyObject_CallOneArg(__pyx_t_6, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1614, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_CallOneArg(__pyx_t_6, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1615, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
       } else {
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_6)) {
           PyObject *__pyx_temp[2] = {__pyx_t_7, ((PyObject *)__pyx_v_dt)};
-          __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_6, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1614, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_6, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1615, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           __Pyx_GOTREF(__pyx_t_5);
         } else
@@ -28420,25 +28474,25 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_6)) {
           PyObject *__pyx_temp[2] = {__pyx_t_7, ((PyObject *)__pyx_v_dt)};
-          __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_6, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1614, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_6, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1615, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           __Pyx_GOTREF(__pyx_t_5);
         } else
         #endif
         {
-          __pyx_t_8 = PyTuple_New(1+1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1614, __pyx_L1_error)
+          __pyx_t_8 = PyTuple_New(1+1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1615, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_8);
           __Pyx_GIVEREF(__pyx_t_7); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_7); __pyx_t_7 = NULL;
           __Pyx_INCREF(((PyObject *)__pyx_v_dt));
           __Pyx_GIVEREF(((PyObject *)__pyx_v_dt));
           PyTuple_SET_ITEM(__pyx_t_8, 0+1, ((PyObject *)__pyx_v_dt));
-          __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_t_8, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1614, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_t_8, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1615, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_5);
           __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         }
       }
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_converter, __pyx_n_s_date2num); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1614, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_converter, __pyx_n_s_date2num); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1615, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __pyx_t_7 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
@@ -28451,13 +28505,13 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
         }
       }
       if (!__pyx_t_7) {
-        __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_v_other); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1614, __pyx_L1_error)
+        __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_v_other); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1615, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
       } else {
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_8)) {
           PyObject *__pyx_temp[2] = {__pyx_t_7, __pyx_v_other};
-          __pyx_t_6 = __Pyx_PyFunction_FastCall(__pyx_t_8, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1614, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyFunction_FastCall(__pyx_t_8, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1615, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           __Pyx_GOTREF(__pyx_t_6);
         } else
@@ -28465,31 +28519,31 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_8)) {
           PyObject *__pyx_temp[2] = {__pyx_t_7, __pyx_v_other};
-          __pyx_t_6 = __Pyx_PyCFunction_FastCall(__pyx_t_8, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1614, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyCFunction_FastCall(__pyx_t_8, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1615, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           __Pyx_GOTREF(__pyx_t_6);
         } else
         #endif
         {
-          __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1614, __pyx_L1_error)
+          __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1615, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_9);
           __Pyx_GIVEREF(__pyx_t_7); PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_7); __pyx_t_7 = NULL;
           __Pyx_INCREF(__pyx_v_other);
           __Pyx_GIVEREF(__pyx_v_other);
           PyTuple_SET_ITEM(__pyx_t_9, 0+1, __pyx_v_other);
-          __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_8, __pyx_t_9, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1614, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_8, __pyx_t_9, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1615, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         }
       }
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __pyx_t_8 = PyNumber_Subtract(__pyx_t_5, __pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1614, __pyx_L1_error)
+      __pyx_t_8 = PyNumber_Subtract(__pyx_t_5, __pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1615, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_seconds, __pyx_t_8) < 0) __PYX_ERR(0, 1614, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_seconds, __pyx_t_8) < 0) __PYX_ERR(0, 1615, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_4); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1614, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_4); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1615, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -28497,7 +28551,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
       __pyx_t_8 = 0;
       goto __pyx_L0;
 
-      /* "netcdftime/_netcdftime.pyx":1607
+      /* "netcdftime/_netcdftime.pyx":1608
  *         if isinstance(self, datetime): # left arg is a datetime instance
  *             dt = self
  *             if isinstance(other, datetime):             # <<<<<<<<<<<<<<
@@ -28506,21 +28560,21 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  */
     }
 
-    /* "netcdftime/_netcdftime.pyx":1615
+    /* "netcdftime/_netcdftime.pyx":1616
  *                 converter = _converters[dt.calendar]
  *                 return timedelta(seconds=converter.date2num(dt) - converter.date2num(other))
  *             elif isinstance(other, real_datetime):             # <<<<<<<<<<<<<<
  *                 # datetime - real_datetime
  *                 if not dt.datetime_compatible:
  */
-    __pyx_t_8 = __Pyx_GetModuleGlobalName(__pyx_n_s_real_datetime); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1615, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_GetModuleGlobalName(__pyx_n_s_real_datetime); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1616, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_2 = PyObject_IsInstance(__pyx_v_other, __pyx_t_8); if (unlikely(__pyx_t_2 == -1)) __PYX_ERR(0, 1615, __pyx_L1_error)
+    __pyx_t_2 = PyObject_IsInstance(__pyx_v_other, __pyx_t_8); if (unlikely(__pyx_t_2 == -1)) __PYX_ERR(0, 1616, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __pyx_t_1 = (__pyx_t_2 != 0);
     if (__pyx_t_1) {
 
-      /* "netcdftime/_netcdftime.pyx":1617
+      /* "netcdftime/_netcdftime.pyx":1618
  *             elif isinstance(other, real_datetime):
  *                 # datetime - real_datetime
  *                 if not dt.datetime_compatible:             # <<<<<<<<<<<<<<
@@ -28530,20 +28584,20 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
       __pyx_t_1 = ((!(__pyx_v_dt->datetime_compatible != 0)) != 0);
       if (__pyx_t_1) {
 
-        /* "netcdftime/_netcdftime.pyx":1618
+        /* "netcdftime/_netcdftime.pyx":1619
  *                 # datetime - real_datetime
  *                 if not dt.datetime_compatible:
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")             # <<<<<<<<<<<<<<
  *                 return dt._to_real_datetime() - other
  *             elif isinstance(other, timedelta):
  */
-        __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__32, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1618, __pyx_L1_error)
+        __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__32, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1619, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_8);
         __Pyx_Raise(__pyx_t_8, 0, 0, 0);
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-        __PYX_ERR(0, 1618, __pyx_L1_error)
+        __PYX_ERR(0, 1619, __pyx_L1_error)
 
-        /* "netcdftime/_netcdftime.pyx":1617
+        /* "netcdftime/_netcdftime.pyx":1618
  *             elif isinstance(other, real_datetime):
  *                 # datetime - real_datetime
  *                 if not dt.datetime_compatible:             # <<<<<<<<<<<<<<
@@ -28552,7 +28606,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  */
       }
 
-      /* "netcdftime/_netcdftime.pyx":1619
+      /* "netcdftime/_netcdftime.pyx":1620
  *                 if not dt.datetime_compatible:
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")
  *                 return dt._to_real_datetime() - other             # <<<<<<<<<<<<<<
@@ -28560,16 +28614,16 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  *                 # datetime - timedelta
  */
       __Pyx_XDECREF(__pyx_r);
-      __pyx_t_8 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_dt->__pyx_vtab)->_to_real_datetime(__pyx_v_dt, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1619, __pyx_L1_error)
+      __pyx_t_8 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_dt->__pyx_vtab)->_to_real_datetime(__pyx_v_dt, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1620, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_4 = PyNumber_Subtract(__pyx_t_8, __pyx_v_other); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1619, __pyx_L1_error)
+      __pyx_t_4 = PyNumber_Subtract(__pyx_t_8, __pyx_v_other); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1620, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __pyx_r = __pyx_t_4;
       __pyx_t_4 = 0;
       goto __pyx_L0;
 
-      /* "netcdftime/_netcdftime.pyx":1615
+      /* "netcdftime/_netcdftime.pyx":1616
  *                 converter = _converters[dt.calendar]
  *                 return timedelta(seconds=converter.date2num(dt) - converter.date2num(other))
  *             elif isinstance(other, real_datetime):             # <<<<<<<<<<<<<<
@@ -28578,21 +28632,21 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  */
     }
 
-    /* "netcdftime/_netcdftime.pyx":1620
+    /* "netcdftime/_netcdftime.pyx":1621
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")
  *                 return dt._to_real_datetime() - other
  *             elif isinstance(other, timedelta):             # <<<<<<<<<<<<<<
  *                 # datetime - timedelta
  *                 return dt._add_timedelta(-other)
  */
-    __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_timedelta); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1620, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_timedelta); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1621, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_1 = PyObject_IsInstance(__pyx_v_other, __pyx_t_4); if (unlikely(__pyx_t_1 == -1)) __PYX_ERR(0, 1620, __pyx_L1_error)
+    __pyx_t_1 = PyObject_IsInstance(__pyx_v_other, __pyx_t_4); if (unlikely(__pyx_t_1 == -1)) __PYX_ERR(0, 1621, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_2 = (__pyx_t_1 != 0);
     if (__pyx_t_2) {
 
-      /* "netcdftime/_netcdftime.pyx":1622
+      /* "netcdftime/_netcdftime.pyx":1623
  *             elif isinstance(other, timedelta):
  *                 # datetime - timedelta
  *                 return dt._add_timedelta(-other)             # <<<<<<<<<<<<<<
@@ -28600,16 +28654,16 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  *                 return NotImplemented
  */
       __Pyx_XDECREF(__pyx_r);
-      __pyx_t_4 = PyNumber_Negative(__pyx_v_other); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1622, __pyx_L1_error)
+      __pyx_t_4 = PyNumber_Negative(__pyx_v_other); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1623, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_8 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_dt->__pyx_vtab)->_add_timedelta(__pyx_v_dt, __pyx_t_4); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1622, __pyx_L1_error)
+      __pyx_t_8 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_datetime *)__pyx_v_dt->__pyx_vtab)->_add_timedelta(__pyx_v_dt, __pyx_t_4); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1623, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __pyx_r = __pyx_t_8;
       __pyx_t_8 = 0;
       goto __pyx_L0;
 
-      /* "netcdftime/_netcdftime.pyx":1620
+      /* "netcdftime/_netcdftime.pyx":1621
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")
  *                 return dt._to_real_datetime() - other
  *             elif isinstance(other, timedelta):             # <<<<<<<<<<<<<<
@@ -28618,7 +28672,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  */
     }
 
-    /* "netcdftime/_netcdftime.pyx":1624
+    /* "netcdftime/_netcdftime.pyx":1625
  *                 return dt._add_timedelta(-other)
  *             else:
  *                 return NotImplemented             # <<<<<<<<<<<<<<
@@ -28632,7 +28686,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
       goto __pyx_L0;
     }
 
-    /* "netcdftime/_netcdftime.pyx":1605
+    /* "netcdftime/_netcdftime.pyx":1606
  *     def __sub__(self, other):
  *         cdef datetime dt
  *         if isinstance(self, datetime): # left arg is a datetime instance             # <<<<<<<<<<<<<<
@@ -28641,7 +28695,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  */
   }
 
-  /* "netcdftime/_netcdftime.pyx":1626
+  /* "netcdftime/_netcdftime.pyx":1627
  *                 return NotImplemented
  *         else:
  *             if isinstance(self, real_datetime):             # <<<<<<<<<<<<<<
@@ -28649,41 +28703,41 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  *                 if not other.datetime_compatible:
  */
   /*else*/ {
-    __pyx_t_8 = __Pyx_GetModuleGlobalName(__pyx_n_s_real_datetime); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1626, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_GetModuleGlobalName(__pyx_n_s_real_datetime); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1627, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_2 = PyObject_IsInstance(__pyx_v_self, __pyx_t_8); if (unlikely(__pyx_t_2 == -1)) __PYX_ERR(0, 1626, __pyx_L1_error)
+    __pyx_t_2 = PyObject_IsInstance(__pyx_v_self, __pyx_t_8); if (unlikely(__pyx_t_2 == -1)) __PYX_ERR(0, 1627, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __pyx_t_1 = (__pyx_t_2 != 0);
     if (__pyx_t_1) {
 
-      /* "netcdftime/_netcdftime.pyx":1628
+      /* "netcdftime/_netcdftime.pyx":1629
  *             if isinstance(self, real_datetime):
  *                 # real_datetime - datetime
  *                 if not other.datetime_compatible:             # <<<<<<<<<<<<<<
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")
  *                 return self - other._to_real_datetime()
  */
-      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_other, __pyx_n_s_datetime_compatible); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1628, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_other, __pyx_n_s_datetime_compatible); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1629, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_8); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 1628, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_8); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 1629, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __pyx_t_2 = ((!__pyx_t_1) != 0);
       if (__pyx_t_2) {
 
-        /* "netcdftime/_netcdftime.pyx":1629
+        /* "netcdftime/_netcdftime.pyx":1630
  *                 # real_datetime - datetime
  *                 if not other.datetime_compatible:
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")             # <<<<<<<<<<<<<<
  *                 return self - other._to_real_datetime()
  *             else:
  */
-        __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__33, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1629, __pyx_L1_error)
+        __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__33, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1630, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_8);
         __Pyx_Raise(__pyx_t_8, 0, 0, 0);
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-        __PYX_ERR(0, 1629, __pyx_L1_error)
+        __PYX_ERR(0, 1630, __pyx_L1_error)
 
-        /* "netcdftime/_netcdftime.pyx":1628
+        /* "netcdftime/_netcdftime.pyx":1629
  *             if isinstance(self, real_datetime):
  *                 # real_datetime - datetime
  *                 if not other.datetime_compatible:             # <<<<<<<<<<<<<<
@@ -28692,7 +28746,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  */
       }
 
-      /* "netcdftime/_netcdftime.pyx":1630
+      /* "netcdftime/_netcdftime.pyx":1631
  *                 if not other.datetime_compatible:
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")
  *                 return self - other._to_real_datetime()             # <<<<<<<<<<<<<<
@@ -28700,7 +28754,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  *                 return NotImplemented
  */
       __Pyx_XDECREF(__pyx_r);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_other, __pyx_n_s_to_real_datetime); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1630, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_other, __pyx_n_s_to_real_datetime); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1631, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_3 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
@@ -28713,21 +28767,21 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
         }
       }
       if (__pyx_t_3) {
-        __pyx_t_8 = __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1630, __pyx_L1_error)
+        __pyx_t_8 = __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1631, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       } else {
-        __pyx_t_8 = __Pyx_PyObject_CallNoArg(__pyx_t_4); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1630, __pyx_L1_error)
+        __pyx_t_8 = __Pyx_PyObject_CallNoArg(__pyx_t_4); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1631, __pyx_L1_error)
       }
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = PyNumber_Subtract(__pyx_v_self, __pyx_t_8); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1630, __pyx_L1_error)
+      __pyx_t_4 = PyNumber_Subtract(__pyx_v_self, __pyx_t_8); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1631, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __pyx_r = __pyx_t_4;
       __pyx_t_4 = 0;
       goto __pyx_L0;
 
-      /* "netcdftime/_netcdftime.pyx":1626
+      /* "netcdftime/_netcdftime.pyx":1627
  *                 return NotImplemented
  *         else:
  *             if isinstance(self, real_datetime):             # <<<<<<<<<<<<<<
@@ -28736,7 +28790,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
  */
     }
 
-    /* "netcdftime/_netcdftime.pyx":1632
+    /* "netcdftime/_netcdftime.pyx":1633
  *                 return self - other._to_real_datetime()
  *             else:
  *                 return NotImplemented             # <<<<<<<<<<<<<<
@@ -28751,7 +28805,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_22__sub__(PyObjec
     }
   }
 
-  /* "netcdftime/_netcdftime.pyx":1603
+  /* "netcdftime/_netcdftime.pyx":1604
  *         return dt._add_timedelta(delta)
  * 
  *     def __sub__(self, other):             # <<<<<<<<<<<<<<
@@ -29199,7 +29253,7 @@ static PyObject *__pyx_pf_10netcdftime_11_netcdftime_8datetime_19datetime_compat
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1639
+/* "netcdftime/_netcdftime.pyx":1640
  * but uses the "noleap" ("365_day") calendar.
  *     """
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -29241,30 +29295,30 @@ static int __pyx_pf_10netcdftime_11_netcdftime_14DatetimeNoLeap___init__(struct 
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1640
+  /* "netcdftime/_netcdftime.pyx":1641
  *     """
  *     def __init__(self, *args, **kwargs):
  *         datetime.__init__(self, *args, **kwargs)             # <<<<<<<<<<<<<<
  *         self.calendar = "noleap"
  *         self.datetime_compatible = False
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_datetime), __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1640, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_datetime), __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1641, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1640, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1641, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_v_self));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self));
   PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_v_self));
-  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1640, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1641, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1640, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1641, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1641
+  /* "netcdftime/_netcdftime.pyx":1642
  *     def __init__(self, *args, **kwargs):
  *         datetime.__init__(self, *args, **kwargs)
  *         self.calendar = "noleap"             # <<<<<<<<<<<<<<
@@ -29277,7 +29331,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_14DatetimeNoLeap___init__(struct 
   __Pyx_DECREF(__pyx_v_self->__pyx_base.calendar);
   __pyx_v_self->__pyx_base.calendar = __pyx_n_s_noleap;
 
-  /* "netcdftime/_netcdftime.pyx":1642
+  /* "netcdftime/_netcdftime.pyx":1643
  *         datetime.__init__(self, *args, **kwargs)
  *         self.calendar = "noleap"
  *         self.datetime_compatible = False             # <<<<<<<<<<<<<<
@@ -29286,16 +29340,16 @@ static int __pyx_pf_10netcdftime_11_netcdftime_14DatetimeNoLeap___init__(struct 
  */
   __pyx_v_self->__pyx_base.datetime_compatible = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1643
+  /* "netcdftime/_netcdftime.pyx":1644
  *         self.calendar = "noleap"
  *         self.datetime_compatible = False
  *         assert_valid_date(self, no_leap, False)             # <<<<<<<<<<<<<<
  * 
  *     cdef _add_timedelta(self, delta):
  */
-  __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_f_10netcdftime_11_netcdftime_no_leap, 0, NULL); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1643, __pyx_L1_error)
+  __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_f_10netcdftime_11_netcdftime_no_leap, 0, NULL); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1644, __pyx_L1_error)
 
-  /* "netcdftime/_netcdftime.pyx":1639
+  /* "netcdftime/_netcdftime.pyx":1640
  * but uses the "noleap" ("365_day") calendar.
  *     """
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -29317,7 +29371,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_14DatetimeNoLeap___init__(struct 
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1645
+/* "netcdftime/_netcdftime.pyx":1646
  *         assert_valid_date(self, no_leap, False)
  * 
  *     cdef _add_timedelta(self, delta):             # <<<<<<<<<<<<<<
@@ -29332,7 +29386,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_14DatetimeNoLeap__add_timede
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("_add_timedelta", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1646
+  /* "netcdftime/_netcdftime.pyx":1647
  * 
  *     cdef _add_timedelta(self, delta):
  *         return DatetimeNoLeap(*add_timedelta(self, delta, no_leap, False))             # <<<<<<<<<<<<<<
@@ -29340,20 +29394,20 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_14DatetimeNoLeap__add_timede
  * cdef class DatetimeAllLeap(datetime):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_10netcdftime_11_netcdftime_add_timedelta(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_v_delta, __pyx_f_10netcdftime_11_netcdftime_no_leap, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1646, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_10netcdftime_11_netcdftime_add_timedelta(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_v_delta, __pyx_f_10netcdftime_11_netcdftime_no_leap, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1647, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (unlikely(__pyx_t_1 == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-    __PYX_ERR(0, 1646, __pyx_L1_error)
+    __PYX_ERR(0, 1647, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_DatetimeNoLeap), __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1646, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_DatetimeNoLeap), __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1647, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1645
+  /* "netcdftime/_netcdftime.pyx":1646
  *         assert_valid_date(self, no_leap, False)
  * 
  *     cdef _add_timedelta(self, delta):             # <<<<<<<<<<<<<<
@@ -29373,7 +29427,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_14DatetimeNoLeap__add_timede
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1653
+/* "netcdftime/_netcdftime.pyx":1654
  * but uses the "all_leap" ("366_day") calendar.
  *     """
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -29415,30 +29469,30 @@ static int __pyx_pf_10netcdftime_11_netcdftime_15DatetimeAllLeap___init__(struct
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1654
+  /* "netcdftime/_netcdftime.pyx":1655
  *     """
  *     def __init__(self, *args, **kwargs):
  *         datetime.__init__(self, *args, **kwargs)             # <<<<<<<<<<<<<<
  *         self.calendar = "all_leap"
  *         self.datetime_compatible = False
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_datetime), __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1654, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_datetime), __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1655, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1654, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1655, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_v_self));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self));
   PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_v_self));
-  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1654, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1655, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1654, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1655, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1655
+  /* "netcdftime/_netcdftime.pyx":1656
  *     def __init__(self, *args, **kwargs):
  *         datetime.__init__(self, *args, **kwargs)
  *         self.calendar = "all_leap"             # <<<<<<<<<<<<<<
@@ -29451,7 +29505,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_15DatetimeAllLeap___init__(struct
   __Pyx_DECREF(__pyx_v_self->__pyx_base.calendar);
   __pyx_v_self->__pyx_base.calendar = __pyx_n_s_all_leap;
 
-  /* "netcdftime/_netcdftime.pyx":1656
+  /* "netcdftime/_netcdftime.pyx":1657
  *         datetime.__init__(self, *args, **kwargs)
  *         self.calendar = "all_leap"
  *         self.datetime_compatible = False             # <<<<<<<<<<<<<<
@@ -29460,16 +29514,16 @@ static int __pyx_pf_10netcdftime_11_netcdftime_15DatetimeAllLeap___init__(struct
  */
   __pyx_v_self->__pyx_base.datetime_compatible = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1657
+  /* "netcdftime/_netcdftime.pyx":1658
  *         self.calendar = "all_leap"
  *         self.datetime_compatible = False
  *         assert_valid_date(self, all_leap, False)             # <<<<<<<<<<<<<<
  * 
  *     cdef _add_timedelta(self, delta):
  */
-  __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_f_10netcdftime_11_netcdftime_all_leap, 0, NULL); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1657, __pyx_L1_error)
+  __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_f_10netcdftime_11_netcdftime_all_leap, 0, NULL); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1658, __pyx_L1_error)
 
-  /* "netcdftime/_netcdftime.pyx":1653
+  /* "netcdftime/_netcdftime.pyx":1654
  * but uses the "all_leap" ("366_day") calendar.
  *     """
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -29491,7 +29545,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_15DatetimeAllLeap___init__(struct
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1659
+/* "netcdftime/_netcdftime.pyx":1660
  *         assert_valid_date(self, all_leap, False)
  * 
  *     cdef _add_timedelta(self, delta):             # <<<<<<<<<<<<<<
@@ -29506,7 +29560,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_15DatetimeAllLeap__add_timed
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("_add_timedelta", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1660
+  /* "netcdftime/_netcdftime.pyx":1661
  * 
  *     cdef _add_timedelta(self, delta):
  *         return DatetimeAllLeap(*add_timedelta(self, delta, all_leap, False))             # <<<<<<<<<<<<<<
@@ -29514,20 +29568,20 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_15DatetimeAllLeap__add_timed
  * cdef class Datetime360Day(datetime):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_10netcdftime_11_netcdftime_add_timedelta(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_v_delta, __pyx_f_10netcdftime_11_netcdftime_all_leap, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1660, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_10netcdftime_11_netcdftime_add_timedelta(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_v_delta, __pyx_f_10netcdftime_11_netcdftime_all_leap, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1661, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (unlikely(__pyx_t_1 == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-    __PYX_ERR(0, 1660, __pyx_L1_error)
+    __PYX_ERR(0, 1661, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_DatetimeAllLeap), __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1660, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_DatetimeAllLeap), __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1661, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1659
+  /* "netcdftime/_netcdftime.pyx":1660
  *         assert_valid_date(self, all_leap, False)
  * 
  *     cdef _add_timedelta(self, delta):             # <<<<<<<<<<<<<<
@@ -29547,7 +29601,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_15DatetimeAllLeap__add_timed
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1667
+/* "netcdftime/_netcdftime.pyx":1668
  * but uses the "360_day" calendar.
  *     """
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -29590,30 +29644,30 @@ static int __pyx_pf_10netcdftime_11_netcdftime_14Datetime360Day___init__(struct 
   struct __pyx_opt_args_10netcdftime_11_netcdftime_assert_valid_date __pyx_t_4;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1668
+  /* "netcdftime/_netcdftime.pyx":1669
  *     """
  *     def __init__(self, *args, **kwargs):
  *         datetime.__init__(self, *args, **kwargs)             # <<<<<<<<<<<<<<
  *         self.calendar = "360_day"
  *         self.datetime_compatible = False
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_datetime), __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1668, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_datetime), __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1669, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1668, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1669, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_v_self));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self));
   PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_v_self));
-  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1668, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1669, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1668, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1669, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1669
+  /* "netcdftime/_netcdftime.pyx":1670
  *     def __init__(self, *args, **kwargs):
  *         datetime.__init__(self, *args, **kwargs)
  *         self.calendar = "360_day"             # <<<<<<<<<<<<<<
@@ -29626,7 +29680,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_14Datetime360Day___init__(struct 
   __Pyx_DECREF(__pyx_v_self->__pyx_base.calendar);
   __pyx_v_self->__pyx_base.calendar = __pyx_kp_s_360_day;
 
-  /* "netcdftime/_netcdftime.pyx":1670
+  /* "netcdftime/_netcdftime.pyx":1671
  *         datetime.__init__(self, *args, **kwargs)
  *         self.calendar = "360_day"
  *         self.datetime_compatible = False             # <<<<<<<<<<<<<<
@@ -29635,7 +29689,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_14Datetime360Day___init__(struct 
  */
   __pyx_v_self->__pyx_base.datetime_compatible = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1671
+  /* "netcdftime/_netcdftime.pyx":1672
  *         self.calendar = "360_day"
  *         self.datetime_compatible = False
  *         assert_valid_date(self, no_leap, False, is_360_day=True)             # <<<<<<<<<<<<<<
@@ -29644,9 +29698,9 @@ static int __pyx_pf_10netcdftime_11_netcdftime_14Datetime360Day___init__(struct 
  */
   __pyx_t_4.__pyx_n = 1;
   __pyx_t_4.is_360_day = 1;
-  __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_f_10netcdftime_11_netcdftime_no_leap, 0, &__pyx_t_4); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1671, __pyx_L1_error)
+  __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_f_10netcdftime_11_netcdftime_no_leap, 0, &__pyx_t_4); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1672, __pyx_L1_error)
 
-  /* "netcdftime/_netcdftime.pyx":1667
+  /* "netcdftime/_netcdftime.pyx":1668
  * but uses the "360_day" calendar.
  *     """
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -29668,7 +29722,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_14Datetime360Day___init__(struct 
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1673
+/* "netcdftime/_netcdftime.pyx":1674
  *         assert_valid_date(self, no_leap, False, is_360_day=True)
  * 
  *     cdef _add_timedelta(self, delta):             # <<<<<<<<<<<<<<
@@ -29683,7 +29737,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_14Datetime360Day__add_timede
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("_add_timedelta", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1674
+  /* "netcdftime/_netcdftime.pyx":1675
  * 
  *     cdef _add_timedelta(self, delta):
  *         return Datetime360Day(*add_timedelta_360_day(self, delta))             # <<<<<<<<<<<<<<
@@ -29691,20 +29745,20 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_14Datetime360Day__add_timede
  * cdef class DatetimeJulian(datetime):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_v_delta); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1674, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_v_delta); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1675, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (unlikely(__pyx_t_1 == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-    __PYX_ERR(0, 1674, __pyx_L1_error)
+    __PYX_ERR(0, 1675, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_Datetime360Day), __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1674, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_Datetime360Day), __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1675, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1673
+  /* "netcdftime/_netcdftime.pyx":1674
  *         assert_valid_date(self, no_leap, False, is_360_day=True)
  * 
  *     cdef _add_timedelta(self, delta):             # <<<<<<<<<<<<<<
@@ -29724,7 +29778,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_14Datetime360Day__add_timede
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1681
+/* "netcdftime/_netcdftime.pyx":1682
  * but uses the "julian" calendar.
  *     """
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -29766,30 +29820,30 @@ static int __pyx_pf_10netcdftime_11_netcdftime_14DatetimeJulian___init__(struct 
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1682
+  /* "netcdftime/_netcdftime.pyx":1683
  *     """
  *     def __init__(self, *args, **kwargs):
  *         datetime.__init__(self, *args, **kwargs)             # <<<<<<<<<<<<<<
  *         self.calendar = "julian"
  *         self.datetime_compatible = False
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_datetime), __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1682, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_datetime), __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1683, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1682, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1683, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_v_self));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self));
   PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_v_self));
-  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1682, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1683, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1682, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1683, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1683
+  /* "netcdftime/_netcdftime.pyx":1684
  *     def __init__(self, *args, **kwargs):
  *         datetime.__init__(self, *args, **kwargs)
  *         self.calendar = "julian"             # <<<<<<<<<<<<<<
@@ -29802,7 +29856,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_14DatetimeJulian___init__(struct 
   __Pyx_DECREF(__pyx_v_self->__pyx_base.calendar);
   __pyx_v_self->__pyx_base.calendar = __pyx_n_s_julian;
 
-  /* "netcdftime/_netcdftime.pyx":1684
+  /* "netcdftime/_netcdftime.pyx":1685
  *         datetime.__init__(self, *args, **kwargs)
  *         self.calendar = "julian"
  *         self.datetime_compatible = False             # <<<<<<<<<<<<<<
@@ -29811,16 +29865,16 @@ static int __pyx_pf_10netcdftime_11_netcdftime_14DatetimeJulian___init__(struct 
  */
   __pyx_v_self->__pyx_base.datetime_compatible = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1685
+  /* "netcdftime/_netcdftime.pyx":1686
  *         self.calendar = "julian"
  *         self.datetime_compatible = False
  *         assert_valid_date(self, is_leap_julian, False)             # <<<<<<<<<<<<<<
  * 
  *     cdef _add_timedelta(self, delta):
  */
-  __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_f_10netcdftime_11_netcdftime_is_leap_julian, 0, NULL); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1685, __pyx_L1_error)
+  __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_f_10netcdftime_11_netcdftime_is_leap_julian, 0, NULL); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1686, __pyx_L1_error)
 
-  /* "netcdftime/_netcdftime.pyx":1681
+  /* "netcdftime/_netcdftime.pyx":1682
  * but uses the "julian" calendar.
  *     """
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -29842,7 +29896,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_14DatetimeJulian___init__(struct 
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1687
+/* "netcdftime/_netcdftime.pyx":1688
  *         assert_valid_date(self, is_leap_julian, False)
  * 
  *     cdef _add_timedelta(self, delta):             # <<<<<<<<<<<<<<
@@ -29857,7 +29911,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_14DatetimeJulian__add_timede
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("_add_timedelta", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1688
+  /* "netcdftime/_netcdftime.pyx":1689
  * 
  *     cdef _add_timedelta(self, delta):
  *         return DatetimeJulian(*add_timedelta(self, delta, is_leap_julian, False))             # <<<<<<<<<<<<<<
@@ -29865,20 +29919,20 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_14DatetimeJulian__add_timede
  * cdef class DatetimeGregorian(datetime):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_10netcdftime_11_netcdftime_add_timedelta(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_v_delta, __pyx_f_10netcdftime_11_netcdftime_is_leap_julian, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1688, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_10netcdftime_11_netcdftime_add_timedelta(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_v_delta, __pyx_f_10netcdftime_11_netcdftime_is_leap_julian, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1689, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (unlikely(__pyx_t_1 == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-    __PYX_ERR(0, 1688, __pyx_L1_error)
+    __PYX_ERR(0, 1689, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_DatetimeJulian), __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1688, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_DatetimeJulian), __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1689, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1687
+  /* "netcdftime/_netcdftime.pyx":1688
  *         assert_valid_date(self, is_leap_julian, False)
  * 
  *     cdef _add_timedelta(self, delta):             # <<<<<<<<<<<<<<
@@ -29898,7 +29952,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_14DatetimeJulian__add_timede
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1703
+/* "netcdftime/_netcdftime.pyx":1704
  * a datetime.datetime instance or vice versa.
  *     """
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -29941,30 +29995,30 @@ static int __pyx_pf_10netcdftime_11_netcdftime_17DatetimeGregorian___init__(stru
   int __pyx_t_4;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1704
+  /* "netcdftime/_netcdftime.pyx":1705
  *     """
  *     def __init__(self, *args, **kwargs):
  *         datetime.__init__(self, *args, **kwargs)             # <<<<<<<<<<<<<<
  *         self.calendar = "gregorian"
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_datetime), __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1704, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_datetime), __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1705, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1704, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1705, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_v_self));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self));
   PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_v_self));
-  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1704, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1705, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1704, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1705, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1705
+  /* "netcdftime/_netcdftime.pyx":1706
  *     def __init__(self, *args, **kwargs):
  *         datetime.__init__(self, *args, **kwargs)
  *         self.calendar = "gregorian"             # <<<<<<<<<<<<<<
@@ -29977,22 +30031,22 @@ static int __pyx_pf_10netcdftime_11_netcdftime_17DatetimeGregorian___init__(stru
   __Pyx_DECREF(__pyx_v_self->__pyx_base.calendar);
   __pyx_v_self->__pyx_base.calendar = __pyx_n_s_gregorian;
 
-  /* "netcdftime/_netcdftime.pyx":1709
+  /* "netcdftime/_netcdftime.pyx":1710
  *         # dates after 1582-10-15 can be converted to and compared to
  *         # proleptic Gregorian dates
  *         if self.to_tuple() >= (1582, 10, 15, 0, 0, 0, 0):             # <<<<<<<<<<<<<<
  *             self.datetime_compatible = True
  *         else:
  */
-  __pyx_t_2 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_DatetimeGregorian *)__pyx_v_self->__pyx_base.__pyx_vtab)->__pyx_base.to_tuple(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1709, __pyx_L1_error)
+  __pyx_t_2 = ((struct __pyx_vtabstruct_10netcdftime_11_netcdftime_DatetimeGregorian *)__pyx_v_self->__pyx_base.__pyx_vtab)->__pyx_base.to_tuple(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1710, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_2, __pyx_tuple__34, Py_GE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1709, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_2, __pyx_tuple__34, Py_GE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1710, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 1709, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 1710, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_4) {
 
-    /* "netcdftime/_netcdftime.pyx":1710
+    /* "netcdftime/_netcdftime.pyx":1711
  *         # proleptic Gregorian dates
  *         if self.to_tuple() >= (1582, 10, 15, 0, 0, 0, 0):
  *             self.datetime_compatible = True             # <<<<<<<<<<<<<<
@@ -30001,7 +30055,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_17DatetimeGregorian___init__(stru
  */
     __pyx_v_self->__pyx_base.datetime_compatible = 1;
 
-    /* "netcdftime/_netcdftime.pyx":1709
+    /* "netcdftime/_netcdftime.pyx":1710
  *         # dates after 1582-10-15 can be converted to and compared to
  *         # proleptic Gregorian dates
  *         if self.to_tuple() >= (1582, 10, 15, 0, 0, 0, 0):             # <<<<<<<<<<<<<<
@@ -30011,7 +30065,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_17DatetimeGregorian___init__(stru
     goto __pyx_L3;
   }
 
-  /* "netcdftime/_netcdftime.pyx":1712
+  /* "netcdftime/_netcdftime.pyx":1713
  *             self.datetime_compatible = True
  *         else:
  *             self.datetime_compatible = False             # <<<<<<<<<<<<<<
@@ -30023,16 +30077,16 @@ static int __pyx_pf_10netcdftime_11_netcdftime_17DatetimeGregorian___init__(stru
   }
   __pyx_L3:;
 
-  /* "netcdftime/_netcdftime.pyx":1713
+  /* "netcdftime/_netcdftime.pyx":1714
  *         else:
  *             self.datetime_compatible = False
  *         assert_valid_date(self, is_leap_gregorian, True)             # <<<<<<<<<<<<<<
  * 
  *     cdef _add_timedelta(self, delta):
  */
-  __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_f_10netcdftime_11_netcdftime_is_leap_gregorian, 1, NULL); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1713, __pyx_L1_error)
+  __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_f_10netcdftime_11_netcdftime_is_leap_gregorian, 1, NULL); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1714, __pyx_L1_error)
 
-  /* "netcdftime/_netcdftime.pyx":1703
+  /* "netcdftime/_netcdftime.pyx":1704
  * a datetime.datetime instance or vice versa.
  *     """
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -30054,7 +30108,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_17DatetimeGregorian___init__(stru
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1715
+/* "netcdftime/_netcdftime.pyx":1716
  *         assert_valid_date(self, is_leap_gregorian, True)
  * 
  *     cdef _add_timedelta(self, delta):             # <<<<<<<<<<<<<<
@@ -30069,7 +30123,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_17DatetimeGregorian__add_tim
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("_add_timedelta", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1716
+  /* "netcdftime/_netcdftime.pyx":1717
  * 
  *     cdef _add_timedelta(self, delta):
  *         return DatetimeGregorian(*add_timedelta(self, delta, is_leap_gregorian, True))             # <<<<<<<<<<<<<<
@@ -30077,20 +30131,20 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_17DatetimeGregorian__add_tim
  * cdef class DatetimeProlepticGregorian(datetime):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_10netcdftime_11_netcdftime_add_timedelta(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_v_delta, __pyx_f_10netcdftime_11_netcdftime_is_leap_gregorian, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1716, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_10netcdftime_11_netcdftime_add_timedelta(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_v_delta, __pyx_f_10netcdftime_11_netcdftime_is_leap_gregorian, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1717, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (unlikely(__pyx_t_1 == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-    __PYX_ERR(0, 1716, __pyx_L1_error)
+    __PYX_ERR(0, 1717, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_DatetimeGregorian), __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1716, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_DatetimeGregorian), __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1717, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1715
+  /* "netcdftime/_netcdftime.pyx":1716
  *         assert_valid_date(self, is_leap_gregorian, True)
  * 
  *     cdef _add_timedelta(self, delta):             # <<<<<<<<<<<<<<
@@ -30110,7 +30164,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_17DatetimeGregorian__add_tim
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1735
+/* "netcdftime/_netcdftime.pyx":1736
  * format, and calendar.
  *     """
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -30152,30 +30206,30 @@ static int __pyx_pf_10netcdftime_11_netcdftime_26DatetimeProlepticGregorian___in
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1736
+  /* "netcdftime/_netcdftime.pyx":1737
  *     """
  *     def __init__(self, *args, **kwargs):
  *         datetime.__init__(self, *args, **kwargs)             # <<<<<<<<<<<<<<
  *         self.calendar = "proleptic_gregorian"
  *         self.datetime_compatible = True
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_datetime), __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1736, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_datetime), __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1737, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1736, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1737, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_v_self));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self));
   PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_v_self));
-  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1736, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1737, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1736, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1737, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1737
+  /* "netcdftime/_netcdftime.pyx":1738
  *     def __init__(self, *args, **kwargs):
  *         datetime.__init__(self, *args, **kwargs)
  *         self.calendar = "proleptic_gregorian"             # <<<<<<<<<<<<<<
@@ -30188,7 +30242,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_26DatetimeProlepticGregorian___in
   __Pyx_DECREF(__pyx_v_self->__pyx_base.calendar);
   __pyx_v_self->__pyx_base.calendar = __pyx_n_s_proleptic_gregorian;
 
-  /* "netcdftime/_netcdftime.pyx":1738
+  /* "netcdftime/_netcdftime.pyx":1739
  *         datetime.__init__(self, *args, **kwargs)
  *         self.calendar = "proleptic_gregorian"
  *         self.datetime_compatible = True             # <<<<<<<<<<<<<<
@@ -30197,16 +30251,16 @@ static int __pyx_pf_10netcdftime_11_netcdftime_26DatetimeProlepticGregorian___in
  */
   __pyx_v_self->__pyx_base.datetime_compatible = 1;
 
-  /* "netcdftime/_netcdftime.pyx":1739
+  /* "netcdftime/_netcdftime.pyx":1740
  *         self.calendar = "proleptic_gregorian"
  *         self.datetime_compatible = True
  *         assert_valid_date(self, is_leap_proleptic_gregorian, False)             # <<<<<<<<<<<<<<
  * 
  *     cdef _add_timedelta(self, delta):
  */
-  __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_f_10netcdftime_11_netcdftime_is_leap_proleptic_gregorian, 0, NULL); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1739, __pyx_L1_error)
+  __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_f_10netcdftime_11_netcdftime_is_leap_proleptic_gregorian, 0, NULL); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1740, __pyx_L1_error)
 
-  /* "netcdftime/_netcdftime.pyx":1735
+  /* "netcdftime/_netcdftime.pyx":1736
  * format, and calendar.
  *     """
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -30228,7 +30282,7 @@ static int __pyx_pf_10netcdftime_11_netcdftime_26DatetimeProlepticGregorian___in
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1741
+/* "netcdftime/_netcdftime.pyx":1742
  *         assert_valid_date(self, is_leap_proleptic_gregorian, False)
  * 
  *     cdef _add_timedelta(self, delta):             # <<<<<<<<<<<<<<
@@ -30243,7 +30297,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_26DatetimeProlepticGregorian
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("_add_timedelta", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1742
+  /* "netcdftime/_netcdftime.pyx":1743
  * 
  *     cdef _add_timedelta(self, delta):
  *         return DatetimeProlepticGregorian(*add_timedelta(self, delta,             # <<<<<<<<<<<<<<
@@ -30252,17 +30306,17 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_26DatetimeProlepticGregorian
  */
   __Pyx_XDECREF(__pyx_r);
 
-  /* "netcdftime/_netcdftime.pyx":1743
+  /* "netcdftime/_netcdftime.pyx":1744
  *     cdef _add_timedelta(self, delta):
  *         return DatetimeProlepticGregorian(*add_timedelta(self, delta,
  *                                                          is_leap_proleptic_gregorian, False))             # <<<<<<<<<<<<<<
  * 
  * _illegal_s = re.compile(r"((^|[^%])(%%)*%s)")
  */
-  __pyx_t_1 = __pyx_f_10netcdftime_11_netcdftime_add_timedelta(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_v_delta, __pyx_f_10netcdftime_11_netcdftime_is_leap_proleptic_gregorian, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1742, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_10netcdftime_11_netcdftime_add_timedelta(((struct __pyx_obj_10netcdftime_11_netcdftime_datetime *)__pyx_v_self), __pyx_v_delta, __pyx_f_10netcdftime_11_netcdftime_is_leap_proleptic_gregorian, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1743, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
 
-  /* "netcdftime/_netcdftime.pyx":1742
+  /* "netcdftime/_netcdftime.pyx":1743
  * 
  *     cdef _add_timedelta(self, delta):
  *         return DatetimeProlepticGregorian(*add_timedelta(self, delta,             # <<<<<<<<<<<<<<
@@ -30271,16 +30325,16 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_26DatetimeProlepticGregorian
  */
   if (unlikely(__pyx_t_1 == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-    __PYX_ERR(0, 1742, __pyx_L1_error)
+    __PYX_ERR(0, 1743, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_DatetimeProlepticGregorian), __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1742, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10netcdftime_11_netcdftime_DatetimeProlepticGregorian), __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1743, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1741
+  /* "netcdftime/_netcdftime.pyx":1742
  *         assert_valid_date(self, is_leap_proleptic_gregorian, False)
  * 
  *     cdef _add_timedelta(self, delta):             # <<<<<<<<<<<<<<
@@ -30300,7 +30354,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_26DatetimeProlepticGregorian
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1748
+/* "netcdftime/_netcdftime.pyx":1749
  * 
  * 
  * cdef _findall(text, substr):             # <<<<<<<<<<<<<<
@@ -30323,19 +30377,19 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__findall(PyObject *__pyx_v_t
   int __pyx_t_7;
   __Pyx_RefNannySetupContext("_findall", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1750
+  /* "netcdftime/_netcdftime.pyx":1751
  * cdef _findall(text, substr):
  *     # Also finds overlaps
  *     sites = []             # <<<<<<<<<<<<<<
  *     i = 0
  *     while 1:
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1750, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1751, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_sites = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1751
+  /* "netcdftime/_netcdftime.pyx":1752
  *     # Also finds overlaps
  *     sites = []
  *     i = 0             # <<<<<<<<<<<<<<
@@ -30345,7 +30399,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__findall(PyObject *__pyx_v_t
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_i = __pyx_int_0;
 
-  /* "netcdftime/_netcdftime.pyx":1752
+  /* "netcdftime/_netcdftime.pyx":1753
  *     sites = []
  *     i = 0
  *     while 1:             # <<<<<<<<<<<<<<
@@ -30354,14 +30408,14 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__findall(PyObject *__pyx_v_t
  */
   while (1) {
 
-    /* "netcdftime/_netcdftime.pyx":1753
+    /* "netcdftime/_netcdftime.pyx":1754
  *     i = 0
  *     while 1:
  *         j = text.find(substr, i)             # <<<<<<<<<<<<<<
  *         if j == -1:
  *             break
  */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_text, __pyx_n_s_find); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1753, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_text, __pyx_n_s_find); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1754, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_3 = NULL;
     __pyx_t_4 = 0;
@@ -30378,7 +30432,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__findall(PyObject *__pyx_v_t
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_2)) {
       PyObject *__pyx_temp[3] = {__pyx_t_3, __pyx_v_substr, __pyx_v_i};
-      __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1753, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1754, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_GOTREF(__pyx_t_1);
     } else
@@ -30386,13 +30440,13 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__findall(PyObject *__pyx_v_t
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
       PyObject *__pyx_temp[3] = {__pyx_t_3, __pyx_v_substr, __pyx_v_i};
-      __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1753, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1754, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_GOTREF(__pyx_t_1);
     } else
     #endif
     {
-      __pyx_t_5 = PyTuple_New(2+__pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1753, __pyx_L1_error)
+      __pyx_t_5 = PyTuple_New(2+__pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1754, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       if (__pyx_t_3) {
         __Pyx_GIVEREF(__pyx_t_3); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_3); __pyx_t_3 = NULL;
@@ -30403,7 +30457,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__findall(PyObject *__pyx_v_t
       __Pyx_INCREF(__pyx_v_i);
       __Pyx_GIVEREF(__pyx_v_i);
       PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_4, __pyx_v_i);
-      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1753, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1754, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     }
@@ -30411,20 +30465,20 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__findall(PyObject *__pyx_v_t
     __Pyx_XDECREF_SET(__pyx_v_j, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "netcdftime/_netcdftime.pyx":1754
+    /* "netcdftime/_netcdftime.pyx":1755
  *     while 1:
  *         j = text.find(substr, i)
  *         if j == -1:             # <<<<<<<<<<<<<<
  *             break
  *         sites.append(j)
  */
-    __pyx_t_1 = __Pyx_PyInt_EqObjC(__pyx_v_j, __pyx_int_neg_1, -1L, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1754, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyInt_EqObjC(__pyx_v_j, __pyx_int_neg_1, -1L, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1755, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(0, 1754, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(0, 1755, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (__pyx_t_6) {
 
-      /* "netcdftime/_netcdftime.pyx":1755
+      /* "netcdftime/_netcdftime.pyx":1756
  *         j = text.find(substr, i)
  *         if j == -1:
  *             break             # <<<<<<<<<<<<<<
@@ -30433,7 +30487,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__findall(PyObject *__pyx_v_t
  */
       goto __pyx_L4_break;
 
-      /* "netcdftime/_netcdftime.pyx":1754
+      /* "netcdftime/_netcdftime.pyx":1755
  *     while 1:
  *         j = text.find(substr, i)
  *         if j == -1:             # <<<<<<<<<<<<<<
@@ -30442,30 +30496,30 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__findall(PyObject *__pyx_v_t
  */
     }
 
-    /* "netcdftime/_netcdftime.pyx":1756
+    /* "netcdftime/_netcdftime.pyx":1757
  *         if j == -1:
  *             break
  *         sites.append(j)             # <<<<<<<<<<<<<<
  *         i = j + 1
  *     return sites
  */
-    __pyx_t_7 = __Pyx_PyList_Append(__pyx_v_sites, __pyx_v_j); if (unlikely(__pyx_t_7 == -1)) __PYX_ERR(0, 1756, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyList_Append(__pyx_v_sites, __pyx_v_j); if (unlikely(__pyx_t_7 == -1)) __PYX_ERR(0, 1757, __pyx_L1_error)
 
-    /* "netcdftime/_netcdftime.pyx":1757
+    /* "netcdftime/_netcdftime.pyx":1758
  *             break
  *         sites.append(j)
  *         i = j + 1             # <<<<<<<<<<<<<<
  *     return sites
  * 
  */
-    __pyx_t_1 = __Pyx_PyInt_AddObjC(__pyx_v_j, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1757, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyInt_AddObjC(__pyx_v_j, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1758, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_i, __pyx_t_1);
     __pyx_t_1 = 0;
   }
   __pyx_L4_break:;
 
-  /* "netcdftime/_netcdftime.pyx":1758
+  /* "netcdftime/_netcdftime.pyx":1759
  *         sites.append(j)
  *         i = j + 1
  *     return sites             # <<<<<<<<<<<<<<
@@ -30477,7 +30531,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__findall(PyObject *__pyx_v_t
   __pyx_r = __pyx_v_sites;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1748
+  /* "netcdftime/_netcdftime.pyx":1749
  * 
  * 
  * cdef _findall(text, substr):             # <<<<<<<<<<<<<<
@@ -30502,7 +30556,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__findall(PyObject *__pyx_v_t
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1765
+/* "netcdftime/_netcdftime.pyx":1766
  * 
  * 
  * cdef _strftime(datetime dt, fmt):             # <<<<<<<<<<<<<<
@@ -30538,16 +30592,16 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
   int __pyx_t_11;
   __Pyx_RefNannySetupContext("_strftime", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1766
+  /* "netcdftime/_netcdftime.pyx":1767
  * 
  * cdef _strftime(datetime dt, fmt):
  *     if _illegal_s.search(fmt):             # <<<<<<<<<<<<<<
  *         raise TypeError("This strftime implementation does not handle %s")
  *     # don't use strftime method at all.
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_illegal_s); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1766, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_illegal_s); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1767, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_search); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1766, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_search); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1767, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -30561,13 +30615,13 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
     }
   }
   if (!__pyx_t_2) {
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_fmt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1766, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_fmt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1767, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
   } else {
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_3)) {
       PyObject *__pyx_temp[2] = {__pyx_t_2, __pyx_v_fmt};
-      __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1766, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1767, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_GOTREF(__pyx_t_1);
     } else
@@ -30575,42 +30629,42 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
       PyObject *__pyx_temp[2] = {__pyx_t_2, __pyx_v_fmt};
-      __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1766, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1767, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_GOTREF(__pyx_t_1);
     } else
     #endif
     {
-      __pyx_t_4 = PyTuple_New(1+1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1766, __pyx_L1_error)
+      __pyx_t_4 = PyTuple_New(1+1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1767, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_GIVEREF(__pyx_t_2); PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_2); __pyx_t_2 = NULL;
       __Pyx_INCREF(__pyx_v_fmt);
       __Pyx_GIVEREF(__pyx_v_fmt);
       PyTuple_SET_ITEM(__pyx_t_4, 0+1, __pyx_v_fmt);
-      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_4, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1766, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_4, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1767, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     }
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 1766, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 1767, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_5) {
 
-    /* "netcdftime/_netcdftime.pyx":1767
+    /* "netcdftime/_netcdftime.pyx":1768
  * cdef _strftime(datetime dt, fmt):
  *     if _illegal_s.search(fmt):
  *         raise TypeError("This strftime implementation does not handle %s")             # <<<<<<<<<<<<<<
  *     # don't use strftime method at all.
  *     # if dt.year > 1900:
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__35, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1767, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__35, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1768, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 1767, __pyx_L1_error)
+    __PYX_ERR(0, 1768, __pyx_L1_error)
 
-    /* "netcdftime/_netcdftime.pyx":1766
+    /* "netcdftime/_netcdftime.pyx":1767
  * 
  * cdef _strftime(datetime dt, fmt):
  *     if _illegal_s.search(fmt):             # <<<<<<<<<<<<<<
@@ -30619,92 +30673,92 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
  */
   }
 
-  /* "netcdftime/_netcdftime.pyx":1772
+  /* "netcdftime/_netcdftime.pyx":1773
  *     #    return dt.strftime(fmt)
  * 
  *     year = dt.year             # <<<<<<<<<<<<<<
  *     # For every non-leap year century, advance by
  *     # 6 years to get into the 28-year repeat cycle
  */
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_dt->year); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1772, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_dt->year); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1773, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_year = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1775
+  /* "netcdftime/_netcdftime.pyx":1776
  *     # For every non-leap year century, advance by
  *     # 6 years to get into the 28-year repeat cycle
  *     delta = 2000 - year             # <<<<<<<<<<<<<<
  *     off = 6 * (delta // 100 + delta // 400)
  *     year = year + off
  */
-  __pyx_t_1 = __Pyx_PyInt_SubtractCObj(__pyx_int_2000, __pyx_v_year, 0x7D0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1775, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_SubtractCObj(__pyx_int_2000, __pyx_v_year, 0x7D0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1776, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_delta = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1776
+  /* "netcdftime/_netcdftime.pyx":1777
  *     # 6 years to get into the 28-year repeat cycle
  *     delta = 2000 - year
  *     off = 6 * (delta // 100 + delta // 400)             # <<<<<<<<<<<<<<
  *     year = year + off
  * 
  */
-  __pyx_t_1 = __Pyx_PyInt_FloorDivideObjC(__pyx_v_delta, __pyx_int_100, 0x64, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1776, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_FloorDivideObjC(__pyx_v_delta, __pyx_int_100, 0x64, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1777, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyInt_FloorDivideObjC(__pyx_v_delta, __pyx_int_400, 0x190, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1776, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_FloorDivideObjC(__pyx_v_delta, __pyx_int_400, 0x190, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1777, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = PyNumber_Add(__pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1776, __pyx_L1_error)
+  __pyx_t_4 = PyNumber_Add(__pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1777, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyNumber_Multiply(__pyx_int_6, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1776, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Multiply(__pyx_int_6, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1777, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_v_off = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1777
+  /* "netcdftime/_netcdftime.pyx":1778
  *     delta = 2000 - year
  *     off = 6 * (delta // 100 + delta // 400)
  *     year = year + off             # <<<<<<<<<<<<<<
  * 
  *     # Move to around the year 2000
  */
-  __pyx_t_3 = PyNumber_Add(__pyx_v_year, __pyx_v_off); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1777, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_v_year, __pyx_v_off); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1778, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF_SET(__pyx_v_year, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1780
+  /* "netcdftime/_netcdftime.pyx":1781
  * 
  *     # Move to around the year 2000
  *     year = year + ((2000 - year) // 28) * 28             # <<<<<<<<<<<<<<
  *     timetuple = dt.timetuple()
  *     s1 = time.strftime(fmt, (year,) + timetuple[1:])
  */
-  __pyx_t_3 = __Pyx_PyInt_SubtractCObj(__pyx_int_2000, __pyx_v_year, 0x7D0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1780, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_SubtractCObj(__pyx_int_2000, __pyx_v_year, 0x7D0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1781, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = __Pyx_PyInt_FloorDivideObjC(__pyx_t_3, __pyx_int_28, 28, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1780, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_FloorDivideObjC(__pyx_t_3, __pyx_int_28, 28, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1781, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyNumber_Multiply(__pyx_t_4, __pyx_int_28); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1780, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Multiply(__pyx_t_4, __pyx_int_28); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1781, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = PyNumber_Add(__pyx_v_year, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1780, __pyx_L1_error)
+  __pyx_t_4 = PyNumber_Add(__pyx_v_year, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1781, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF_SET(__pyx_v_year, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1781
+  /* "netcdftime/_netcdftime.pyx":1782
  *     # Move to around the year 2000
  *     year = year + ((2000 - year) // 28) * 28
  *     timetuple = dt.timetuple()             # <<<<<<<<<<<<<<
  *     s1 = time.strftime(fmt, (year,) + timetuple[1:])
  *     sites1 = _findall(s1, str(year))
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_dt), __pyx_n_s_timetuple); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1781, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_dt), __pyx_n_s_timetuple); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1782, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_1 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -30717,36 +30771,36 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
     }
   }
   if (__pyx_t_1) {
-    __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1781, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1782, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   } else {
-    __pyx_t_4 = __Pyx_PyObject_CallNoArg(__pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1781, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_CallNoArg(__pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1782, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_timetuple = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1782
+  /* "netcdftime/_netcdftime.pyx":1783
  *     year = year + ((2000 - year) // 28) * 28
  *     timetuple = dt.timetuple()
  *     s1 = time.strftime(fmt, (year,) + timetuple[1:])             # <<<<<<<<<<<<<<
  *     sites1 = _findall(s1, str(year))
  * 
  */
-  __pyx_t_3 = __Pyx_GetModuleGlobalName(__pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1782, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_GetModuleGlobalName(__pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1783, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_strftime); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1782, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_strftime); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1783, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1782, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1783, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_INCREF(__pyx_v_year);
   __Pyx_GIVEREF(__pyx_v_year);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_v_year);
-  __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_v_timetuple, 1, 0, NULL, NULL, &__pyx_slice__36, 1, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1782, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_v_timetuple, 1, 0, NULL, NULL, &__pyx_slice__36, 1, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1783, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_6 = PyNumber_Add(__pyx_t_3, __pyx_t_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1782, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Add(__pyx_t_3, __pyx_t_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1783, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -30765,7 +30819,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_1)) {
     PyObject *__pyx_temp[3] = {__pyx_t_2, __pyx_v_fmt, __pyx_t_6};
-    __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1782, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1783, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -30774,14 +30828,14 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
     PyObject *__pyx_temp[3] = {__pyx_t_2, __pyx_v_fmt, __pyx_t_6};
-    __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1782, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1783, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   } else
   #endif
   {
-    __pyx_t_3 = PyTuple_New(2+__pyx_t_7); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1782, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(2+__pyx_t_7); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1783, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     if (__pyx_t_2) {
       __Pyx_GIVEREF(__pyx_t_2); PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_2); __pyx_t_2 = NULL;
@@ -30792,7 +30846,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
     __Pyx_GIVEREF(__pyx_t_6);
     PyTuple_SET_ITEM(__pyx_t_3, 1+__pyx_t_7, __pyx_t_6);
     __pyx_t_6 = 0;
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1782, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1783, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
@@ -30800,49 +30854,49 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
   __pyx_v_s1 = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1783
+  /* "netcdftime/_netcdftime.pyx":1784
  *     timetuple = dt.timetuple()
  *     s1 = time.strftime(fmt, (year,) + timetuple[1:])
  *     sites1 = _findall(s1, str(year))             # <<<<<<<<<<<<<<
  * 
  *     s2 = time.strftime(fmt, (year + 28,) + timetuple[1:])
  */
-  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1783, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1784, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_v_year);
   __Pyx_GIVEREF(__pyx_v_year);
   PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_v_year);
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)(&PyString_Type)), __pyx_t_4, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1783, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)(&PyString_Type)), __pyx_t_4, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1784, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __pyx_f_10netcdftime_11_netcdftime__findall(__pyx_v_s1, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1783, __pyx_L1_error)
+  __pyx_t_4 = __pyx_f_10netcdftime_11_netcdftime__findall(__pyx_v_s1, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1784, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_sites1 = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1785
+  /* "netcdftime/_netcdftime.pyx":1786
  *     sites1 = _findall(s1, str(year))
  * 
  *     s2 = time.strftime(fmt, (year + 28,) + timetuple[1:])             # <<<<<<<<<<<<<<
  *     sites2 = _findall(s2, str(year + 28))
  * 
  */
-  __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_time); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1785, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_time); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1786, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_strftime); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1785, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_strftime); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1786, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyInt_AddObjC(__pyx_v_year, __pyx_int_28, 28, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1785, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_AddObjC(__pyx_v_year, __pyx_int_28, 28, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1786, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = PyTuple_New(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1785, __pyx_L1_error)
+  __pyx_t_6 = PyTuple_New(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1786, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_1);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetSlice(__pyx_v_timetuple, 1, 0, NULL, NULL, &__pyx_slice__37, 1, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1785, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetSlice(__pyx_v_timetuple, 1, 0, NULL, NULL, &__pyx_slice__37, 1, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1786, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyNumber_Add(__pyx_t_6, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1785, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Add(__pyx_t_6, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1786, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -30861,7 +30915,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_3)) {
     PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_v_fmt, __pyx_t_2};
-    __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1785, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1786, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -30870,14 +30924,14 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
     PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_v_fmt, __pyx_t_2};
-    __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1785, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1786, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   } else
   #endif
   {
-    __pyx_t_6 = PyTuple_New(2+__pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1785, __pyx_L1_error)
+    __pyx_t_6 = PyTuple_New(2+__pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1786, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     if (__pyx_t_1) {
       __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_1); __pyx_t_1 = NULL;
@@ -30888,7 +30942,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
     __Pyx_GIVEREF(__pyx_t_2);
     PyTuple_SET_ITEM(__pyx_t_6, 1+__pyx_t_7, __pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_6, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1785, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_6, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1786, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   }
@@ -30896,42 +30950,42 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
   __pyx_v_s2 = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1786
+  /* "netcdftime/_netcdftime.pyx":1787
  * 
  *     s2 = time.strftime(fmt, (year + 28,) + timetuple[1:])
  *     sites2 = _findall(s2, str(year + 28))             # <<<<<<<<<<<<<<
  * 
  *     sites = []
  */
-  __pyx_t_4 = __Pyx_PyInt_AddObjC(__pyx_v_year, __pyx_int_28, 28, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1786, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_AddObjC(__pyx_v_year, __pyx_int_28, 28, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1787, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1786, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1787, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_4);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_4);
   __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)(&PyString_Type)), __pyx_t_3, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1786, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)(&PyString_Type)), __pyx_t_3, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1787, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __pyx_f_10netcdftime_11_netcdftime__findall(__pyx_v_s2, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1786, __pyx_L1_error)
+  __pyx_t_3 = __pyx_f_10netcdftime_11_netcdftime__findall(__pyx_v_s2, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1787, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_v_sites2 = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1788
+  /* "netcdftime/_netcdftime.pyx":1789
  *     sites2 = _findall(s2, str(year + 28))
  * 
  *     sites = []             # <<<<<<<<<<<<<<
  *     for site in sites1:
  *         if site in sites2:
  */
-  __pyx_t_3 = PyList_New(0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1788, __pyx_L1_error)
+  __pyx_t_3 = PyList_New(0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1789, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_v_sites = ((PyObject*)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1789
+  /* "netcdftime/_netcdftime.pyx":1790
  * 
  *     sites = []
  *     for site in sites1:             # <<<<<<<<<<<<<<
@@ -30942,26 +30996,26 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
     __pyx_t_3 = __pyx_v_sites1; __Pyx_INCREF(__pyx_t_3); __pyx_t_8 = 0;
     __pyx_t_9 = NULL;
   } else {
-    __pyx_t_8 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_v_sites1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1789, __pyx_L1_error)
+    __pyx_t_8 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_v_sites1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1790, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_9 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1789, __pyx_L1_error)
+    __pyx_t_9 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1790, __pyx_L1_error)
   }
   for (;;) {
     if (likely(!__pyx_t_9)) {
       if (likely(PyList_CheckExact(__pyx_t_3))) {
         if (__pyx_t_8 >= PyList_GET_SIZE(__pyx_t_3)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_4 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_8); __Pyx_INCREF(__pyx_t_4); __pyx_t_8++; if (unlikely(0 < 0)) __PYX_ERR(0, 1789, __pyx_L1_error)
+        __pyx_t_4 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_8); __Pyx_INCREF(__pyx_t_4); __pyx_t_8++; if (unlikely(0 < 0)) __PYX_ERR(0, 1790, __pyx_L1_error)
         #else
-        __pyx_t_4 = PySequence_ITEM(__pyx_t_3, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1789, __pyx_L1_error)
+        __pyx_t_4 = PySequence_ITEM(__pyx_t_3, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1790, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         #endif
       } else {
         if (__pyx_t_8 >= PyTuple_GET_SIZE(__pyx_t_3)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_8); __Pyx_INCREF(__pyx_t_4); __pyx_t_8++; if (unlikely(0 < 0)) __PYX_ERR(0, 1789, __pyx_L1_error)
+        __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_8); __Pyx_INCREF(__pyx_t_4); __pyx_t_8++; if (unlikely(0 < 0)) __PYX_ERR(0, 1790, __pyx_L1_error)
         #else
-        __pyx_t_4 = PySequence_ITEM(__pyx_t_3, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1789, __pyx_L1_error)
+        __pyx_t_4 = PySequence_ITEM(__pyx_t_3, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1790, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         #endif
       }
@@ -30971,7 +31025,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(exc_type == PyExc_StopIteration || PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 1789, __pyx_L1_error)
+          else __PYX_ERR(0, 1790, __pyx_L1_error)
         }
         break;
       }
@@ -30980,27 +31034,27 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
     __Pyx_XDECREF_SET(__pyx_v_site, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "netcdftime/_netcdftime.pyx":1790
+    /* "netcdftime/_netcdftime.pyx":1791
  *     sites = []
  *     for site in sites1:
  *         if site in sites2:             # <<<<<<<<<<<<<<
  *             sites.append(site)
  * 
  */
-    __pyx_t_5 = (__Pyx_PySequence_ContainsTF(__pyx_v_site, __pyx_v_sites2, Py_EQ)); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 1790, __pyx_L1_error)
+    __pyx_t_5 = (__Pyx_PySequence_ContainsTF(__pyx_v_site, __pyx_v_sites2, Py_EQ)); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 1791, __pyx_L1_error)
     __pyx_t_10 = (__pyx_t_5 != 0);
     if (__pyx_t_10) {
 
-      /* "netcdftime/_netcdftime.pyx":1791
+      /* "netcdftime/_netcdftime.pyx":1792
  *     for site in sites1:
  *         if site in sites2:
  *             sites.append(site)             # <<<<<<<<<<<<<<
  * 
  *     s = s1
  */
-      __pyx_t_11 = __Pyx_PyList_Append(__pyx_v_sites, __pyx_v_site); if (unlikely(__pyx_t_11 == -1)) __PYX_ERR(0, 1791, __pyx_L1_error)
+      __pyx_t_11 = __Pyx_PyList_Append(__pyx_v_sites, __pyx_v_site); if (unlikely(__pyx_t_11 == -1)) __PYX_ERR(0, 1792, __pyx_L1_error)
 
-      /* "netcdftime/_netcdftime.pyx":1790
+      /* "netcdftime/_netcdftime.pyx":1791
  *     sites = []
  *     for site in sites1:
  *         if site in sites2:             # <<<<<<<<<<<<<<
@@ -31009,7 +31063,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
  */
     }
 
-    /* "netcdftime/_netcdftime.pyx":1789
+    /* "netcdftime/_netcdftime.pyx":1790
  * 
  *     sites = []
  *     for site in sites1:             # <<<<<<<<<<<<<<
@@ -31019,39 +31073,39 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1793
+  /* "netcdftime/_netcdftime.pyx":1794
  *             sites.append(site)
  * 
  *     s = s1             # <<<<<<<<<<<<<<
- *     syear = "%04d" % (dt.year,)
+ *     syear = "%4d" % (dt.year,)
  *     for site in sites:
  */
   __Pyx_INCREF(__pyx_v_s1);
   __pyx_v_s = __pyx_v_s1;
 
-  /* "netcdftime/_netcdftime.pyx":1794
+  /* "netcdftime/_netcdftime.pyx":1795
  * 
  *     s = s1
- *     syear = "%04d" % (dt.year,)             # <<<<<<<<<<<<<<
+ *     syear = "%4d" % (dt.year,)             # <<<<<<<<<<<<<<
  *     for site in sites:
  *         s = s[:site] + syear + s[site + 4:]
  */
-  __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_dt->year); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1794, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_dt->year); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1795, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1794, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1795, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_3);
   PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_3);
   __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyString_Format(__pyx_kp_s_04d, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1794, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyString_Format(__pyx_kp_s_4d, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1795, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_v_syear = ((PyObject*)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1795
+  /* "netcdftime/_netcdftime.pyx":1796
  *     s = s1
- *     syear = "%04d" % (dt.year,)
+ *     syear = "%4d" % (dt.year,)
  *     for site in sites:             # <<<<<<<<<<<<<<
  *         s = s[:site] + syear + s[site + 4:]
  *     return s
@@ -31060,41 +31114,41 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
   for (;;) {
     if (__pyx_t_8 >= PyList_GET_SIZE(__pyx_t_3)) break;
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-    __pyx_t_4 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_8); __Pyx_INCREF(__pyx_t_4); __pyx_t_8++; if (unlikely(0 < 0)) __PYX_ERR(0, 1795, __pyx_L1_error)
+    __pyx_t_4 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_8); __Pyx_INCREF(__pyx_t_4); __pyx_t_8++; if (unlikely(0 < 0)) __PYX_ERR(0, 1796, __pyx_L1_error)
     #else
-    __pyx_t_4 = PySequence_ITEM(__pyx_t_3, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1795, __pyx_L1_error)
+    __pyx_t_4 = PySequence_ITEM(__pyx_t_3, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1796, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     #endif
     __Pyx_XDECREF_SET(__pyx_v_site, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "netcdftime/_netcdftime.pyx":1796
- *     syear = "%04d" % (dt.year,)
+    /* "netcdftime/_netcdftime.pyx":1797
+ *     syear = "%4d" % (dt.year,)
  *     for site in sites:
  *         s = s[:site] + syear + s[site + 4:]             # <<<<<<<<<<<<<<
  *     return s
  * 
  */
-    __pyx_t_4 = __Pyx_PyObject_GetSlice(__pyx_v_s, 0, 0, NULL, &__pyx_v_site, NULL, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1796, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetSlice(__pyx_v_s, 0, 0, NULL, &__pyx_v_site, NULL, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1797, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_6 = PyNumber_Add(__pyx_t_4, __pyx_v_syear); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1796, __pyx_L1_error)
+    __pyx_t_6 = PyNumber_Add(__pyx_t_4, __pyx_v_syear); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1797, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyInt_AddObjC(__pyx_v_site, __pyx_int_4, 4, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1796, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyInt_AddObjC(__pyx_v_site, __pyx_int_4, 4, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1797, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_v_s, 0, 0, &__pyx_t_4, NULL, NULL, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1796, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_v_s, 0, 0, &__pyx_t_4, NULL, NULL, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1797, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = PyNumber_Add(__pyx_t_6, __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1796, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_Add(__pyx_t_6, __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1797, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF_SET(__pyx_v_s, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "netcdftime/_netcdftime.pyx":1795
+    /* "netcdftime/_netcdftime.pyx":1796
  *     s = s1
- *     syear = "%04d" % (dt.year,)
+ *     syear = "%4d" % (dt.year,)
  *     for site in sites:             # <<<<<<<<<<<<<<
  *         s = s[:site] + syear + s[site + 4:]
  *     return s
@@ -31102,7 +31156,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1797
+  /* "netcdftime/_netcdftime.pyx":1798
  *     for site in sites:
  *         s = s[:site] + syear + s[site + 4:]
  *     return s             # <<<<<<<<<<<<<<
@@ -31114,7 +31168,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
   __pyx_r = __pyx_v_s;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1765
+  /* "netcdftime/_netcdftime.pyx":1766
  * 
  * 
  * cdef _strftime(datetime dt, fmt):             # <<<<<<<<<<<<<<
@@ -31149,7 +31203,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime__strftime(struct __pyx_obj_1
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1799
+/* "netcdftime/_netcdftime.pyx":1800
  *     return s
  * 
  * cdef bint is_leap_julian(int year):             # <<<<<<<<<<<<<<
@@ -31164,7 +31218,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_is_leap_julian(int __pyx_v_year) {
   long __pyx_t_1;
   __Pyx_RefNannySetupContext("is_leap_julian", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1802
+  /* "netcdftime/_netcdftime.pyx":1803
  *     "Return 1 if year is a leap year in the Julian calendar, 0 otherwise."
  *     cdef int y
  *     y = year if year > 0 else year + 1             # <<<<<<<<<<<<<<
@@ -31178,7 +31232,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_is_leap_julian(int __pyx_v_year) {
   }
   __pyx_v_y = __pyx_t_1;
 
-  /* "netcdftime/_netcdftime.pyx":1803
+  /* "netcdftime/_netcdftime.pyx":1804
  *     cdef int y
  *     y = year if year > 0 else year + 1
  *     return (y % 4) == 0             # <<<<<<<<<<<<<<
@@ -31188,7 +31242,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_is_leap_julian(int __pyx_v_year) {
   __pyx_r = (__Pyx_mod_long(__pyx_v_y, 4) == 0);
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1799
+  /* "netcdftime/_netcdftime.pyx":1800
  *     return s
  * 
  * cdef bint is_leap_julian(int year):             # <<<<<<<<<<<<<<
@@ -31202,7 +31256,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_is_leap_julian(int __pyx_v_year) {
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1805
+/* "netcdftime/_netcdftime.pyx":1806
  *     return (y % 4) == 0
  * 
  * cdef bint is_leap_proleptic_gregorian(int year):             # <<<<<<<<<<<<<<
@@ -31219,7 +31273,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_is_leap_proleptic_gregorian(int __
   int __pyx_t_3;
   __Pyx_RefNannySetupContext("is_leap_proleptic_gregorian", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1808
+  /* "netcdftime/_netcdftime.pyx":1809
  *     "Return 1 if year is a leap year in the Gregorian calendar, 0 otherwise."
  *     cdef int y
  *     y = year if year > 0 else year + 1             # <<<<<<<<<<<<<<
@@ -31233,7 +31287,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_is_leap_proleptic_gregorian(int __
   }
   __pyx_v_y = __pyx_t_1;
 
-  /* "netcdftime/_netcdftime.pyx":1809
+  /* "netcdftime/_netcdftime.pyx":1810
  *     cdef int y
  *     y = year if year > 0 else year + 1
  *     return (((y % 4) == 0) and ((y % 100) != 0)) or ((y % 400) == 0)             # <<<<<<<<<<<<<<
@@ -31258,7 +31312,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_is_leap_proleptic_gregorian(int __
   __pyx_r = __pyx_t_2;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1805
+  /* "netcdftime/_netcdftime.pyx":1806
  *     return (y % 4) == 0
  * 
  * cdef bint is_leap_proleptic_gregorian(int year):             # <<<<<<<<<<<<<<
@@ -31272,7 +31326,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_is_leap_proleptic_gregorian(int __
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1811
+/* "netcdftime/_netcdftime.pyx":1812
  *     return (((y % 4) == 0) and ((y % 100) != 0)) or ((y % 400) == 0)
  * 
  * cdef bint is_leap_gregorian(int year):             # <<<<<<<<<<<<<<
@@ -31287,7 +31341,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_is_leap_gregorian(int __pyx_v_year
   int __pyx_t_2;
   __Pyx_RefNannySetupContext("is_leap_gregorian", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1812
+  /* "netcdftime/_netcdftime.pyx":1813
  * 
  * cdef bint is_leap_gregorian(int year):
  *     return (year > 1582 and is_leap_proleptic_gregorian(year)) or (year < 1582 and is_leap_julian(year))             # <<<<<<<<<<<<<<
@@ -31318,7 +31372,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_is_leap_gregorian(int __pyx_v_year
   __pyx_r = __pyx_t_1;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1811
+  /* "netcdftime/_netcdftime.pyx":1812
  *     return (((y % 4) == 0) and ((y % 100) != 0)) or ((y % 400) == 0)
  * 
  * cdef bint is_leap_gregorian(int year):             # <<<<<<<<<<<<<<
@@ -31332,7 +31386,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_is_leap_gregorian(int __pyx_v_year
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1814
+/* "netcdftime/_netcdftime.pyx":1815
  *     return (year > 1582 and is_leap_proleptic_gregorian(year)) or (year < 1582 and is_leap_julian(year))
  * 
  * cdef bint all_leap(int year):             # <<<<<<<<<<<<<<
@@ -31345,7 +31399,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_all_leap(CYTHON_UNUSED int __pyx_v
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("all_leap", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1816
+  /* "netcdftime/_netcdftime.pyx":1817
  * cdef bint all_leap(int year):
  *     "Return True for all years."
  *     return True             # <<<<<<<<<<<<<<
@@ -31355,7 +31409,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_all_leap(CYTHON_UNUSED int __pyx_v
   __pyx_r = 1;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1814
+  /* "netcdftime/_netcdftime.pyx":1815
  *     return (year > 1582 and is_leap_proleptic_gregorian(year)) or (year < 1582 and is_leap_julian(year))
  * 
  * cdef bint all_leap(int year):             # <<<<<<<<<<<<<<
@@ -31369,7 +31423,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_all_leap(CYTHON_UNUSED int __pyx_v
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1818
+/* "netcdftime/_netcdftime.pyx":1819
  *     return True
  * 
  * cdef bint no_leap(int year):             # <<<<<<<<<<<<<<
@@ -31382,7 +31436,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_no_leap(CYTHON_UNUSED int __pyx_v_
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("no_leap", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1820
+  /* "netcdftime/_netcdftime.pyx":1821
  * cdef bint no_leap(int year):
  *     "Return False for all years."
  *     return False             # <<<<<<<<<<<<<<
@@ -31392,7 +31446,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_no_leap(CYTHON_UNUSED int __pyx_v_
   __pyx_r = 0;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1818
+  /* "netcdftime/_netcdftime.pyx":1819
  *     return True
  * 
  * cdef bint no_leap(int year):             # <<<<<<<<<<<<<<
@@ -31406,7 +31460,7 @@ static int __pyx_f_10netcdftime_11_netcdftime_no_leap(CYTHON_UNUSED int __pyx_v_
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1832
+/* "netcdftime/_netcdftime.pyx":1833
  *     month_lengths_366_day[j] = N
  * 
  * cdef int* month_lengths(bint (*is_leap)(int), int year):             # <<<<<<<<<<<<<<
@@ -31420,7 +31474,7 @@ static int *__pyx_f_10netcdftime_11_netcdftime_month_lengths(int (*__pyx_v_is_le
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("month_lengths", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1833
+  /* "netcdftime/_netcdftime.pyx":1834
  * 
  * cdef int* month_lengths(bint (*is_leap)(int), int year):
  *     if is_leap(year):             # <<<<<<<<<<<<<<
@@ -31430,7 +31484,7 @@ static int *__pyx_f_10netcdftime_11_netcdftime_month_lengths(int (*__pyx_v_is_le
   __pyx_t_1 = (__pyx_v_is_leap(__pyx_v_year) != 0);
   if (__pyx_t_1) {
 
-    /* "netcdftime/_netcdftime.pyx":1834
+    /* "netcdftime/_netcdftime.pyx":1835
  * cdef int* month_lengths(bint (*is_leap)(int), int year):
  *     if is_leap(year):
  *         return month_lengths_366_day             # <<<<<<<<<<<<<<
@@ -31440,7 +31494,7 @@ static int *__pyx_f_10netcdftime_11_netcdftime_month_lengths(int (*__pyx_v_is_le
     __pyx_r = __pyx_v_10netcdftime_11_netcdftime_month_lengths_366_day;
     goto __pyx_L0;
 
-    /* "netcdftime/_netcdftime.pyx":1833
+    /* "netcdftime/_netcdftime.pyx":1834
  * 
  * cdef int* month_lengths(bint (*is_leap)(int), int year):
  *     if is_leap(year):             # <<<<<<<<<<<<<<
@@ -31449,7 +31503,7 @@ static int *__pyx_f_10netcdftime_11_netcdftime_month_lengths(int (*__pyx_v_is_le
  */
   }
 
-  /* "netcdftime/_netcdftime.pyx":1836
+  /* "netcdftime/_netcdftime.pyx":1837
  *         return month_lengths_366_day
  *     else:
  *         return month_lengths_365_day             # <<<<<<<<<<<<<<
@@ -31461,7 +31515,7 @@ static int *__pyx_f_10netcdftime_11_netcdftime_month_lengths(int (*__pyx_v_is_le
     goto __pyx_L0;
   }
 
-  /* "netcdftime/_netcdftime.pyx":1832
+  /* "netcdftime/_netcdftime.pyx":1833
  *     month_lengths_366_day[j] = N
  * 
  * cdef int* month_lengths(bint (*is_leap)(int), int year):             # <<<<<<<<<<<<<<
@@ -31475,7 +31529,7 @@ static int *__pyx_f_10netcdftime_11_netcdftime_month_lengths(int (*__pyx_v_is_le
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1838
+/* "netcdftime/_netcdftime.pyx":1839
  *         return month_lengths_365_day
  * 
  * cdef void assert_valid_date(datetime dt, bint (*is_leap)(int),             # <<<<<<<<<<<<<<
@@ -31485,7 +31539,7 @@ static int *__pyx_f_10netcdftime_11_netcdftime_month_lengths(int (*__pyx_v_is_le
 
 static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_obj_10netcdftime_11_netcdftime_datetime *__pyx_v_dt, int (*__pyx_v_is_leap)(int), int __pyx_v_julian_gregorian_mixed, struct __pyx_opt_args_10netcdftime_11_netcdftime_assert_valid_date *__pyx_optional_args) {
 
-  /* "netcdftime/_netcdftime.pyx":1840
+  /* "netcdftime/_netcdftime.pyx":1841
  * cdef void assert_valid_date(datetime dt, bint (*is_leap)(int),
  *                             bint julian_gregorian_mixed,
  *                             bint is_360_day=False) except *:             # <<<<<<<<<<<<<<
@@ -31513,7 +31567,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
     }
   }
 
-  /* "netcdftime/_netcdftime.pyx":1843
+  /* "netcdftime/_netcdftime.pyx":1844
  *     cdef int[13] month_length
  * 
  *     if not is_360_day:             # <<<<<<<<<<<<<<
@@ -31523,7 +31577,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
   __pyx_t_1 = ((!(__pyx_v_is_360_day != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "netcdftime/_netcdftime.pyx":1844
+    /* "netcdftime/_netcdftime.pyx":1845
  * 
  *     if not is_360_day:
  *         if dt.year == 0:             # <<<<<<<<<<<<<<
@@ -31533,14 +31587,14 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
     __pyx_t_1 = ((__pyx_v_dt->year == 0) != 0);
     if (__pyx_t_1) {
 
-      /* "netcdftime/_netcdftime.pyx":1845
+      /* "netcdftime/_netcdftime.pyx":1846
  *     if not is_360_day:
  *         if dt.year == 0:
  *             raise ValueError("invalid year provided in {0!r}".format(dt))             # <<<<<<<<<<<<<<
  *         month_length = month_lengths(is_leap, dt.year)
  *     else:
  */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_year_provided_in_0_r, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1845, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_year_provided_in_0_r, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1846, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_4 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -31553,13 +31607,13 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
         }
       }
       if (!__pyx_t_4) {
-        __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1845, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1846, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
       } else {
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_3)) {
           PyObject *__pyx_temp[2] = {__pyx_t_4, ((PyObject *)__pyx_v_dt)};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1845, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1846, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_GOTREF(__pyx_t_2);
         } else
@@ -31567,37 +31621,37 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
           PyObject *__pyx_temp[2] = {__pyx_t_4, ((PyObject *)__pyx_v_dt)};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1845, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1846, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_GOTREF(__pyx_t_2);
         } else
         #endif
         {
-          __pyx_t_5 = PyTuple_New(1+1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1845, __pyx_L1_error)
+          __pyx_t_5 = PyTuple_New(1+1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1846, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_5);
           __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4); __pyx_t_4 = NULL;
           __Pyx_INCREF(((PyObject *)__pyx_v_dt));
           __Pyx_GIVEREF(((PyObject *)__pyx_v_dt));
           PyTuple_SET_ITEM(__pyx_t_5, 0+1, ((PyObject *)__pyx_v_dt));
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1845, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1846, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         }
       }
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1845, __pyx_L1_error)
+      __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1846, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_GIVEREF(__pyx_t_2);
       PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_2);
       __pyx_t_2 = 0;
-      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1845, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1846, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_Raise(__pyx_t_2, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __PYX_ERR(0, 1845, __pyx_L1_error)
+      __PYX_ERR(0, 1846, __pyx_L1_error)
 
-      /* "netcdftime/_netcdftime.pyx":1844
+      /* "netcdftime/_netcdftime.pyx":1845
  * 
  *     if not is_360_day:
  *         if dt.year == 0:             # <<<<<<<<<<<<<<
@@ -31606,7 +31660,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
  */
     }
 
-    /* "netcdftime/_netcdftime.pyx":1846
+    /* "netcdftime/_netcdftime.pyx":1847
  *         if dt.year == 0:
  *             raise ValueError("invalid year provided in {0!r}".format(dt))
  *         month_length = month_lengths(is_leap, dt.year)             # <<<<<<<<<<<<<<
@@ -31615,7 +31669,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
  */
     memcpy(&(__pyx_v_month_length[0]), __pyx_f_10netcdftime_11_netcdftime_month_lengths(__pyx_v_is_leap, __pyx_v_dt->year), sizeof(__pyx_v_month_length[0]) * (13 - 0));
 
-    /* "netcdftime/_netcdftime.pyx":1843
+    /* "netcdftime/_netcdftime.pyx":1844
  *     cdef int[13] month_length
  * 
  *     if not is_360_day:             # <<<<<<<<<<<<<<
@@ -31625,7 +31679,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
     goto __pyx_L3;
   }
 
-  /* "netcdftime/_netcdftime.pyx":1848
+  /* "netcdftime/_netcdftime.pyx":1849
  *         month_length = month_lengths(is_leap, dt.year)
  *     else:
  *         for j, N in enumerate(             # <<<<<<<<<<<<<<
@@ -31636,14 +31690,14 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
     __Pyx_INCREF(__pyx_int_0);
     __pyx_t_2 = __pyx_int_0;
 
-    /* "netcdftime/_netcdftime.pyx":1849
+    /* "netcdftime/_netcdftime.pyx":1850
  *     else:
  *         for j, N in enumerate(
  *                 [-1, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30]):             # <<<<<<<<<<<<<<
  *             month_length[j] = N
  * 
  */
-    __pyx_t_3 = PyList_New(13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1849, __pyx_L1_error)
+    __pyx_t_3 = PyList_New(13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1850, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(__pyx_int_neg_1);
     __Pyx_GIVEREF(__pyx_int_neg_1);
@@ -31685,7 +31739,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
     __Pyx_GIVEREF(__pyx_int_30);
     PyList_SET_ITEM(__pyx_t_3, 12, __pyx_int_30);
 
-    /* "netcdftime/_netcdftime.pyx":1848
+    /* "netcdftime/_netcdftime.pyx":1849
  *         month_length = month_lengths(is_leap, dt.year)
  *     else:
  *         for j, N in enumerate(             # <<<<<<<<<<<<<<
@@ -31697,33 +31751,33 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
     for (;;) {
       if (__pyx_t_6 >= 13) break;
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-      __pyx_t_3 = PyList_GET_ITEM(__pyx_t_5, __pyx_t_6); __Pyx_INCREF(__pyx_t_3); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 1848, __pyx_L1_error)
+      __pyx_t_3 = PyList_GET_ITEM(__pyx_t_5, __pyx_t_6); __Pyx_INCREF(__pyx_t_3); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 1849, __pyx_L1_error)
       #else
-      __pyx_t_3 = PySequence_ITEM(__pyx_t_5, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1848, __pyx_L1_error)
+      __pyx_t_3 = PySequence_ITEM(__pyx_t_5, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1849, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       #endif
       __Pyx_XDECREF_SET(__pyx_v_N, __pyx_t_3);
       __pyx_t_3 = 0;
       __Pyx_INCREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_j, __pyx_t_2);
-      __pyx_t_3 = __Pyx_PyInt_AddObjC(__pyx_t_2, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1848, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyInt_AddObjC(__pyx_t_2, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1849, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_2);
       __pyx_t_2 = __pyx_t_3;
       __pyx_t_3 = 0;
 
-      /* "netcdftime/_netcdftime.pyx":1850
+      /* "netcdftime/_netcdftime.pyx":1851
  *         for j, N in enumerate(
  *                 [-1, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30]):
  *             month_length[j] = N             # <<<<<<<<<<<<<<
  * 
  *     if dt.month < 1 or dt.month > 12:
  */
-      __pyx_t_7 = __Pyx_PyInt_As_int(__pyx_v_N); if (unlikely((__pyx_t_7 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1850, __pyx_L1_error)
-      __pyx_t_8 = __Pyx_PyIndex_AsSsize_t(__pyx_v_j); if (unlikely((__pyx_t_8 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 1850, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyInt_As_int(__pyx_v_N); if (unlikely((__pyx_t_7 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1851, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyIndex_AsSsize_t(__pyx_v_j); if (unlikely((__pyx_t_8 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 1851, __pyx_L1_error)
       (__pyx_v_month_length[__pyx_t_8]) = __pyx_t_7;
 
-      /* "netcdftime/_netcdftime.pyx":1848
+      /* "netcdftime/_netcdftime.pyx":1849
  *         month_length = month_lengths(is_leap, dt.year)
  *     else:
  *         for j, N in enumerate(             # <<<<<<<<<<<<<<
@@ -31736,7 +31790,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
   }
   __pyx_L3:;
 
-  /* "netcdftime/_netcdftime.pyx":1852
+  /* "netcdftime/_netcdftime.pyx":1853
  *             month_length[j] = N
  * 
  *     if dt.month < 1 or dt.month > 12:             # <<<<<<<<<<<<<<
@@ -31754,14 +31808,14 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
   __pyx_L8_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "netcdftime/_netcdftime.pyx":1853
+    /* "netcdftime/_netcdftime.pyx":1854
  * 
  *     if dt.month < 1 or dt.month > 12:
  *         raise ValueError("invalid month provided in {0!r}".format(dt))             # <<<<<<<<<<<<<<
  * 
  *     if dt.day < 1 or dt.day > month_length[dt.month]:
  */
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_month_provided_in_0_r, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1853, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_month_provided_in_0_r, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1854, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_3 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
@@ -31774,13 +31828,13 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       }
     }
     if (!__pyx_t_3) {
-      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1853, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1854, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     } else {
       #if CYTHON_FAST_PYCALL
       if (PyFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_3, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1853, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1854, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
@@ -31788,37 +31842,37 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       #if CYTHON_FAST_PYCCALL
       if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_3, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1853, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1854, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
       #endif
       {
-        __pyx_t_4 = PyTuple_New(1+1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1853, __pyx_L1_error)
+        __pyx_t_4 = PyTuple_New(1+1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1854, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_GIVEREF(__pyx_t_3); PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_3); __pyx_t_3 = NULL;
         __Pyx_INCREF(((PyObject *)__pyx_v_dt));
         __Pyx_GIVEREF(((PyObject *)__pyx_v_dt));
         PyTuple_SET_ITEM(__pyx_t_4, 0+1, ((PyObject *)__pyx_v_dt));
-        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1853, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1854, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
     }
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1853, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1854, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_GIVEREF(__pyx_t_2);
     PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1853, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1854, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 1853, __pyx_L1_error)
+    __PYX_ERR(0, 1854, __pyx_L1_error)
 
-    /* "netcdftime/_netcdftime.pyx":1852
+    /* "netcdftime/_netcdftime.pyx":1853
  *             month_length[j] = N
  * 
  *     if dt.month < 1 or dt.month > 12:             # <<<<<<<<<<<<<<
@@ -31827,7 +31881,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
  */
   }
 
-  /* "netcdftime/_netcdftime.pyx":1855
+  /* "netcdftime/_netcdftime.pyx":1856
  *         raise ValueError("invalid month provided in {0!r}".format(dt))
  * 
  *     if dt.day < 1 or dt.day > month_length[dt.month]:             # <<<<<<<<<<<<<<
@@ -31845,14 +31899,14 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
   __pyx_L11_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "netcdftime/_netcdftime.pyx":1856
+    /* "netcdftime/_netcdftime.pyx":1857
  * 
  *     if dt.day < 1 or dt.day > month_length[dt.month]:
  *         raise ValueError("invalid day number provided in {0!r}".format(dt))             # <<<<<<<<<<<<<<
  * 
  *     if julian_gregorian_mixed and dt.year == 1582 and dt.month == 10 and dt.day > 4 and dt.day < 15:
  */
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_day_number_provided_in_0, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1856, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_day_number_provided_in_0, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1857, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_4 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
@@ -31865,13 +31919,13 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       }
     }
     if (!__pyx_t_4) {
-      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1856, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1857, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     } else {
       #if CYTHON_FAST_PYCALL
       if (PyFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_4, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1856, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1857, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
@@ -31879,37 +31933,37 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       #if CYTHON_FAST_PYCCALL
       if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_4, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1856, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1857, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
       #endif
       {
-        __pyx_t_3 = PyTuple_New(1+1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1856, __pyx_L1_error)
+        __pyx_t_3 = PyTuple_New(1+1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1857, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_4); __pyx_t_4 = NULL;
         __Pyx_INCREF(((PyObject *)__pyx_v_dt));
         __Pyx_GIVEREF(((PyObject *)__pyx_v_dt));
         PyTuple_SET_ITEM(__pyx_t_3, 0+1, ((PyObject *)__pyx_v_dt));
-        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1856, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1857, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
     }
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1856, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1857, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_GIVEREF(__pyx_t_2);
     PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1856, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1857, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 1856, __pyx_L1_error)
+    __PYX_ERR(0, 1857, __pyx_L1_error)
 
-    /* "netcdftime/_netcdftime.pyx":1855
+    /* "netcdftime/_netcdftime.pyx":1856
  *         raise ValueError("invalid month provided in {0!r}".format(dt))
  * 
  *     if dt.day < 1 or dt.day > month_length[dt.month]:             # <<<<<<<<<<<<<<
@@ -31918,7 +31972,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
  */
   }
 
-  /* "netcdftime/_netcdftime.pyx":1858
+  /* "netcdftime/_netcdftime.pyx":1859
  *         raise ValueError("invalid day number provided in {0!r}".format(dt))
  * 
  *     if julian_gregorian_mixed and dt.year == 1582 and dt.month == 10 and dt.day > 4 and dt.day < 15:             # <<<<<<<<<<<<<<
@@ -31954,14 +32008,14 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
   __pyx_L14_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "netcdftime/_netcdftime.pyx":1859
+    /* "netcdftime/_netcdftime.pyx":1860
  * 
  *     if julian_gregorian_mixed and dt.year == 1582 and dt.month == 10 and dt.day > 4 and dt.day < 15:
  *         raise ValueError("{0!r} is not present in the mixed Julian/Gregorian calendar".format(dt))             # <<<<<<<<<<<<<<
  * 
  *     if dt.hour < 0 or dt.hour > 23:
  */
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_0_r_is_not_present_in_the_mixed, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1859, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_0_r_is_not_present_in_the_mixed, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1860, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_3 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
@@ -31974,13 +32028,13 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       }
     }
     if (!__pyx_t_3) {
-      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1859, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1860, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     } else {
       #if CYTHON_FAST_PYCALL
       if (PyFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_3, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1859, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1860, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
@@ -31988,37 +32042,37 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       #if CYTHON_FAST_PYCCALL
       if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_3, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1859, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1860, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
       #endif
       {
-        __pyx_t_4 = PyTuple_New(1+1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1859, __pyx_L1_error)
+        __pyx_t_4 = PyTuple_New(1+1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1860, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_GIVEREF(__pyx_t_3); PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_3); __pyx_t_3 = NULL;
         __Pyx_INCREF(((PyObject *)__pyx_v_dt));
         __Pyx_GIVEREF(((PyObject *)__pyx_v_dt));
         PyTuple_SET_ITEM(__pyx_t_4, 0+1, ((PyObject *)__pyx_v_dt));
-        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1859, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1860, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
     }
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1859, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1860, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_GIVEREF(__pyx_t_2);
     PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1859, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1860, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 1859, __pyx_L1_error)
+    __PYX_ERR(0, 1860, __pyx_L1_error)
 
-    /* "netcdftime/_netcdftime.pyx":1858
+    /* "netcdftime/_netcdftime.pyx":1859
  *         raise ValueError("invalid day number provided in {0!r}".format(dt))
  * 
  *     if julian_gregorian_mixed and dt.year == 1582 and dt.month == 10 and dt.day > 4 and dt.day < 15:             # <<<<<<<<<<<<<<
@@ -32027,7 +32081,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
  */
   }
 
-  /* "netcdftime/_netcdftime.pyx":1861
+  /* "netcdftime/_netcdftime.pyx":1862
  *         raise ValueError("{0!r} is not present in the mixed Julian/Gregorian calendar".format(dt))
  * 
  *     if dt.hour < 0 or dt.hour > 23:             # <<<<<<<<<<<<<<
@@ -32045,14 +32099,14 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
   __pyx_L20_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "netcdftime/_netcdftime.pyx":1862
+    /* "netcdftime/_netcdftime.pyx":1863
  * 
  *     if dt.hour < 0 or dt.hour > 23:
  *         raise ValueError("invalid hour provided in {0!r}".format(dt))             # <<<<<<<<<<<<<<
  * 
  *     if dt.minute < 0 or dt.minute > 59:
  */
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_hour_provided_in_0_r, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1862, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_hour_provided_in_0_r, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1863, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_4 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
@@ -32065,13 +32119,13 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       }
     }
     if (!__pyx_t_4) {
-      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1862, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1863, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     } else {
       #if CYTHON_FAST_PYCALL
       if (PyFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_4, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1862, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1863, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
@@ -32079,37 +32133,37 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       #if CYTHON_FAST_PYCCALL
       if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_4, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1862, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1863, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
       #endif
       {
-        __pyx_t_3 = PyTuple_New(1+1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1862, __pyx_L1_error)
+        __pyx_t_3 = PyTuple_New(1+1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1863, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_4); __pyx_t_4 = NULL;
         __Pyx_INCREF(((PyObject *)__pyx_v_dt));
         __Pyx_GIVEREF(((PyObject *)__pyx_v_dt));
         PyTuple_SET_ITEM(__pyx_t_3, 0+1, ((PyObject *)__pyx_v_dt));
-        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1862, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1863, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
     }
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1862, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1863, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_GIVEREF(__pyx_t_2);
     PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1862, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1863, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 1862, __pyx_L1_error)
+    __PYX_ERR(0, 1863, __pyx_L1_error)
 
-    /* "netcdftime/_netcdftime.pyx":1861
+    /* "netcdftime/_netcdftime.pyx":1862
  *         raise ValueError("{0!r} is not present in the mixed Julian/Gregorian calendar".format(dt))
  * 
  *     if dt.hour < 0 or dt.hour > 23:             # <<<<<<<<<<<<<<
@@ -32118,7 +32172,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
  */
   }
 
-  /* "netcdftime/_netcdftime.pyx":1864
+  /* "netcdftime/_netcdftime.pyx":1865
  *         raise ValueError("invalid hour provided in {0!r}".format(dt))
  * 
  *     if dt.minute < 0 or dt.minute > 59:             # <<<<<<<<<<<<<<
@@ -32136,14 +32190,14 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
   __pyx_L23_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "netcdftime/_netcdftime.pyx":1865
+    /* "netcdftime/_netcdftime.pyx":1866
  * 
  *     if dt.minute < 0 or dt.minute > 59:
  *         raise ValueError("invalid minute provided in {0!r}".format(dt))             # <<<<<<<<<<<<<<
  * 
  *     if dt.second < 0 or dt.second > 59:
  */
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_minute_provided_in_0_r, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1865, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_minute_provided_in_0_r, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1866, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_3 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
@@ -32156,13 +32210,13 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       }
     }
     if (!__pyx_t_3) {
-      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1865, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1866, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     } else {
       #if CYTHON_FAST_PYCALL
       if (PyFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_3, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1865, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1866, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
@@ -32170,37 +32224,37 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       #if CYTHON_FAST_PYCCALL
       if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_3, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1865, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1866, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
       #endif
       {
-        __pyx_t_4 = PyTuple_New(1+1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1865, __pyx_L1_error)
+        __pyx_t_4 = PyTuple_New(1+1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1866, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_GIVEREF(__pyx_t_3); PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_3); __pyx_t_3 = NULL;
         __Pyx_INCREF(((PyObject *)__pyx_v_dt));
         __Pyx_GIVEREF(((PyObject *)__pyx_v_dt));
         PyTuple_SET_ITEM(__pyx_t_4, 0+1, ((PyObject *)__pyx_v_dt));
-        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1865, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1866, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
     }
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1865, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1866, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_GIVEREF(__pyx_t_2);
     PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1865, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1866, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 1865, __pyx_L1_error)
+    __PYX_ERR(0, 1866, __pyx_L1_error)
 
-    /* "netcdftime/_netcdftime.pyx":1864
+    /* "netcdftime/_netcdftime.pyx":1865
  *         raise ValueError("invalid hour provided in {0!r}".format(dt))
  * 
  *     if dt.minute < 0 or dt.minute > 59:             # <<<<<<<<<<<<<<
@@ -32209,7 +32263,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
  */
   }
 
-  /* "netcdftime/_netcdftime.pyx":1867
+  /* "netcdftime/_netcdftime.pyx":1868
  *         raise ValueError("invalid minute provided in {0!r}".format(dt))
  * 
  *     if dt.second < 0 or dt.second > 59:             # <<<<<<<<<<<<<<
@@ -32227,14 +32281,14 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
   __pyx_L26_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "netcdftime/_netcdftime.pyx":1868
+    /* "netcdftime/_netcdftime.pyx":1869
  * 
  *     if dt.second < 0 or dt.second > 59:
  *         raise ValueError("invalid second provided in {0!r}".format(dt))             # <<<<<<<<<<<<<<
  * 
  *     if dt.microsecond < 0 or dt.microsecond > 999999:
  */
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_second_provided_in_0_r, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1868, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_second_provided_in_0_r, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1869, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_4 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
@@ -32247,13 +32301,13 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       }
     }
     if (!__pyx_t_4) {
-      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1868, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1869, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     } else {
       #if CYTHON_FAST_PYCALL
       if (PyFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_4, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1868, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1869, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
@@ -32261,37 +32315,37 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       #if CYTHON_FAST_PYCCALL
       if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_4, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1868, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1869, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
       #endif
       {
-        __pyx_t_3 = PyTuple_New(1+1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1868, __pyx_L1_error)
+        __pyx_t_3 = PyTuple_New(1+1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1869, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_4); __pyx_t_4 = NULL;
         __Pyx_INCREF(((PyObject *)__pyx_v_dt));
         __Pyx_GIVEREF(((PyObject *)__pyx_v_dt));
         PyTuple_SET_ITEM(__pyx_t_3, 0+1, ((PyObject *)__pyx_v_dt));
-        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1868, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1869, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
     }
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1868, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1869, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_GIVEREF(__pyx_t_2);
     PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1868, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1869, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 1868, __pyx_L1_error)
+    __PYX_ERR(0, 1869, __pyx_L1_error)
 
-    /* "netcdftime/_netcdftime.pyx":1867
+    /* "netcdftime/_netcdftime.pyx":1868
  *         raise ValueError("invalid minute provided in {0!r}".format(dt))
  * 
  *     if dt.second < 0 or dt.second > 59:             # <<<<<<<<<<<<<<
@@ -32300,7 +32354,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
  */
   }
 
-  /* "netcdftime/_netcdftime.pyx":1870
+  /* "netcdftime/_netcdftime.pyx":1871
  *         raise ValueError("invalid second provided in {0!r}".format(dt))
  * 
  *     if dt.microsecond < 0 or dt.microsecond > 999999:             # <<<<<<<<<<<<<<
@@ -32318,14 +32372,14 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
   __pyx_L29_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "netcdftime/_netcdftime.pyx":1871
+    /* "netcdftime/_netcdftime.pyx":1872
  * 
  *     if dt.microsecond < 0 or dt.microsecond > 999999:
  *         raise ValueError("invalid microsecond provided in {0!r}".format(dt))             # <<<<<<<<<<<<<<
  * 
  * # Add a datetime.timedelta to a netcdftime.datetime instance. Uses
  */
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_microsecond_provided_in, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1871, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_invalid_microsecond_provided_in, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1872, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_3 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
@@ -32338,13 +32392,13 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       }
     }
     if (!__pyx_t_3) {
-      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1871, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_dt)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1872, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     } else {
       #if CYTHON_FAST_PYCALL
       if (PyFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_3, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1871, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1872, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
@@ -32352,37 +32406,37 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
       #if CYTHON_FAST_PYCCALL
       if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
         PyObject *__pyx_temp[2] = {__pyx_t_3, ((PyObject *)__pyx_v_dt)};
-        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1871, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-1, 1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1872, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_GOTREF(__pyx_t_2);
       } else
       #endif
       {
-        __pyx_t_4 = PyTuple_New(1+1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1871, __pyx_L1_error)
+        __pyx_t_4 = PyTuple_New(1+1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1872, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_GIVEREF(__pyx_t_3); PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_3); __pyx_t_3 = NULL;
         __Pyx_INCREF(((PyObject *)__pyx_v_dt));
         __Pyx_GIVEREF(((PyObject *)__pyx_v_dt));
         PyTuple_SET_ITEM(__pyx_t_4, 0+1, ((PyObject *)__pyx_v_dt));
-        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1871, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1872, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
     }
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1871, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1872, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_GIVEREF(__pyx_t_2);
     PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1871, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1872, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 1871, __pyx_L1_error)
+    __PYX_ERR(0, 1872, __pyx_L1_error)
 
-    /* "netcdftime/_netcdftime.pyx":1870
+    /* "netcdftime/_netcdftime.pyx":1871
  *         raise ValueError("invalid second provided in {0!r}".format(dt))
  * 
  *     if dt.microsecond < 0 or dt.microsecond > 999999:             # <<<<<<<<<<<<<<
@@ -32391,7 +32445,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
  */
   }
 
-  /* "netcdftime/_netcdftime.pyx":1838
+  /* "netcdftime/_netcdftime.pyx":1839
  *         return month_lengths_365_day
  * 
  * cdef void assert_valid_date(datetime dt, bint (*is_leap)(int),             # <<<<<<<<<<<<<<
@@ -32413,7 +32467,7 @@ static void __pyx_f_10netcdftime_11_netcdftime_assert_valid_date(struct __pyx_ob
   __Pyx_RefNannyFinishContext();
 }
 
-/* "netcdftime/_netcdftime.pyx":1887
+/* "netcdftime/_netcdftime.pyx":1888
  * # the number of invalid dates are hard-wired (1582-10-4 is the last day
  * # of the Julian calendar, after which follows 1582-10-15).
  * cdef tuple add_timedelta(datetime dt, delta, bint (*is_leap)(int), bint julian_gregorian_mixed):             # <<<<<<<<<<<<<<
@@ -32450,46 +32504,46 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
   PyObject *__pyx_t_11 = NULL;
   __Pyx_RefNannySetupContext("add_timedelta", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1894
+  /* "netcdftime/_netcdftime.pyx":1895
  * 
  *     # extract these inputs here to avoid type conversion in the code below
  *     delta_microseconds = delta.microseconds             # <<<<<<<<<<<<<<
  *     delta_seconds = delta.seconds
  *     delta_days = delta.days
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_delta, __pyx_n_s_microseconds); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1894, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_delta, __pyx_n_s_microseconds); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1895, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1894, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1895, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_delta_microseconds = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1895
+  /* "netcdftime/_netcdftime.pyx":1896
  *     # extract these inputs here to avoid type conversion in the code below
  *     delta_microseconds = delta.microseconds
  *     delta_seconds = delta.seconds             # <<<<<<<<<<<<<<
  *     delta_days = delta.days
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_delta, __pyx_n_s_seconds); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1895, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_delta, __pyx_n_s_seconds); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1896, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1895, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1896, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_delta_seconds = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1896
+  /* "netcdftime/_netcdftime.pyx":1897
  *     delta_microseconds = delta.microseconds
  *     delta_seconds = delta.seconds
  *     delta_days = delta.days             # <<<<<<<<<<<<<<
  * 
  *     # shift microseconds, seconds, days
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_delta, __pyx_n_s_days); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1896, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_delta, __pyx_n_s_days); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1897, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1896, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1897, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_delta_days = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1899
+  /* "netcdftime/_netcdftime.pyx":1900
  * 
  *     # shift microseconds, seconds, days
  *     microsecond = dt.microsecond + delta_microseconds             # <<<<<<<<<<<<<<
@@ -32498,7 +32552,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
   __pyx_v_microsecond = (__pyx_v_dt->microsecond + __pyx_v_delta_microseconds);
 
-  /* "netcdftime/_netcdftime.pyx":1900
+  /* "netcdftime/_netcdftime.pyx":1901
  *     # shift microseconds, seconds, days
  *     microsecond = dt.microsecond + delta_microseconds
  *     second = dt.second + delta_seconds             # <<<<<<<<<<<<<<
@@ -32507,7 +32561,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
   __pyx_v_second = (__pyx_v_dt->second + __pyx_v_delta_seconds);
 
-  /* "netcdftime/_netcdftime.pyx":1901
+  /* "netcdftime/_netcdftime.pyx":1902
  *     microsecond = dt.microsecond + delta_microseconds
  *     second = dt.second + delta_seconds
  *     minute = dt.minute             # <<<<<<<<<<<<<<
@@ -32517,7 +32571,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
   __pyx_t_2 = __pyx_v_dt->minute;
   __pyx_v_minute = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1902
+  /* "netcdftime/_netcdftime.pyx":1903
  *     second = dt.second + delta_seconds
  *     minute = dt.minute
  *     hour = dt.hour             # <<<<<<<<<<<<<<
@@ -32527,7 +32581,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
   __pyx_t_2 = __pyx_v_dt->hour;
   __pyx_v_hour = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1903
+  /* "netcdftime/_netcdftime.pyx":1904
  *     minute = dt.minute
  *     hour = dt.hour
  *     day = dt.day             # <<<<<<<<<<<<<<
@@ -32537,7 +32591,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
   __pyx_t_2 = __pyx_v_dt->day;
   __pyx_v_day = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1904
+  /* "netcdftime/_netcdftime.pyx":1905
  *     hour = dt.hour
  *     day = dt.day
  *     month = dt.month             # <<<<<<<<<<<<<<
@@ -32547,7 +32601,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
   __pyx_t_2 = __pyx_v_dt->month;
   __pyx_v_month = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1905
+  /* "netcdftime/_netcdftime.pyx":1906
  *     day = dt.day
  *     month = dt.month
  *     year = dt.year             # <<<<<<<<<<<<<<
@@ -32557,7 +32611,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
   __pyx_t_2 = __pyx_v_dt->year;
   __pyx_v_year = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1907
+  /* "netcdftime/_netcdftime.pyx":1908
  *     year = dt.year
  * 
  *     month_length = month_lengths(is_leap, year)             # <<<<<<<<<<<<<<
@@ -32566,7 +32620,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
   __pyx_v_month_length = __pyx_f_10netcdftime_11_netcdftime_month_lengths(__pyx_v_is_leap, __pyx_v_year);
 
-  /* "netcdftime/_netcdftime.pyx":1909
+  /* "netcdftime/_netcdftime.pyx":1910
  *     month_length = month_lengths(is_leap, year)
  * 
  *     n_invalid_dates = 10 if julian_gregorian_mixed else 0             # <<<<<<<<<<<<<<
@@ -32580,7 +32634,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
   }
   __pyx_v_n_invalid_dates = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1912
+  /* "netcdftime/_netcdftime.pyx":1913
  * 
  *     # Normalize microseconds, seconds, minutes, hours.
  *     second += microsecond // 1000000             # <<<<<<<<<<<<<<
@@ -32589,7 +32643,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
   __pyx_v_second = (__pyx_v_second + __Pyx_div_long(__pyx_v_microsecond, 0xF4240));
 
-  /* "netcdftime/_netcdftime.pyx":1913
+  /* "netcdftime/_netcdftime.pyx":1914
  *     # Normalize microseconds, seconds, minutes, hours.
  *     second += microsecond // 1000000
  *     microsecond = microsecond % 1000000             # <<<<<<<<<<<<<<
@@ -32598,7 +32652,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
   __pyx_v_microsecond = __Pyx_mod_long(__pyx_v_microsecond, 0xF4240);
 
-  /* "netcdftime/_netcdftime.pyx":1914
+  /* "netcdftime/_netcdftime.pyx":1915
  *     second += microsecond // 1000000
  *     microsecond = microsecond % 1000000
  *     minute += second // 60             # <<<<<<<<<<<<<<
@@ -32607,7 +32661,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
   __pyx_v_minute = (__pyx_v_minute + __Pyx_div_long(__pyx_v_second, 60));
 
-  /* "netcdftime/_netcdftime.pyx":1915
+  /* "netcdftime/_netcdftime.pyx":1916
  *     microsecond = microsecond % 1000000
  *     minute += second // 60
  *     second = second % 60             # <<<<<<<<<<<<<<
@@ -32616,7 +32670,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
   __pyx_v_second = __Pyx_mod_long(__pyx_v_second, 60);
 
-  /* "netcdftime/_netcdftime.pyx":1916
+  /* "netcdftime/_netcdftime.pyx":1917
  *     minute += second // 60
  *     second = second % 60
  *     hour += minute // 60             # <<<<<<<<<<<<<<
@@ -32625,7 +32679,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
   __pyx_v_hour = (__pyx_v_hour + __Pyx_div_long(__pyx_v_minute, 60));
 
-  /* "netcdftime/_netcdftime.pyx":1917
+  /* "netcdftime/_netcdftime.pyx":1918
  *     second = second % 60
  *     hour += minute // 60
  *     minute = minute % 60             # <<<<<<<<<<<<<<
@@ -32634,7 +32688,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
   __pyx_v_minute = __Pyx_mod_long(__pyx_v_minute, 60);
 
-  /* "netcdftime/_netcdftime.pyx":1918
+  /* "netcdftime/_netcdftime.pyx":1919
  *     hour += minute // 60
  *     minute = minute % 60
  *     extra_days = hour // 24             # <<<<<<<<<<<<<<
@@ -32643,7 +32697,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
   __pyx_v_extra_days = __Pyx_div_long(__pyx_v_hour, 24);
 
-  /* "netcdftime/_netcdftime.pyx":1919
+  /* "netcdftime/_netcdftime.pyx":1920
  *     minute = minute % 60
  *     extra_days = hour // 24
  *     hour = hour % 24             # <<<<<<<<<<<<<<
@@ -32652,7 +32706,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
   __pyx_v_hour = __Pyx_mod_long(__pyx_v_hour, 24);
 
-  /* "netcdftime/_netcdftime.pyx":1921
+  /* "netcdftime/_netcdftime.pyx":1922
  *     hour = hour % 24
  * 
  *     delta_days += extra_days             # <<<<<<<<<<<<<<
@@ -32661,7 +32715,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
   __pyx_v_delta_days = (__pyx_v_delta_days + __pyx_v_extra_days);
 
-  /* "netcdftime/_netcdftime.pyx":1923
+  /* "netcdftime/_netcdftime.pyx":1924
  *     delta_days += extra_days
  * 
  *     while delta_days < 0:             # <<<<<<<<<<<<<<
@@ -32672,7 +32726,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
     __pyx_t_3 = ((__pyx_v_delta_days < 0) != 0);
     if (!__pyx_t_3) break;
 
-    /* "netcdftime/_netcdftime.pyx":1924
+    /* "netcdftime/_netcdftime.pyx":1925
  * 
  *     while delta_days < 0:
  *         if year == 1582 and month == 10 and day > 14 and day + delta_days < 15:             # <<<<<<<<<<<<<<
@@ -32702,7 +32756,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
     __pyx_L6_bool_binop_done:;
     if (__pyx_t_3) {
 
-      /* "netcdftime/_netcdftime.pyx":1925
+      /* "netcdftime/_netcdftime.pyx":1926
  *     while delta_days < 0:
  *         if year == 1582 and month == 10 and day > 14 and day + delta_days < 15:
  *             delta_days -= n_invalid_dates    # skip over invalid dates             # <<<<<<<<<<<<<<
@@ -32711,7 +32765,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
       __pyx_v_delta_days = (__pyx_v_delta_days - __pyx_v_n_invalid_dates);
 
-      /* "netcdftime/_netcdftime.pyx":1924
+      /* "netcdftime/_netcdftime.pyx":1925
  * 
  *     while delta_days < 0:
  *         if year == 1582 and month == 10 and day > 14 and day + delta_days < 15:             # <<<<<<<<<<<<<<
@@ -32720,7 +32774,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
     }
 
-    /* "netcdftime/_netcdftime.pyx":1926
+    /* "netcdftime/_netcdftime.pyx":1927
  *         if year == 1582 and month == 10 and day > 14 and day + delta_days < 15:
  *             delta_days -= n_invalid_dates    # skip over invalid dates
  *         if day + delta_days < 1:             # <<<<<<<<<<<<<<
@@ -32730,7 +32784,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
     __pyx_t_3 = (((__pyx_v_day + __pyx_v_delta_days) < 1) != 0);
     if (__pyx_t_3) {
 
-      /* "netcdftime/_netcdftime.pyx":1927
+      /* "netcdftime/_netcdftime.pyx":1928
  *             delta_days -= n_invalid_dates    # skip over invalid dates
  *         if day + delta_days < 1:
  *             delta_days += day             # <<<<<<<<<<<<<<
@@ -32739,7 +32793,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
       __pyx_v_delta_days = (__pyx_v_delta_days + __pyx_v_day);
 
-      /* "netcdftime/_netcdftime.pyx":1929
+      /* "netcdftime/_netcdftime.pyx":1930
  *             delta_days += day
  *             # decrement month
  *             month -= 1             # <<<<<<<<<<<<<<
@@ -32748,7 +32802,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
       __pyx_v_month = (__pyx_v_month - 1);
 
-      /* "netcdftime/_netcdftime.pyx":1930
+      /* "netcdftime/_netcdftime.pyx":1931
  *             # decrement month
  *             month -= 1
  *             if month < 1:             # <<<<<<<<<<<<<<
@@ -32758,7 +32812,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
       __pyx_t_3 = ((__pyx_v_month < 1) != 0);
       if (__pyx_t_3) {
 
-        /* "netcdftime/_netcdftime.pyx":1931
+        /* "netcdftime/_netcdftime.pyx":1932
  *             month -= 1
  *             if month < 1:
  *                 month = 12             # <<<<<<<<<<<<<<
@@ -32767,7 +32821,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
         __pyx_v_month = 12;
 
-        /* "netcdftime/_netcdftime.pyx":1932
+        /* "netcdftime/_netcdftime.pyx":1933
  *             if month < 1:
  *                 month = 12
  *                 year -= 1             # <<<<<<<<<<<<<<
@@ -32776,7 +32830,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
         __pyx_v_year = (__pyx_v_year - 1);
 
-        /* "netcdftime/_netcdftime.pyx":1933
+        /* "netcdftime/_netcdftime.pyx":1934
  *                 month = 12
  *                 year -= 1
  *                 if year == 0:             # <<<<<<<<<<<<<<
@@ -32786,7 +32840,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
         __pyx_t_3 = ((__pyx_v_year == 0) != 0);
         if (__pyx_t_3) {
 
-          /* "netcdftime/_netcdftime.pyx":1934
+          /* "netcdftime/_netcdftime.pyx":1935
  *                 year -= 1
  *                 if year == 0:
  *                     year = -1             # <<<<<<<<<<<<<<
@@ -32795,7 +32849,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
           __pyx_v_year = -1;
 
-          /* "netcdftime/_netcdftime.pyx":1933
+          /* "netcdftime/_netcdftime.pyx":1934
  *                 month = 12
  *                 year -= 1
  *                 if year == 0:             # <<<<<<<<<<<<<<
@@ -32804,7 +32858,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
         }
 
-        /* "netcdftime/_netcdftime.pyx":1935
+        /* "netcdftime/_netcdftime.pyx":1936
  *                 if year == 0:
  *                     year = -1
  *                 month_length = month_lengths(is_leap, year)             # <<<<<<<<<<<<<<
@@ -32813,7 +32867,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
         __pyx_v_month_length = __pyx_f_10netcdftime_11_netcdftime_month_lengths(__pyx_v_is_leap, __pyx_v_year);
 
-        /* "netcdftime/_netcdftime.pyx":1930
+        /* "netcdftime/_netcdftime.pyx":1931
  *             # decrement month
  *             month -= 1
  *             if month < 1:             # <<<<<<<<<<<<<<
@@ -32822,7 +32876,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
       }
 
-      /* "netcdftime/_netcdftime.pyx":1936
+      /* "netcdftime/_netcdftime.pyx":1937
  *                     year = -1
  *                 month_length = month_lengths(is_leap, year)
  *             day = month_length[month]             # <<<<<<<<<<<<<<
@@ -32831,7 +32885,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
       __pyx_v_day = (__pyx_v_month_length[__pyx_v_month]);
 
-      /* "netcdftime/_netcdftime.pyx":1926
+      /* "netcdftime/_netcdftime.pyx":1927
  *         if year == 1582 and month == 10 and day > 14 and day + delta_days < 15:
  *             delta_days -= n_invalid_dates    # skip over invalid dates
  *         if day + delta_days < 1:             # <<<<<<<<<<<<<<
@@ -32841,7 +32895,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
       goto __pyx_L10;
     }
 
-    /* "netcdftime/_netcdftime.pyx":1938
+    /* "netcdftime/_netcdftime.pyx":1939
  *             day = month_length[month]
  *         else:
  *             day += delta_days             # <<<<<<<<<<<<<<
@@ -32851,7 +32905,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
     /*else*/ {
       __pyx_v_day = (__pyx_v_day + __pyx_v_delta_days);
 
-      /* "netcdftime/_netcdftime.pyx":1939
+      /* "netcdftime/_netcdftime.pyx":1940
  *         else:
  *             day += delta_days
  *             delta_days = 0             # <<<<<<<<<<<<<<
@@ -32863,7 +32917,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
     __pyx_L10:;
   }
 
-  /* "netcdftime/_netcdftime.pyx":1941
+  /* "netcdftime/_netcdftime.pyx":1942
  *             delta_days = 0
  * 
  *     while delta_days > 0:             # <<<<<<<<<<<<<<
@@ -32874,7 +32928,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
     __pyx_t_3 = ((__pyx_v_delta_days > 0) != 0);
     if (!__pyx_t_3) break;
 
-    /* "netcdftime/_netcdftime.pyx":1942
+    /* "netcdftime/_netcdftime.pyx":1943
  * 
  *     while delta_days > 0:
  *         if year == 1582 and month == 10 and day < 5 and day + delta_days > 4:             # <<<<<<<<<<<<<<
@@ -32904,7 +32958,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
     __pyx_L16_bool_binop_done:;
     if (__pyx_t_3) {
 
-      /* "netcdftime/_netcdftime.pyx":1943
+      /* "netcdftime/_netcdftime.pyx":1944
  *     while delta_days > 0:
  *         if year == 1582 and month == 10 and day < 5 and day + delta_days > 4:
  *             delta_days += n_invalid_dates    # skip over invalid dates             # <<<<<<<<<<<<<<
@@ -32913,7 +32967,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
       __pyx_v_delta_days = (__pyx_v_delta_days + __pyx_v_n_invalid_dates);
 
-      /* "netcdftime/_netcdftime.pyx":1942
+      /* "netcdftime/_netcdftime.pyx":1943
  * 
  *     while delta_days > 0:
  *         if year == 1582 and month == 10 and day < 5 and day + delta_days > 4:             # <<<<<<<<<<<<<<
@@ -32922,7 +32976,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
     }
 
-    /* "netcdftime/_netcdftime.pyx":1944
+    /* "netcdftime/_netcdftime.pyx":1945
  *         if year == 1582 and month == 10 and day < 5 and day + delta_days > 4:
  *             delta_days += n_invalid_dates    # skip over invalid dates
  *         if day + delta_days > month_length[month]:             # <<<<<<<<<<<<<<
@@ -32932,7 +32986,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
     __pyx_t_3 = (((__pyx_v_day + __pyx_v_delta_days) > (__pyx_v_month_length[__pyx_v_month])) != 0);
     if (__pyx_t_3) {
 
-      /* "netcdftime/_netcdftime.pyx":1945
+      /* "netcdftime/_netcdftime.pyx":1946
  *             delta_days += n_invalid_dates    # skip over invalid dates
  *         if day + delta_days > month_length[month]:
  *             delta_days -= month_length[month] - (day - 1)             # <<<<<<<<<<<<<<
@@ -32941,7 +32995,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
       __pyx_v_delta_days = (__pyx_v_delta_days - ((__pyx_v_month_length[__pyx_v_month]) - (__pyx_v_day - 1)));
 
-      /* "netcdftime/_netcdftime.pyx":1947
+      /* "netcdftime/_netcdftime.pyx":1948
  *             delta_days -= month_length[month] - (day - 1)
  *             # increment month
  *             month += 1             # <<<<<<<<<<<<<<
@@ -32950,7 +33004,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
       __pyx_v_month = (__pyx_v_month + 1);
 
-      /* "netcdftime/_netcdftime.pyx":1948
+      /* "netcdftime/_netcdftime.pyx":1949
  *             # increment month
  *             month += 1
  *             if month > 12:             # <<<<<<<<<<<<<<
@@ -32960,7 +33014,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
       __pyx_t_3 = ((__pyx_v_month > 12) != 0);
       if (__pyx_t_3) {
 
-        /* "netcdftime/_netcdftime.pyx":1949
+        /* "netcdftime/_netcdftime.pyx":1950
  *             month += 1
  *             if month > 12:
  *                 month = 1             # <<<<<<<<<<<<<<
@@ -32969,7 +33023,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
         __pyx_v_month = 1;
 
-        /* "netcdftime/_netcdftime.pyx":1950
+        /* "netcdftime/_netcdftime.pyx":1951
  *             if month > 12:
  *                 month = 1
  *                 year += 1             # <<<<<<<<<<<<<<
@@ -32978,7 +33032,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
         __pyx_v_year = (__pyx_v_year + 1);
 
-        /* "netcdftime/_netcdftime.pyx":1951
+        /* "netcdftime/_netcdftime.pyx":1952
  *                 month = 1
  *                 year += 1
  *                 if year == 0:             # <<<<<<<<<<<<<<
@@ -32988,7 +33042,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
         __pyx_t_3 = ((__pyx_v_year == 0) != 0);
         if (__pyx_t_3) {
 
-          /* "netcdftime/_netcdftime.pyx":1952
+          /* "netcdftime/_netcdftime.pyx":1953
  *                 year += 1
  *                 if year == 0:
  *                     year = 1             # <<<<<<<<<<<<<<
@@ -32997,7 +33051,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
           __pyx_v_year = 1;
 
-          /* "netcdftime/_netcdftime.pyx":1951
+          /* "netcdftime/_netcdftime.pyx":1952
  *                 month = 1
  *                 year += 1
  *                 if year == 0:             # <<<<<<<<<<<<<<
@@ -33006,7 +33060,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
         }
 
-        /* "netcdftime/_netcdftime.pyx":1953
+        /* "netcdftime/_netcdftime.pyx":1954
  *                 if year == 0:
  *                     year = 1
  *                 month_length = month_lengths(is_leap, year)             # <<<<<<<<<<<<<<
@@ -33015,7 +33069,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
         __pyx_v_month_length = __pyx_f_10netcdftime_11_netcdftime_month_lengths(__pyx_v_is_leap, __pyx_v_year);
 
-        /* "netcdftime/_netcdftime.pyx":1948
+        /* "netcdftime/_netcdftime.pyx":1949
  *             # increment month
  *             month += 1
  *             if month > 12:             # <<<<<<<<<<<<<<
@@ -33024,7 +33078,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
       }
 
-      /* "netcdftime/_netcdftime.pyx":1954
+      /* "netcdftime/_netcdftime.pyx":1955
  *                     year = 1
  *                 month_length = month_lengths(is_leap, year)
  *             day = 1             # <<<<<<<<<<<<<<
@@ -33033,7 +33087,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  */
       __pyx_v_day = 1;
 
-      /* "netcdftime/_netcdftime.pyx":1944
+      /* "netcdftime/_netcdftime.pyx":1945
  *         if year == 1582 and month == 10 and day < 5 and day + delta_days > 4:
  *             delta_days += n_invalid_dates    # skip over invalid dates
  *         if day + delta_days > month_length[month]:             # <<<<<<<<<<<<<<
@@ -33043,7 +33097,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
       goto __pyx_L20;
     }
 
-    /* "netcdftime/_netcdftime.pyx":1956
+    /* "netcdftime/_netcdftime.pyx":1957
  *             day = 1
  *         else:
  *             day += delta_days             # <<<<<<<<<<<<<<
@@ -33053,7 +33107,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
     /*else*/ {
       __pyx_v_day = (__pyx_v_day + __pyx_v_delta_days);
 
-      /* "netcdftime/_netcdftime.pyx":1957
+      /* "netcdftime/_netcdftime.pyx":1958
  *         else:
  *             day += delta_days
  *             delta_days = 0             # <<<<<<<<<<<<<<
@@ -33065,7 +33119,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
     __pyx_L20:;
   }
 
-  /* "netcdftime/_netcdftime.pyx":1959
+  /* "netcdftime/_netcdftime.pyx":1960
  *             delta_days = 0
  * 
  *     return (year, month, day, hour, minute, second, microsecond, -1, 1)             # <<<<<<<<<<<<<<
@@ -33073,21 +33127,21 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
  * # Add a datetime.timedelta to a netcdftime.datetime instance with the 360_day calendar.
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_year); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1959, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_year); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1960, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_month); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1959, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_month); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1960, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_day); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1959, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_day); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1960, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_7 = __Pyx_PyInt_From_int(__pyx_v_hour); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1959, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyInt_From_int(__pyx_v_hour); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1960, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_minute); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1959, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_minute); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1960, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
-  __pyx_t_9 = __Pyx_PyInt_From_int(__pyx_v_second); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1959, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_PyInt_From_int(__pyx_v_second); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1960, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_10 = __Pyx_PyInt_From_int(__pyx_v_microsecond); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1959, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyInt_From_int(__pyx_v_microsecond); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1960, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
-  __pyx_t_11 = PyTuple_New(9); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1959, __pyx_L1_error)
+  __pyx_t_11 = PyTuple_New(9); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1960, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_11, 0, __pyx_t_1);
@@ -33120,7 +33174,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
   __pyx_t_11 = 0;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1887
+  /* "netcdftime/_netcdftime.pyx":1888
  * # the number of invalid dates are hard-wired (1582-10-4 is the last day
  * # of the Julian calendar, after which follows 1582-10-15).
  * cdef tuple add_timedelta(datetime dt, delta, bint (*is_leap)(int), bint julian_gregorian_mixed):             # <<<<<<<<<<<<<<
@@ -33146,7 +33200,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta(struct __pyx_o
   return __pyx_r;
 }
 
-/* "netcdftime/_netcdftime.pyx":1967
+/* "netcdftime/_netcdftime.pyx":1968
  * # months are 30 days long, so we can compute month and year by using
  * # "//" and "%".
  * cdef tuple add_timedelta_360_day(datetime dt, delta):             # <<<<<<<<<<<<<<
@@ -33178,46 +33232,46 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
   PyObject *__pyx_t_9 = NULL;
   __Pyx_RefNannySetupContext("add_timedelta_360_day", 0);
 
-  /* "netcdftime/_netcdftime.pyx":1972
+  /* "netcdftime/_netcdftime.pyx":1973
  * 
  *     # extract these inputs here to avoid type conversion in the code below
  *     delta_microseconds = delta.microseconds             # <<<<<<<<<<<<<<
  *     delta_seconds = delta.seconds
  *     delta_days = delta.days
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_delta, __pyx_n_s_microseconds); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1972, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_delta, __pyx_n_s_microseconds); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1973, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1972, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1973, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_delta_microseconds = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1973
+  /* "netcdftime/_netcdftime.pyx":1974
  *     # extract these inputs here to avoid type conversion in the code below
  *     delta_microseconds = delta.microseconds
  *     delta_seconds = delta.seconds             # <<<<<<<<<<<<<<
  *     delta_days = delta.days
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_delta, __pyx_n_s_seconds); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1973, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_delta, __pyx_n_s_seconds); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1974, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1973, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1974, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_delta_seconds = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1974
+  /* "netcdftime/_netcdftime.pyx":1975
  *     delta_microseconds = delta.microseconds
  *     delta_seconds = delta.seconds
  *     delta_days = delta.days             # <<<<<<<<<<<<<<
  * 
  *     # shift microseconds, seconds, days
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_delta, __pyx_n_s_days); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1974, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_delta, __pyx_n_s_days); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1975, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1974, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1975, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_delta_days = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1977
+  /* "netcdftime/_netcdftime.pyx":1978
  * 
  *     # shift microseconds, seconds, days
  *     microsecond = dt.microsecond + delta_microseconds             # <<<<<<<<<<<<<<
@@ -33226,7 +33280,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_microsecond = (__pyx_v_dt->microsecond + __pyx_v_delta_microseconds);
 
-  /* "netcdftime/_netcdftime.pyx":1978
+  /* "netcdftime/_netcdftime.pyx":1979
  *     # shift microseconds, seconds, days
  *     microsecond = dt.microsecond + delta_microseconds
  *     second = dt.second + delta_seconds             # <<<<<<<<<<<<<<
@@ -33235,7 +33289,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_second = (__pyx_v_dt->second + __pyx_v_delta_seconds);
 
-  /* "netcdftime/_netcdftime.pyx":1979
+  /* "netcdftime/_netcdftime.pyx":1980
  *     microsecond = dt.microsecond + delta_microseconds
  *     second = dt.second + delta_seconds
  *     minute = dt.minute             # <<<<<<<<<<<<<<
@@ -33245,7 +33299,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
   __pyx_t_2 = __pyx_v_dt->minute;
   __pyx_v_minute = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1980
+  /* "netcdftime/_netcdftime.pyx":1981
  *     second = dt.second + delta_seconds
  *     minute = dt.minute
  *     hour = dt.hour             # <<<<<<<<<<<<<<
@@ -33255,7 +33309,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
   __pyx_t_2 = __pyx_v_dt->hour;
   __pyx_v_hour = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1981
+  /* "netcdftime/_netcdftime.pyx":1982
  *     minute = dt.minute
  *     hour = dt.hour
  *     day = dt.day + delta_days             # <<<<<<<<<<<<<<
@@ -33264,7 +33318,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_day = (__pyx_v_dt->day + __pyx_v_delta_days);
 
-  /* "netcdftime/_netcdftime.pyx":1982
+  /* "netcdftime/_netcdftime.pyx":1983
  *     hour = dt.hour
  *     day = dt.day + delta_days
  *     month = dt.month             # <<<<<<<<<<<<<<
@@ -33274,7 +33328,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
   __pyx_t_2 = __pyx_v_dt->month;
   __pyx_v_month = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1983
+  /* "netcdftime/_netcdftime.pyx":1984
  *     day = dt.day + delta_days
  *     month = dt.month
  *     year = dt.year             # <<<<<<<<<<<<<<
@@ -33284,7 +33338,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
   __pyx_t_2 = __pyx_v_dt->year;
   __pyx_v_year = __pyx_t_2;
 
-  /* "netcdftime/_netcdftime.pyx":1986
+  /* "netcdftime/_netcdftime.pyx":1987
  * 
  *     # Normalize microseconds, seconds, minutes, hours, days, and months.
  *     second += microsecond // 1000000             # <<<<<<<<<<<<<<
@@ -33293,7 +33347,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_second = (__pyx_v_second + __Pyx_div_long(__pyx_v_microsecond, 0xF4240));
 
-  /* "netcdftime/_netcdftime.pyx":1987
+  /* "netcdftime/_netcdftime.pyx":1988
  *     # Normalize microseconds, seconds, minutes, hours, days, and months.
  *     second += microsecond // 1000000
  *     microsecond = microsecond % 1000000             # <<<<<<<<<<<<<<
@@ -33302,7 +33356,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_microsecond = __Pyx_mod_long(__pyx_v_microsecond, 0xF4240);
 
-  /* "netcdftime/_netcdftime.pyx":1988
+  /* "netcdftime/_netcdftime.pyx":1989
  *     second += microsecond // 1000000
  *     microsecond = microsecond % 1000000
  *     minute += second // 60             # <<<<<<<<<<<<<<
@@ -33311,7 +33365,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_minute = (__pyx_v_minute + __Pyx_div_long(__pyx_v_second, 60));
 
-  /* "netcdftime/_netcdftime.pyx":1989
+  /* "netcdftime/_netcdftime.pyx":1990
  *     microsecond = microsecond % 1000000
  *     minute += second // 60
  *     second = second % 60             # <<<<<<<<<<<<<<
@@ -33320,7 +33374,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_second = __Pyx_mod_long(__pyx_v_second, 60);
 
-  /* "netcdftime/_netcdftime.pyx":1990
+  /* "netcdftime/_netcdftime.pyx":1991
  *     minute += second // 60
  *     second = second % 60
  *     hour += minute // 60             # <<<<<<<<<<<<<<
@@ -33329,7 +33383,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_hour = (__pyx_v_hour + __Pyx_div_long(__pyx_v_minute, 60));
 
-  /* "netcdftime/_netcdftime.pyx":1991
+  /* "netcdftime/_netcdftime.pyx":1992
  *     second = second % 60
  *     hour += minute // 60
  *     minute = minute % 60             # <<<<<<<<<<<<<<
@@ -33338,7 +33392,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_minute = __Pyx_mod_long(__pyx_v_minute, 60);
 
-  /* "netcdftime/_netcdftime.pyx":1992
+  /* "netcdftime/_netcdftime.pyx":1993
  *     hour += minute // 60
  *     minute = minute % 60
  *     day += hour // 24             # <<<<<<<<<<<<<<
@@ -33347,7 +33401,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_day = (__pyx_v_day + __Pyx_div_long(__pyx_v_hour, 24));
 
-  /* "netcdftime/_netcdftime.pyx":1993
+  /* "netcdftime/_netcdftime.pyx":1994
  *     minute = minute % 60
  *     day += hour // 24
  *     hour = hour % 24             # <<<<<<<<<<<<<<
@@ -33356,7 +33410,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_hour = __Pyx_mod_long(__pyx_v_hour, 24);
 
-  /* "netcdftime/_netcdftime.pyx":1995
+  /* "netcdftime/_netcdftime.pyx":1996
  *     hour = hour % 24
  *     # day and month are counted from 1; all months have 30 days
  *     month += (day - 1) // 30             # <<<<<<<<<<<<<<
@@ -33365,7 +33419,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_month = (__pyx_v_month + __Pyx_div_long((__pyx_v_day - 1), 30));
 
-  /* "netcdftime/_netcdftime.pyx":1996
+  /* "netcdftime/_netcdftime.pyx":1997
  *     # day and month are counted from 1; all months have 30 days
  *     month += (day - 1) // 30
  *     day = (day - 1) % 30 + 1             # <<<<<<<<<<<<<<
@@ -33374,7 +33428,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_day = (__Pyx_mod_long((__pyx_v_day - 1), 30) + 1);
 
-  /* "netcdftime/_netcdftime.pyx":1998
+  /* "netcdftime/_netcdftime.pyx":1999
  *     day = (day - 1) % 30 + 1
  *     # all years have 12 months
  *     year += (month - 1) // 12             # <<<<<<<<<<<<<<
@@ -33383,7 +33437,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_year = (__pyx_v_year + __Pyx_div_long((__pyx_v_month - 1), 12));
 
-  /* "netcdftime/_netcdftime.pyx":1999
+  /* "netcdftime/_netcdftime.pyx":2000
  *     # all years have 12 months
  *     year += (month - 1) // 12
  *     month = (month - 1) % 12 + 1             # <<<<<<<<<<<<<<
@@ -33392,27 +33446,27 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
  */
   __pyx_v_month = (__Pyx_mod_long((__pyx_v_month - 1), 12) + 1);
 
-  /* "netcdftime/_netcdftime.pyx":2001
+  /* "netcdftime/_netcdftime.pyx":2002
  *     month = (month - 1) % 12 + 1
  * 
  *     return (year, month, day, hour, minute, second, microsecond, -1, 1)             # <<<<<<<<<<<<<<
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_year); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2001, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_year); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2002, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_month); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2001, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_month); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2002, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_day); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2001, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_day); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2002, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_hour); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2001, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_hour); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2002, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_minute); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2001, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_minute); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2002, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_7 = __Pyx_PyInt_From_int(__pyx_v_second); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2001, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyInt_From_int(__pyx_v_second); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2002, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_microsecond); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 2001, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_microsecond); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 2002, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
-  __pyx_t_9 = PyTuple_New(9); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 2001, __pyx_L1_error)
+  __pyx_t_9 = PyTuple_New(9); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 2002, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_1);
@@ -33445,7 +33499,7 @@ static PyObject *__pyx_f_10netcdftime_11_netcdftime_add_timedelta_360_day(struct
   __pyx_t_9 = 0;
   goto __pyx_L0;
 
-  /* "netcdftime/_netcdftime.pyx":1967
+  /* "netcdftime/_netcdftime.pyx":1968
  * # months are 30 days long, so we can compute month and year by using
  * # "//" and "%".
  * cdef tuple add_timedelta_360_day(datetime dt, delta):             # <<<<<<<<<<<<<<
@@ -34195,13 +34249,14 @@ static struct PyModuleDef __pyx_moduledef = {
 #endif
 
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
-  {&__pyx_kp_s_04d, __pyx_k_04d, sizeof(__pyx_k_04d), 0, 0, 1, 0},
+  {&__pyx_kp_s_04d_02d_02d_02d_02d_02d, __pyx_k_04d_02d_02d_02d_02d_02d, sizeof(__pyx_k_04d_02d_02d_02d_02d_02d), 0, 0, 1, 0},
   {&__pyx_kp_s_0_1_2, __pyx_k_0_1_2, sizeof(__pyx_k_0_1_2), 0, 0, 1, 0},
   {&__pyx_kp_s_0_r_is_not_present_in_the_mixed, __pyx_k_0_r_is_not_present_in_the_mixed, sizeof(__pyx_k_0_r_is_not_present_in_the_mixed), 0, 0, 1, 0},
   {&__pyx_kp_s_1_4_1, __pyx_k_1_4_1, sizeof(__pyx_k_1_4_1), 0, 0, 1, 0},
   {&__pyx_kp_s_360_day, __pyx_k_360_day, sizeof(__pyx_k_360_day), 0, 0, 1, 0},
   {&__pyx_kp_s_365_day, __pyx_k_365_day, sizeof(__pyx_k_365_day), 0, 0, 1, 0},
   {&__pyx_kp_s_366_day, __pyx_k_366_day, sizeof(__pyx_k_366_day), 0, 0, 1, 0},
+  {&__pyx_kp_s_4d, __pyx_k_4d, sizeof(__pyx_k_4d), 0, 0, 1, 0},
   {&__pyx_n_s_A, __pyx_k_A, sizeof(__pyx_k_A), 0, 0, 1, 1},
   {&__pyx_n_s_AttributeError, __pyx_k_AttributeError, sizeof(__pyx_k_AttributeError), 0, 0, 1, 1},
   {&__pyx_n_s_B, __pyx_k_B, sizeof(__pyx_k_B), 0, 0, 1, 1},
@@ -34455,12 +34510,12 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
 };
 static int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(0, 18, __pyx_L1_error)
-  __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_n_s_enumerate); if (!__pyx_builtin_enumerate) __PYX_ERR(0, 1825, __pyx_L1_error)
+  __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_n_s_enumerate); if (!__pyx_builtin_enumerate) __PYX_ERR(0, 1826, __pyx_L1_error)
   __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(0, 58, __pyx_L1_error)
   __pyx_builtin_AttributeError = __Pyx_GetBuiltinName(__pyx_n_s_AttributeError); if (!__pyx_builtin_AttributeError) __PYX_ERR(0, 319, __pyx_L1_error)
   __pyx_builtin_IndexError = __Pyx_GetBuiltinName(__pyx_n_s_IndexError); if (!__pyx_builtin_IndexError) __PYX_ERR(0, 1275, __pyx_L1_error)
-  __pyx_builtin_TypeError = __Pyx_GetBuiltinName(__pyx_n_s_TypeError); if (!__pyx_builtin_TypeError) __PYX_ERR(0, 1570, __pyx_L1_error)
-  __pyx_builtin_NotImplemented = __Pyx_GetBuiltinName(__pyx_n_s_NotImplemented); if (!__pyx_builtin_NotImplemented) __PYX_ERR(0, 1589, __pyx_L1_error)
+  __pyx_builtin_TypeError = __Pyx_GetBuiltinName(__pyx_n_s_TypeError); if (!__pyx_builtin_TypeError) __PYX_ERR(0, 1571, __pyx_L1_error)
+  __pyx_builtin_NotImplemented = __Pyx_GetBuiltinName(__pyx_n_s_NotImplemented); if (!__pyx_builtin_NotImplemented) __PYX_ERR(0, 1590, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -34767,91 +34822,91 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__28);
   __Pyx_GIVEREF(__pyx_tuple__28);
 
-  /* "netcdftime/_netcdftime.pyx":1610
+  /* "netcdftime/_netcdftime.pyx":1611
  *                 # datetime - datetime
  *                 if dt.calendar != other.calendar:
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")             # <<<<<<<<<<<<<<
  *                 if dt.calendar == "":
  *                     raise ValueError("cannot compute the time difference between dates that are not calendar-aware")
  */
-  __pyx_tuple__30 = PyTuple_Pack(1, __pyx_kp_s_cannot_compute_the_time_differen); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(0, 1610, __pyx_L1_error)
+  __pyx_tuple__30 = PyTuple_Pack(1, __pyx_kp_s_cannot_compute_the_time_differen); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(0, 1611, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__30);
   __Pyx_GIVEREF(__pyx_tuple__30);
 
-  /* "netcdftime/_netcdftime.pyx":1612
+  /* "netcdftime/_netcdftime.pyx":1613
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")
  *                 if dt.calendar == "":
  *                     raise ValueError("cannot compute the time difference between dates that are not calendar-aware")             # <<<<<<<<<<<<<<
  *                 converter = _converters[dt.calendar]
  *                 return timedelta(seconds=converter.date2num(dt) - converter.date2num(other))
  */
-  __pyx_tuple__31 = PyTuple_Pack(1, __pyx_kp_s_cannot_compute_the_time_differen_2); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(0, 1612, __pyx_L1_error)
+  __pyx_tuple__31 = PyTuple_Pack(1, __pyx_kp_s_cannot_compute_the_time_differen_2); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(0, 1613, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__31);
   __Pyx_GIVEREF(__pyx_tuple__31);
 
-  /* "netcdftime/_netcdftime.pyx":1618
+  /* "netcdftime/_netcdftime.pyx":1619
  *                 # datetime - real_datetime
  *                 if not dt.datetime_compatible:
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")             # <<<<<<<<<<<<<<
  *                 return dt._to_real_datetime() - other
  *             elif isinstance(other, timedelta):
  */
-  __pyx_tuple__32 = PyTuple_Pack(1, __pyx_kp_s_cannot_compute_the_time_differen); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(0, 1618, __pyx_L1_error)
+  __pyx_tuple__32 = PyTuple_Pack(1, __pyx_kp_s_cannot_compute_the_time_differen); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(0, 1619, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__32);
   __Pyx_GIVEREF(__pyx_tuple__32);
 
-  /* "netcdftime/_netcdftime.pyx":1629
+  /* "netcdftime/_netcdftime.pyx":1630
  *                 # real_datetime - datetime
  *                 if not other.datetime_compatible:
  *                     raise ValueError("cannot compute the time difference between dates with different calendars")             # <<<<<<<<<<<<<<
  *                 return self - other._to_real_datetime()
  *             else:
  */
-  __pyx_tuple__33 = PyTuple_Pack(1, __pyx_kp_s_cannot_compute_the_time_differen); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(0, 1629, __pyx_L1_error)
+  __pyx_tuple__33 = PyTuple_Pack(1, __pyx_kp_s_cannot_compute_the_time_differen); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(0, 1630, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__33);
   __Pyx_GIVEREF(__pyx_tuple__33);
 
-  /* "netcdftime/_netcdftime.pyx":1709
+  /* "netcdftime/_netcdftime.pyx":1710
  *         # dates after 1582-10-15 can be converted to and compared to
  *         # proleptic Gregorian dates
  *         if self.to_tuple() >= (1582, 10, 15, 0, 0, 0, 0):             # <<<<<<<<<<<<<<
  *             self.datetime_compatible = True
  *         else:
  */
-  __pyx_tuple__34 = PyTuple_Pack(7, __pyx_int_1582, __pyx_int_10, __pyx_int_15, __pyx_int_0, __pyx_int_0, __pyx_int_0, __pyx_int_0); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 1709, __pyx_L1_error)
+  __pyx_tuple__34 = PyTuple_Pack(7, __pyx_int_1582, __pyx_int_10, __pyx_int_15, __pyx_int_0, __pyx_int_0, __pyx_int_0, __pyx_int_0); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 1710, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__34);
   __Pyx_GIVEREF(__pyx_tuple__34);
 
-  /* "netcdftime/_netcdftime.pyx":1767
+  /* "netcdftime/_netcdftime.pyx":1768
  * cdef _strftime(datetime dt, fmt):
  *     if _illegal_s.search(fmt):
  *         raise TypeError("This strftime implementation does not handle %s")             # <<<<<<<<<<<<<<
  *     # don't use strftime method at all.
  *     # if dt.year > 1900:
  */
-  __pyx_tuple__35 = PyTuple_Pack(1, __pyx_kp_s_This_strftime_implementation_doe); if (unlikely(!__pyx_tuple__35)) __PYX_ERR(0, 1767, __pyx_L1_error)
+  __pyx_tuple__35 = PyTuple_Pack(1, __pyx_kp_s_This_strftime_implementation_doe); if (unlikely(!__pyx_tuple__35)) __PYX_ERR(0, 1768, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__35);
   __Pyx_GIVEREF(__pyx_tuple__35);
 
-  /* "netcdftime/_netcdftime.pyx":1782
+  /* "netcdftime/_netcdftime.pyx":1783
  *     year = year + ((2000 - year) // 28) * 28
  *     timetuple = dt.timetuple()
  *     s1 = time.strftime(fmt, (year,) + timetuple[1:])             # <<<<<<<<<<<<<<
  *     sites1 = _findall(s1, str(year))
  * 
  */
-  __pyx_slice__36 = PySlice_New(__pyx_int_1, Py_None, Py_None); if (unlikely(!__pyx_slice__36)) __PYX_ERR(0, 1782, __pyx_L1_error)
+  __pyx_slice__36 = PySlice_New(__pyx_int_1, Py_None, Py_None); if (unlikely(!__pyx_slice__36)) __PYX_ERR(0, 1783, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_slice__36);
   __Pyx_GIVEREF(__pyx_slice__36);
 
-  /* "netcdftime/_netcdftime.pyx":1785
+  /* "netcdftime/_netcdftime.pyx":1786
  *     sites1 = _findall(s1, str(year))
  * 
  *     s2 = time.strftime(fmt, (year + 28,) + timetuple[1:])             # <<<<<<<<<<<<<<
  *     sites2 = _findall(s2, str(year + 28))
  * 
  */
-  __pyx_slice__37 = PySlice_New(__pyx_int_1, Py_None, Py_None); if (unlikely(!__pyx_slice__37)) __PYX_ERR(0, 1785, __pyx_L1_error)
+  __pyx_slice__37 = PySlice_New(__pyx_int_1, Py_None, Py_None); if (unlikely(!__pyx_slice__37)) __PYX_ERR(0, 1786, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_slice__37);
   __Pyx_GIVEREF(__pyx_slice__37);
 
@@ -35023,14 +35078,14 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__62);
   __pyx_codeobj__63 = (PyObject*)__Pyx_PyCode_New(4, 0, 18, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__62, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_spencerclark_Princeton_CO, __pyx_n_s_time2index, 1342, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__63)) __PYX_ERR(0, 1342, __pyx_L1_error)
 
-  /* "netcdftime/_netcdftime.pyx":1745
+  /* "netcdftime/_netcdftime.pyx":1746
  *                                                          is_leap_proleptic_gregorian, False))
  * 
  * _illegal_s = re.compile(r"((^|[^%])(%%)*%s)")             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_tuple__64 = PyTuple_Pack(1, __pyx_kp_s_s_2); if (unlikely(!__pyx_tuple__64)) __PYX_ERR(0, 1745, __pyx_L1_error)
+  __pyx_tuple__64 = PyTuple_Pack(1, __pyx_kp_s_s_2); if (unlikely(!__pyx_tuple__64)) __PYX_ERR(0, 1746, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__64);
   __Pyx_GIVEREF(__pyx_tuple__64);
   __Pyx_RefNannyFinishContext();
@@ -35239,55 +35294,55 @@ PyMODINIT_FUNC PyInit__netcdftime(void)
   __pyx_vtable_10netcdftime_11_netcdftime_DatetimeNoLeap.__pyx_base = *__pyx_vtabptr_10netcdftime_11_netcdftime_datetime;
   __pyx_vtable_10netcdftime_11_netcdftime_DatetimeNoLeap.__pyx_base._add_timedelta = (PyObject *(*)(struct __pyx_obj_10netcdftime_11_netcdftime_datetime *, PyObject *))__pyx_f_10netcdftime_11_netcdftime_14DatetimeNoLeap__add_timedelta;
   __pyx_type_10netcdftime_11_netcdftime_DatetimeNoLeap.tp_base = __pyx_ptype_10netcdftime_11_netcdftime_datetime;
-  if (PyType_Ready(&__pyx_type_10netcdftime_11_netcdftime_DatetimeNoLeap) < 0) __PYX_ERR(0, 1634, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_10netcdftime_11_netcdftime_DatetimeNoLeap) < 0) __PYX_ERR(0, 1635, __pyx_L1_error)
   __pyx_type_10netcdftime_11_netcdftime_DatetimeNoLeap.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_10netcdftime_11_netcdftime_DatetimeNoLeap.tp_dict, __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeNoLeap) < 0) __PYX_ERR(0, 1634, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "DatetimeNoLeap", (PyObject *)&__pyx_type_10netcdftime_11_netcdftime_DatetimeNoLeap) < 0) __PYX_ERR(0, 1634, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_type_10netcdftime_11_netcdftime_DatetimeNoLeap.tp_dict, __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeNoLeap) < 0) __PYX_ERR(0, 1635, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "DatetimeNoLeap", (PyObject *)&__pyx_type_10netcdftime_11_netcdftime_DatetimeNoLeap) < 0) __PYX_ERR(0, 1635, __pyx_L1_error)
   __pyx_ptype_10netcdftime_11_netcdftime_DatetimeNoLeap = &__pyx_type_10netcdftime_11_netcdftime_DatetimeNoLeap;
   __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeAllLeap = &__pyx_vtable_10netcdftime_11_netcdftime_DatetimeAllLeap;
   __pyx_vtable_10netcdftime_11_netcdftime_DatetimeAllLeap.__pyx_base = *__pyx_vtabptr_10netcdftime_11_netcdftime_datetime;
   __pyx_vtable_10netcdftime_11_netcdftime_DatetimeAllLeap.__pyx_base._add_timedelta = (PyObject *(*)(struct __pyx_obj_10netcdftime_11_netcdftime_datetime *, PyObject *))__pyx_f_10netcdftime_11_netcdftime_15DatetimeAllLeap__add_timedelta;
   __pyx_type_10netcdftime_11_netcdftime_DatetimeAllLeap.tp_base = __pyx_ptype_10netcdftime_11_netcdftime_datetime;
-  if (PyType_Ready(&__pyx_type_10netcdftime_11_netcdftime_DatetimeAllLeap) < 0) __PYX_ERR(0, 1648, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_10netcdftime_11_netcdftime_DatetimeAllLeap) < 0) __PYX_ERR(0, 1649, __pyx_L1_error)
   __pyx_type_10netcdftime_11_netcdftime_DatetimeAllLeap.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_10netcdftime_11_netcdftime_DatetimeAllLeap.tp_dict, __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeAllLeap) < 0) __PYX_ERR(0, 1648, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "DatetimeAllLeap", (PyObject *)&__pyx_type_10netcdftime_11_netcdftime_DatetimeAllLeap) < 0) __PYX_ERR(0, 1648, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_type_10netcdftime_11_netcdftime_DatetimeAllLeap.tp_dict, __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeAllLeap) < 0) __PYX_ERR(0, 1649, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "DatetimeAllLeap", (PyObject *)&__pyx_type_10netcdftime_11_netcdftime_DatetimeAllLeap) < 0) __PYX_ERR(0, 1649, __pyx_L1_error)
   __pyx_ptype_10netcdftime_11_netcdftime_DatetimeAllLeap = &__pyx_type_10netcdftime_11_netcdftime_DatetimeAllLeap;
   __pyx_vtabptr_10netcdftime_11_netcdftime_Datetime360Day = &__pyx_vtable_10netcdftime_11_netcdftime_Datetime360Day;
   __pyx_vtable_10netcdftime_11_netcdftime_Datetime360Day.__pyx_base = *__pyx_vtabptr_10netcdftime_11_netcdftime_datetime;
   __pyx_vtable_10netcdftime_11_netcdftime_Datetime360Day.__pyx_base._add_timedelta = (PyObject *(*)(struct __pyx_obj_10netcdftime_11_netcdftime_datetime *, PyObject *))__pyx_f_10netcdftime_11_netcdftime_14Datetime360Day__add_timedelta;
   __pyx_type_10netcdftime_11_netcdftime_Datetime360Day.tp_base = __pyx_ptype_10netcdftime_11_netcdftime_datetime;
-  if (PyType_Ready(&__pyx_type_10netcdftime_11_netcdftime_Datetime360Day) < 0) __PYX_ERR(0, 1662, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_10netcdftime_11_netcdftime_Datetime360Day) < 0) __PYX_ERR(0, 1663, __pyx_L1_error)
   __pyx_type_10netcdftime_11_netcdftime_Datetime360Day.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_10netcdftime_11_netcdftime_Datetime360Day.tp_dict, __pyx_vtabptr_10netcdftime_11_netcdftime_Datetime360Day) < 0) __PYX_ERR(0, 1662, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "Datetime360Day", (PyObject *)&__pyx_type_10netcdftime_11_netcdftime_Datetime360Day) < 0) __PYX_ERR(0, 1662, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_type_10netcdftime_11_netcdftime_Datetime360Day.tp_dict, __pyx_vtabptr_10netcdftime_11_netcdftime_Datetime360Day) < 0) __PYX_ERR(0, 1663, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "Datetime360Day", (PyObject *)&__pyx_type_10netcdftime_11_netcdftime_Datetime360Day) < 0) __PYX_ERR(0, 1663, __pyx_L1_error)
   __pyx_ptype_10netcdftime_11_netcdftime_Datetime360Day = &__pyx_type_10netcdftime_11_netcdftime_Datetime360Day;
   __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeJulian = &__pyx_vtable_10netcdftime_11_netcdftime_DatetimeJulian;
   __pyx_vtable_10netcdftime_11_netcdftime_DatetimeJulian.__pyx_base = *__pyx_vtabptr_10netcdftime_11_netcdftime_datetime;
   __pyx_vtable_10netcdftime_11_netcdftime_DatetimeJulian.__pyx_base._add_timedelta = (PyObject *(*)(struct __pyx_obj_10netcdftime_11_netcdftime_datetime *, PyObject *))__pyx_f_10netcdftime_11_netcdftime_14DatetimeJulian__add_timedelta;
   __pyx_type_10netcdftime_11_netcdftime_DatetimeJulian.tp_base = __pyx_ptype_10netcdftime_11_netcdftime_datetime;
-  if (PyType_Ready(&__pyx_type_10netcdftime_11_netcdftime_DatetimeJulian) < 0) __PYX_ERR(0, 1676, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_10netcdftime_11_netcdftime_DatetimeJulian) < 0) __PYX_ERR(0, 1677, __pyx_L1_error)
   __pyx_type_10netcdftime_11_netcdftime_DatetimeJulian.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_10netcdftime_11_netcdftime_DatetimeJulian.tp_dict, __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeJulian) < 0) __PYX_ERR(0, 1676, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "DatetimeJulian", (PyObject *)&__pyx_type_10netcdftime_11_netcdftime_DatetimeJulian) < 0) __PYX_ERR(0, 1676, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_type_10netcdftime_11_netcdftime_DatetimeJulian.tp_dict, __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeJulian) < 0) __PYX_ERR(0, 1677, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "DatetimeJulian", (PyObject *)&__pyx_type_10netcdftime_11_netcdftime_DatetimeJulian) < 0) __PYX_ERR(0, 1677, __pyx_L1_error)
   __pyx_ptype_10netcdftime_11_netcdftime_DatetimeJulian = &__pyx_type_10netcdftime_11_netcdftime_DatetimeJulian;
   __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeGregorian = &__pyx_vtable_10netcdftime_11_netcdftime_DatetimeGregorian;
   __pyx_vtable_10netcdftime_11_netcdftime_DatetimeGregorian.__pyx_base = *__pyx_vtabptr_10netcdftime_11_netcdftime_datetime;
   __pyx_vtable_10netcdftime_11_netcdftime_DatetimeGregorian.__pyx_base._add_timedelta = (PyObject *(*)(struct __pyx_obj_10netcdftime_11_netcdftime_datetime *, PyObject *))__pyx_f_10netcdftime_11_netcdftime_17DatetimeGregorian__add_timedelta;
   __pyx_type_10netcdftime_11_netcdftime_DatetimeGregorian.tp_base = __pyx_ptype_10netcdftime_11_netcdftime_datetime;
-  if (PyType_Ready(&__pyx_type_10netcdftime_11_netcdftime_DatetimeGregorian) < 0) __PYX_ERR(0, 1690, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_10netcdftime_11_netcdftime_DatetimeGregorian) < 0) __PYX_ERR(0, 1691, __pyx_L1_error)
   __pyx_type_10netcdftime_11_netcdftime_DatetimeGregorian.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_10netcdftime_11_netcdftime_DatetimeGregorian.tp_dict, __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeGregorian) < 0) __PYX_ERR(0, 1690, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "DatetimeGregorian", (PyObject *)&__pyx_type_10netcdftime_11_netcdftime_DatetimeGregorian) < 0) __PYX_ERR(0, 1690, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_type_10netcdftime_11_netcdftime_DatetimeGregorian.tp_dict, __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeGregorian) < 0) __PYX_ERR(0, 1691, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "DatetimeGregorian", (PyObject *)&__pyx_type_10netcdftime_11_netcdftime_DatetimeGregorian) < 0) __PYX_ERR(0, 1691, __pyx_L1_error)
   __pyx_ptype_10netcdftime_11_netcdftime_DatetimeGregorian = &__pyx_type_10netcdftime_11_netcdftime_DatetimeGregorian;
   __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeProlepticGregorian = &__pyx_vtable_10netcdftime_11_netcdftime_DatetimeProlepticGregorian;
   __pyx_vtable_10netcdftime_11_netcdftime_DatetimeProlepticGregorian.__pyx_base = *__pyx_vtabptr_10netcdftime_11_netcdftime_datetime;
   __pyx_vtable_10netcdftime_11_netcdftime_DatetimeProlepticGregorian.__pyx_base._add_timedelta = (PyObject *(*)(struct __pyx_obj_10netcdftime_11_netcdftime_datetime *, PyObject *))__pyx_f_10netcdftime_11_netcdftime_26DatetimeProlepticGregorian__add_timedelta;
   __pyx_type_10netcdftime_11_netcdftime_DatetimeProlepticGregorian.tp_base = __pyx_ptype_10netcdftime_11_netcdftime_datetime;
-  if (PyType_Ready(&__pyx_type_10netcdftime_11_netcdftime_DatetimeProlepticGregorian) < 0) __PYX_ERR(0, 1718, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_10netcdftime_11_netcdftime_DatetimeProlepticGregorian) < 0) __PYX_ERR(0, 1719, __pyx_L1_error)
   __pyx_type_10netcdftime_11_netcdftime_DatetimeProlepticGregorian.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_10netcdftime_11_netcdftime_DatetimeProlepticGregorian.tp_dict, __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeProlepticGregorian) < 0) __PYX_ERR(0, 1718, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "DatetimeProlepticGregorian", (PyObject *)&__pyx_type_10netcdftime_11_netcdftime_DatetimeProlepticGregorian) < 0) __PYX_ERR(0, 1718, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_type_10netcdftime_11_netcdftime_DatetimeProlepticGregorian.tp_dict, __pyx_vtabptr_10netcdftime_11_netcdftime_DatetimeProlepticGregorian) < 0) __PYX_ERR(0, 1719, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "DatetimeProlepticGregorian", (PyObject *)&__pyx_type_10netcdftime_11_netcdftime_DatetimeProlepticGregorian) < 0) __PYX_ERR(0, 1719, __pyx_L1_error)
   __pyx_ptype_10netcdftime_11_netcdftime_DatetimeProlepticGregorian = &__pyx_type_10netcdftime_11_netcdftime_DatetimeProlepticGregorian;
   /*--- Type import code ---*/
   __pyx_ptype_7cpython_4type_type = __Pyx_ImportType(__Pyx_BUILTIN_MODULE_NAME, "type", 
@@ -36092,25 +36147,25 @@ PyMODINIT_FUNC PyInit__netcdftime(void)
   }
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1745
+  /* "netcdftime/_netcdftime.pyx":1746
  *                                                          is_leap_proleptic_gregorian, False))
  * 
  * _illegal_s = re.compile(r"((^|[^%])(%%)*%s)")             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_re); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1745, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_re); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1746, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_compile); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1745, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_compile); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1746, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__64, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1745, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__64, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1746, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_illegal_s, __pyx_t_7) < 0) __PYX_ERR(0, 1745, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_illegal_s, __pyx_t_7) < 0) __PYX_ERR(0, 1746, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1825
+  /* "netcdftime/_netcdftime.pyx":1826
  * cdef int[13] month_lengths_365_day, month_lengths_366_day
  * #                  Dummy Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
  * for j,N in enumerate([-1, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]):             # <<<<<<<<<<<<<<
@@ -36119,7 +36174,7 @@ PyMODINIT_FUNC PyInit__netcdftime(void)
  */
   __Pyx_INCREF(__pyx_int_0);
   __pyx_t_7 = __pyx_int_0;
-  __pyx_t_1 = PyList_New(13); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1825, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(13); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1826, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_int_neg_1);
   __Pyx_GIVEREF(__pyx_int_neg_1);
@@ -36165,38 +36220,38 @@ PyMODINIT_FUNC PyInit__netcdftime(void)
   for (;;) {
     if (__pyx_t_8 >= 13) break;
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-    __pyx_t_1 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_8); __Pyx_INCREF(__pyx_t_1); __pyx_t_8++; if (unlikely(0 < 0)) __PYX_ERR(0, 1825, __pyx_L1_error)
+    __pyx_t_1 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_8); __Pyx_INCREF(__pyx_t_1); __pyx_t_8++; if (unlikely(0 < 0)) __PYX_ERR(0, 1826, __pyx_L1_error)
     #else
-    __pyx_t_1 = PySequence_ITEM(__pyx_t_2, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1825, __pyx_L1_error)
+    __pyx_t_1 = PySequence_ITEM(__pyx_t_2, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1826, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     #endif
-    if (PyDict_SetItem(__pyx_d, __pyx_n_s_N, __pyx_t_1) < 0) __PYX_ERR(0, 1825, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_d, __pyx_n_s_N, __pyx_t_1) < 0) __PYX_ERR(0, 1826, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (PyDict_SetItem(__pyx_d, __pyx_n_s_j, __pyx_t_7) < 0) __PYX_ERR(0, 1825, __pyx_L1_error)
-    __pyx_t_1 = __Pyx_PyInt_AddObjC(__pyx_t_7, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1825, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_d, __pyx_n_s_j, __pyx_t_7) < 0) __PYX_ERR(0, 1826, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyInt_AddObjC(__pyx_t_7, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1826, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_7);
     __pyx_t_7 = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "netcdftime/_netcdftime.pyx":1826
+    /* "netcdftime/_netcdftime.pyx":1827
  * #                  Dummy Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
  * for j,N in enumerate([-1, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]):
  *     month_lengths_365_day[j] = N             # <<<<<<<<<<<<<<
  * 
  * #                  Dummy Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
  */
-    __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_N); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1826, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_N); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1827, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1826, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1827, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_j); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1826, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_j); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1827, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_13 = __Pyx_PyIndex_AsSsize_t(__pyx_t_1); if (unlikely((__pyx_t_13 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 1826, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyIndex_AsSsize_t(__pyx_t_1); if (unlikely((__pyx_t_13 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 1827, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     (__pyx_v_10netcdftime_11_netcdftime_month_lengths_365_day[__pyx_t_13]) = __pyx_t_6;
 
-    /* "netcdftime/_netcdftime.pyx":1825
+    /* "netcdftime/_netcdftime.pyx":1826
  * cdef int[13] month_lengths_365_day, month_lengths_366_day
  * #                  Dummy Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
  * for j,N in enumerate([-1, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]):             # <<<<<<<<<<<<<<
@@ -36207,7 +36262,7 @@ PyMODINIT_FUNC PyInit__netcdftime(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "netcdftime/_netcdftime.pyx":1829
+  /* "netcdftime/_netcdftime.pyx":1830
  * 
  * #                  Dummy Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
  * for j,N in enumerate([-1, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]):             # <<<<<<<<<<<<<<
@@ -36216,7 +36271,7 @@ PyMODINIT_FUNC PyInit__netcdftime(void)
  */
   __Pyx_INCREF(__pyx_int_0);
   __pyx_t_7 = __pyx_int_0;
-  __pyx_t_2 = PyList_New(13); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1829, __pyx_L1_error)
+  __pyx_t_2 = PyList_New(13); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1830, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_int_neg_1);
   __Pyx_GIVEREF(__pyx_int_neg_1);
@@ -36262,38 +36317,38 @@ PyMODINIT_FUNC PyInit__netcdftime(void)
   for (;;) {
     if (__pyx_t_8 >= 13) break;
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-    __pyx_t_2 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_8); __Pyx_INCREF(__pyx_t_2); __pyx_t_8++; if (unlikely(0 < 0)) __PYX_ERR(0, 1829, __pyx_L1_error)
+    __pyx_t_2 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_8); __Pyx_INCREF(__pyx_t_2); __pyx_t_8++; if (unlikely(0 < 0)) __PYX_ERR(0, 1830, __pyx_L1_error)
     #else
-    __pyx_t_2 = PySequence_ITEM(__pyx_t_1, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1829, __pyx_L1_error)
+    __pyx_t_2 = PySequence_ITEM(__pyx_t_1, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1830, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     #endif
-    if (PyDict_SetItem(__pyx_d, __pyx_n_s_N, __pyx_t_2) < 0) __PYX_ERR(0, 1829, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_d, __pyx_n_s_N, __pyx_t_2) < 0) __PYX_ERR(0, 1830, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (PyDict_SetItem(__pyx_d, __pyx_n_s_j, __pyx_t_7) < 0) __PYX_ERR(0, 1829, __pyx_L1_error)
-    __pyx_t_2 = __Pyx_PyInt_AddObjC(__pyx_t_7, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1829, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_d, __pyx_n_s_j, __pyx_t_7) < 0) __PYX_ERR(0, 1830, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_AddObjC(__pyx_t_7, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1830, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_7);
     __pyx_t_7 = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "netcdftime/_netcdftime.pyx":1830
+    /* "netcdftime/_netcdftime.pyx":1831
  * #                  Dummy Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
  * for j,N in enumerate([-1, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]):
  *     month_lengths_366_day[j] = N             # <<<<<<<<<<<<<<
  * 
  * cdef int* month_lengths(bint (*is_leap)(int), int year):
  */
-    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_N); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1830, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_N); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1831, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1830, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1831, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_j); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1830, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_j); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1831, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_13 = __Pyx_PyIndex_AsSsize_t(__pyx_t_2); if (unlikely((__pyx_t_13 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 1830, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyIndex_AsSsize_t(__pyx_t_2); if (unlikely((__pyx_t_13 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 1831, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     (__pyx_v_10netcdftime_11_netcdftime_month_lengths_366_day[__pyx_t_13]) = __pyx_t_6;
 
-    /* "netcdftime/_netcdftime.pyx":1829
+    /* "netcdftime/_netcdftime.pyx":1830
  * 
  * #                  Dummy Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
  * for j,N in enumerate([-1, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]):             # <<<<<<<<<<<<<<

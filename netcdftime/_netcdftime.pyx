@@ -1541,7 +1541,8 @@ Gregorial calendar.
                                    self._getstate())
 
     def __str__(self):
-        return self.strftime(self.format)
+        return "{:04d}-{:02d}-{:02d} {:02d}:{:02d}:{:02d}".format(
+            self.year, self.month, self.day, self.hour, self.minute, self.second)
 
     def __hash__(self):
         try:
@@ -1791,7 +1792,7 @@ cdef _strftime(datetime dt, fmt):
             sites.append(site)
 
     s = s1
-    syear = "%04d" % (dt.year,)
+    syear = "%4d" % (dt.year,)
     for site in sites:
         s = s[:site] + syear + s[site + 4:]
     return s
