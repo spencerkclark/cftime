@@ -9,7 +9,7 @@ import numpy as np
 import re
 import sys
 import time
-from datetime import datetime as datetime_python
+from datetime import datetime as real_datetime
 from datetime import timedelta, MINYEAR
 import time                     # strftime
 try:
@@ -55,16 +55,6 @@ ISO8601_REGEX = re.compile(r"(?P<year>[+-]?[0-9]{1,4})(-(?P<month>[0-9]{1,2})(-(
 #       Using two different group names is also somewhat ugly, but other solutions might hugely inflate the expression. feel free to contribute a better solution.
 TIMEZONE_REGEX = re.compile(
     "(?P<prefix>[+-])(?P<hours>[0-9]{2})(?:(?::(?P<minutes1>[0-9]{2}))|(?P<minutes2>[0-9]{2}))?")
-
-class real_datetime(datetime_python):
-    """add dayofwk and dayofyr attributes to python datetime instance"""
-    @property
-    def dayofwk(self):
-        # 0=Monday, 6=Sunday
-        return self.weekday()
-    @property
-    def dayofyr(self):
-        return self.timetuple().tm_yday
 
 # start of the gregorian calendar
 gregorian = real_datetime(1582,10,15)
@@ -1278,7 +1268,7 @@ Gregorial calendar.
                 # utime.date2num(), but this implementation does
                 # not attempt it.
                 raise TypeError("cannot compare {0!r} and {1!r} (different calendars)".format(dt, dt_other))
-        elif isinstance(other, datetime_python):
+        elif isinstance(other, real_datetime):
             # comparing datetime and real_datetime
             if not dt.datetime_compatible:
                 raise TypeError("cannot compare {0!r} and {1!r} (different calendars)".format(self, other))
@@ -1345,7 +1335,7 @@ Gregorial calendar.
                     raise ValueError("cannot compute the time difference between dates that are not calendar-aware")
                 converter = _converters[dt.calendar]
                 return timedelta(seconds=converter.date2num(dt) - converter.date2num(other))
-            elif isinstance(other, datetime_python):
+            elif isinstance(other, real_datetime):
                 # datetime - real_datetime
                 if not dt.datetime_compatible:
                     raise ValueError("cannot compute the time difference between dates with different calendars")
@@ -1356,7 +1346,7 @@ Gregorial calendar.
             else:
                 return NotImplemented
         else:
-            if isinstance(self, datetime_python):
+            if isinstance(self, real_datetime):
                 # real_datetime - datetime
                 if not other.datetime_compatible:
                     raise ValueError("cannot compute the time difference between dates with different calendars")
